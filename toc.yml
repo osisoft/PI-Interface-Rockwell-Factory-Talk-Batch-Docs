@@ -1,0 +1,76 @@
+- topicUid: index
+  items: 
+  - topicUid: Introduction
+  items:
+    -topicUid: SupportedFeatures
+    -topicUid: Referencemanuals
+  - topicUid: Batchinterfacesoverview
+  - topicUid: Installationprerequisites
+  - topicUid: Internalconfiguration
+  - topicUid: Createandconfiguretheinterfaceinstance
+  items:
+  - topicUid: Configurefailover
+  - topicUid: PIdataserverconnectivity
+  - topicUid: Logginganderrormessages
+  - topicUid: Securityoverview
+  items:
+    - topicUid: Assignpermissions
+    - topicUid: ConfiguresecurityforPIAF
+    - topicUid: ConfiguresecurityforPIDataArchives
+  - topicUid: Howbatchinterfaceswork
+  - topicUid: Interfacemodes
+  - topicUid: Howinterfacesprocessbatcheventdata
+  - topicUid: Equipmentarbitrationeventsunavailable
+  - topicUid: Howbatchdataisstored
+  items:
+      - topicUid: ThePIbatchdatabase
+      - topicUid: Eventframes
+      - topicUid: Equipmenthierarchy
+      - topicUid: Howtomergemultiplesourcebatches
+  - topicUid: Templatesformappingdatasources
+  items:
+    - topicUid: Placeholdersandadvancedparsing
+    - topicUid: filterincomingevents
+    - topicUid: Propertytemplates
+    - topicUid: Recipetemplates
+      - topicUid: Recipetemplateexamples
+    - topicUid: Tagtemplates
+      - topicUid: Tagtemplateexamples
+  - topicUid: Templatesformappingdatasourceevents
+  - topicUid: Translateforeignlanguagedata
+  - topicUid: SpecificconsiderationsforFactoryTalkBatch
+  items:
+    - topicUid: FactoryTalkbatchdatasources
+    - topicUid: FactoryTalkbatchstartandstopevents
+    - topicUid: FactoryTalkbatchtemplateplaceholders
+  - topicUid: PiEventFramesInterfaceManager
+  items:
+    - topicUid: Interfaceselectiontab
+    - topicUid: Serverinformationtab
+    - topicUid: Sourcetab
+    - topicUid: Templatestab
+    - topicUid: Filterstab
+    - topicUid: TimeSettingstab
+    - topicUid: Batchsetuptab
+    - topicUid: Mergesettingstab
+    - topicUid: Operationalsettingstab
+    - topicUid: Testconfigurationtab
+    - topicUid: Serviceconfigurationtab
+  - topicUid: Commandlineparameterreference
+  - topicUid: Eventfilemonitorutility
+  - topicUid: Diagnostictagreferences
+  - topicUid: Glossary
+  - topicUid: Technicalsupportandfeedback
+
+
+
+      
+      
+      
+      
+      
+    
+
+
+
+
