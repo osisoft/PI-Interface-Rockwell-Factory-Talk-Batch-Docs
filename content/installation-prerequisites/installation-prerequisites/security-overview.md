@@ -1,5 +1,5 @@
 ---
-uid: Securityoverview
+uid: SecurityOverview
 ---
 
 # Security overview 

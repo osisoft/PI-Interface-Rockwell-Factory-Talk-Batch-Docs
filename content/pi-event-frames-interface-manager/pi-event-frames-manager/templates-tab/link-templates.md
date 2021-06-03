@@ -1,5 +1,5 @@
 ---
-UID: Linktemplates
+uid: LinkTemplates
 ---
 
 # Link templates

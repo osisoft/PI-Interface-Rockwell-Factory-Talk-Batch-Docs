@@ -1,5 +1,5 @@
 ---
-uid: Howbatchdataisstored
+uid: HowBatchDataIsStored
 ---
 
 # How batch data is stored

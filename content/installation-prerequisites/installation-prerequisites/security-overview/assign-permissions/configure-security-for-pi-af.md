@@ -1,5 +1,5 @@
 ---
-uid: ConfiguresecurityforPIAF
+uid: ConfigureSecurityForPIAF
 ---
 
 # Configure security for the PI Asset Framework

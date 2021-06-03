@@ -1,5 +1,5 @@
 ---
-uid: Eventframes
+uid: EventFrames
 ---
 
 # Event frames

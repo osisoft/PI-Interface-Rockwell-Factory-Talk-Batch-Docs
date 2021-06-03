@@ -1,5 +1,5 @@
 ---
-UID: OperationalSettingstab
+uid: OperationalSettingsTab
 ---
 
 # Operational Settings tab

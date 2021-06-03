@@ -1,5 +1,5 @@
 ---
-uid: Howbatchinterfaceswork
+uid: HowBatchInterfacesWork
 ---
 
 # How PI interfaces for batch and manufacturing execution systems work

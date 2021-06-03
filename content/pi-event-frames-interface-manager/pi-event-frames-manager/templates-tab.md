@@ -1,5 +1,5 @@
 ---
-UID: Templatestab
+uid: TemplatesTab
 ---
 
 # Templates tab

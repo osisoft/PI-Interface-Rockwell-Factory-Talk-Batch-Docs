@@ -1,9 +1,9 @@
 ---
-UID: Emersontemplateplaceholders
+uid: FactoryTalkBatchTemplatePlaceholders
 ---
 
 
-# Emerson template placeholders
+# FactoryTalk Batch template placeholders
 
 The following sections list placeholders provided by the interface for defining template settings.
 
@@ -55,7 +55,7 @@ The data source provides XML formatted messages that the interface reads. The pl
 
 In this release the supported batch hierarchical levels are:
 
-![Supportedbatchhierarchallevels](../images/Supportedbatchhierarchallevels.png)
+![Supportedbatchhierarchallevels](../../images/Supportedbatchhierarchallevels.png)
 
 The following tables illustrate Placeholders for "Master Recipe", "Process Segment", "Procedure", and "Unit Procedure" recipe styles:
 

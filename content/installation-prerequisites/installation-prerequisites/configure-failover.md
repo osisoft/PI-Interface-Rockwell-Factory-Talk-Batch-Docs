@@ -1,5 +1,5 @@
 ---
-uid: Configurefailover
+uid: ConfigureFailover
 ---
 
 # Configure interface instances for failover

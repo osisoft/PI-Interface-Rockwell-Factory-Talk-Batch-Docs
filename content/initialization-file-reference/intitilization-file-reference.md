@@ -1,5 +1,5 @@
 ---
-UID: Intitilizationfilereference
+uid: Intitilizationfilereference
 ---
 
 # Initialization file reference

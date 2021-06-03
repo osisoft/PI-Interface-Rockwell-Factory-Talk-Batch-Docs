@@ -1,8 +1,8 @@
 ---
-UID: Mergesettings
+uid: MergeSettingsTab
 ---
 
-# Merge settings
+# Merge settings tab
 
 The command line parameter settings on this tab configure merging of the batch generation, as described in the following table:
 

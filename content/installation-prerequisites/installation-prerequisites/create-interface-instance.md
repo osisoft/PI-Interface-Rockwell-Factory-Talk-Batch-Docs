@@ -1,5 +1,5 @@
 ---
-uid: Createinterfaceinstance
+uid: CreateAndConfigureTheInterfaceInstance
 ---
 
 # Create and configure the interface instance**

@@ -1,5 +1,5 @@
 ---
-UID: EmersonDeltaVBatchdatasources
+uid: EmersonDeltaVBatchdatasources
 ---
 
 # Emerson DeltaV Batch data sources

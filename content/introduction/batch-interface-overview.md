@@ -1,5 +1,5 @@
 ---
-uid: batchinterfaceoverview
+uid: BatchInterfaceOverview
 ---
 
 # Batch interface overview

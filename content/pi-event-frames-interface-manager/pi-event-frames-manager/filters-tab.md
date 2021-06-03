@@ -1,5 +1,5 @@
 ---
-UID: Filterstab
+uid: FiltersTab
 ---
 
 # Filters tab

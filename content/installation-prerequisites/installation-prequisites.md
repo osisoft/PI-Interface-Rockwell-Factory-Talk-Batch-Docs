@@ -1,5 +1,5 @@
 ---
-uid: Installationprerequisites
+uid: InstallationPrerequisites
 ---
 
 # Prerequisites for installing PI Interface for EMBDVB

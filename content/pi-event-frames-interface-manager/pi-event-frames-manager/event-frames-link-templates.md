@@ -1,5 +1,5 @@
 ---
-UID: Eventframeslinktemplates
+uid: Eventframeslinktemplates
 ---
 
 # Link Templates

@@ -1,5 +1,5 @@
 ---
-UID: Initializationfileexamples
+uid: Initializationfileexamples
 ---
 
 # Initialization file examples

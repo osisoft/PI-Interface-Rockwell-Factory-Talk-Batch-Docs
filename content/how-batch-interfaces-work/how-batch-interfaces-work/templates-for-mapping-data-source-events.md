@@ -1,5 +1,5 @@
 ---
-uid: Templates for mapping data source events
+uid: TemplatesForMappingDataSourceEvents
 ---
 
 # Templates for mapping data source events

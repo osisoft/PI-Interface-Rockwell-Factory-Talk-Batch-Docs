@@ -1,5 +1,5 @@
 ---
-UID: InterfaceSelectiontab
+uid: InterfaceSelectionTab
 ---
 
 # Interface Selection tab

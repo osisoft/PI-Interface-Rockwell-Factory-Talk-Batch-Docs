@@ -1,5 +1,5 @@
 ---
-uid: Logginganderrormessages
+uid: LoggingAndErrorMessages
 ---
 
 # Logging and error messages

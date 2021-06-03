@@ -1,5 +1,5 @@
 ---
-UID: Filterincomingevents
+uid: FilterIncomingEvents
 ---
 
 # Filter incoming events

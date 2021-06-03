@@ -1,8 +1,8 @@
 ---
-UID: Emersonstartandstopevents
+uid: FactoryTalkBatchStartAndStopEvents
 ---
 
-# Emerson start and stop events
+# FactoryTalk start and stop events
 
 The start and end times set by the interface depend on the type of data source and whether the "Use Batch Recipe" (UBR) option is enabled. The UBR option is provided for backward compatibility with the PI EVT File interface.) The sections below provide details about how the interface determines start and end times.
 

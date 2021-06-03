@@ -1,5 +1,5 @@
 ---
-UID: ConfigureTagtemplates
+uid: ConfigureTagtemplates
 ---
 
 # Configure Tag templates

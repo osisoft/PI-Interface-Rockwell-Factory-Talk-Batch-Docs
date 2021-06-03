@@ -1,5 +1,5 @@
 ---
-UID: Defineattributetemplates
+uid: Defineattributetemplates
 ---
 
 # Define attribute templates

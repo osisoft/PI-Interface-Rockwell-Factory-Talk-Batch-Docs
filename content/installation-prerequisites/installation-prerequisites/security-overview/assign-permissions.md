@@ -1,5 +1,5 @@
 ---
-uid: Assignpermissions
+uid: AssignPermissions
 ---
 
 # Assign permissions for user accounts and PI points

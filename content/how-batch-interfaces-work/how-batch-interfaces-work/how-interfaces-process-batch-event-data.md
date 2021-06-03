@@ -1,5 +1,5 @@
 ---
-uid: Howinterfacesprocessbatcheventdata
+uid: HowInterfacesProcessBatchEventData
 ---
 
 # How interfaces process batch event data

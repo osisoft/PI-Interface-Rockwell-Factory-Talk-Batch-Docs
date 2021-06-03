@@ -1,5 +1,5 @@
 ---
-UID: TestConfigurationtab
+uid: TestConfigurationTab
 ---
 
 # Test Configuration tab

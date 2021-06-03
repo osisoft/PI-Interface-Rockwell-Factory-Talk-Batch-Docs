@@ -1,5 +1,5 @@
 ---
-uid: Howtomergemultiplesourcebatches
+uid: HowToMergeMultipleSourceBatches
 ---
 
 # How to merge multiple source batches

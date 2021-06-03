@@ -1,8 +1,8 @@
 ---
-UID: FactoryTalkdatasources
+uid: FactoryTalkBatchDataSources
 ---
 
-# FactoryTalk data sources
+# FactoryTalk Batch data sources
 
 The interface can process data coming from multiple sources simultaneously. This parallel processing is designed primarily for processing data from distributed-control Batch Execution Systems (BES). For example, the control logic of a manufacturing process can be split between upstream and downstream segments, with each segment controlled by a separate FactoryTalk Batch Executive system. Even though the logical batch is the same, the actual batch-related data is split between two batch historians. This interface can merge data for such batches and store it in a single PI batch. Refer to Merging Multiple Source batches (xref:Mergingmultiplesourcebatches) into a Single PIBatch for more details.
 

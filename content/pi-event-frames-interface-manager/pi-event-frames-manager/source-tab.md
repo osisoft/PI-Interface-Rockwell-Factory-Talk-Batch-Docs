@@ -1,5 +1,5 @@
 ---
-UID: Sourcetab
+uid: SourceTab
 ---
 
 # Source tab

@@ -1,5 +1,5 @@
 ---
-UID: Propertytemplates
+uid: PropertyTemplates
 ---
 
 # Property templates

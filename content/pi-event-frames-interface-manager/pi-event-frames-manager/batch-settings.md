@@ -1,5 +1,5 @@
 ---
-UID: Batchsettings
+uid: Batchsettings
 ---
 
 # Batch settings

@@ -1,5 +1,5 @@
 ---
-UID: Recipetemplateexamples
+uid: RecipeTemplateExamples
 ---
 
 # Recipe template examples

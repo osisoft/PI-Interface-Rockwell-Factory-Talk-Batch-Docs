@@ -1,5 +1,5 @@
 ---
-UID: Translateforeignlanguagedata
+uid: TranslateForeignLanguageData
 ---
 
 # Translate foreign language data

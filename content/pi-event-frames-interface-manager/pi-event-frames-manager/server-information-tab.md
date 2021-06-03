@@ -1,5 +1,5 @@
 ---
-UID: ServerInformationtab
+uid: ServerInformationTab
 ---
 
 # Server Information tab

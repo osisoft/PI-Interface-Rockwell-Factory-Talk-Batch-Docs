@@ -1,5 +1,5 @@
 ---
-UID: ServiceConfigurationtab
+uid: ServiceConfigurationTab
 ---
 
 # Service Configuration tab
@@ -12,7 +12,7 @@ Click Create service to create the interface service.
 
 ## Start interface service
     
-Click Start Interface service to start the service, and click the ![Refresh_icon](../images/Refresh_icon.png) icon to refresh a service. 
+Click Start Interface service to start the service, and click the ![Refresh_icon](../../images/Refresh_icon.png) icon to refresh a service. 
 
 ## Watch interface log
     
@@ -35,7 +35,7 @@ Select a startup type from the drop-down menu. The default is Automatic. Other o
 
 ## Dependencies
     
-Click the ![Plus_icon](../images/Plus_icon.png) icon to add a service, and ![Delete_icon](../images/Delete_icon.png) to delete. 
+Click the ![Plus_icon](../../images/Plus_icon.png) icon to add a service, and ![Delete_icon](../../images/Delete_icon.png) to delete. 
 
 ## Installed Services
     

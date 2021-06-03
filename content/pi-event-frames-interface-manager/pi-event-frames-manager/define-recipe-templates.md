@@ -1,5 +1,5 @@
 ---
-UID: Definerecipetemplates
+uid: Definerecipetemplates
 ---
 
 # Define Recipe templates

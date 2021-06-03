@@ -1,5 +1,5 @@
 ---
-uid: Equipmentarbitrationeventsunavailable
+uid: EquipmentArbitrationEventUnavailable
 ---
 
 # Equipment arbitration events unavailable

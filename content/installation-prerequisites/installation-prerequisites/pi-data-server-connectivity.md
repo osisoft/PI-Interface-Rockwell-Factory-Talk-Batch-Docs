@@ -1,5 +1,5 @@
 ---
-uid: PIdataserverconnectivity
+uid: PIDataServerConnectivity
 ---
 
 # PI Data server connectivity

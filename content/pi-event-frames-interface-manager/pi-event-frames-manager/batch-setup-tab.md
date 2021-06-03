@@ -1,5 +1,5 @@
 ---
-UID: BatchSetuptab
+uid: BatchSetupTab
 ---
 
 # Batch Setup tab

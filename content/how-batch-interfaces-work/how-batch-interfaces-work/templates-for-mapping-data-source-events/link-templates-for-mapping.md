@@ -1,8 +1,8 @@
 ---
-UID: Linktemplates
+uid: LinkTemplatesForMapping
 ---
 
-# Link templates
+# Link templates for mapping
 
 DCS Link Templates associate event frames from one interface to another. To create links, you define link templates on the **Templates** page of the PI Event Frame Interface Manager. The link templates specify events that contain link data and the naming of the destination event frame. Placeholders, wildcards and advanced parsing features enable you to extract precisely the desired data from the events that the interface reads from the data source.
 
