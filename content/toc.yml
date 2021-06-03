@@ -1,0 +1,75 @@
+- topicUid: index
+  items:
+  - topicUid: SupportedFeatures
+  - topicUid: ReferenceManuals
+- topicUid: BatchInterfaceOverview
+- topicUid: InstallationPrerequisites
+- topicUid: InterfaceConfiguration
+  items:
+  - topicUid: CreateAndConfigureTheInterfaceInstance
+  - topicUid: ConfigureFailover
+  - topicUid: PIDataServerConnectivity
+  - topicUid: LoggingAndErrorMessages
+  - topicUid: SecurityOverview
+  - topicUid: AssignPermissions
+  - topicUid: ConfigureSecurityForPIAF
+  - topicUid: ConfigureSecurityForPIDataArchives
+- topicUid: HowBatchInterfacesWork
+  items:
+  - topicUid: InterfaceModes
+  - topicUid: HowInterfacesProcessBatchEventData
+  - topicUid: EquipmentArbitrationEventUnavailable
+  - topicUid: HowBatchDataIsStored
+    items:
+    - topicUid: ThePIBatchDatabase
+    - topicUid: EventFrames
+    - topicUid: EquipmentHierarchy
+    - topicUid: HowToMergeMultipleSourceBatches
+  - topicUid: TemplatesForMappingDataSourceEvents
+  - topicUid: PlaceholdersAndAdvancedParsing
+  - topicUid: FilterIncomingEvents
+  - topicUid: PropertyTemplates
+  - topicUid: RecipeTemplates
+    items:
+    - topicUid: RecipeTemplateExamples
+  - topicUid: TagTemplates
+    items:
+    - topicUid: TagTemplateExamples
+  - topicUid: TemplatesForMappingDataSourceEvents
+  - topicUid: TranslateForeignLanguageData
+- topicUid: SpecificConsiderationsForFactoryTalkBatch
+  items:
+  - topicUid: FactoryTalkBatchDataSources
+  - topicUid: FactoryTalkBatchStartAndStopEvents
+  - topicUid: FactoryTalkBatchTemplatePlaceholders
+- topicUid: PIEventFramesInterfaceManager
+  items:
+  - topicUid: InterfaceSelectionTab
+  - topicUid: ServerInformationTab
+  - topicUid: SourceTab
+  - topicUid: TemplatesTab
+  - topicUid: FiltersTab
+  - topicUid: TimeSettingsTab
+  - topicUid: BatchSetupTab
+  - topicUid: MergeSettingsTab
+  - topicUid: OperationalSettingsTab
+  - topicUid: TestConfigurationTab
+  - topicUid: ServiceConfigurationTab
+- topicUid: Command-lineParameterReference
+- topicUid: EventFileMonitorUtility
+- topicUid: DiagnosticTagReference
+- topicUid: Glossary
+- topicUid: TechnicalSupportAndFeedback
+
+
+
+      
+      
+      
+      
+      
+    
+
+
+
+
