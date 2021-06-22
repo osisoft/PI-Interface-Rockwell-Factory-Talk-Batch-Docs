@@ -1,10 +1,10 @@
 ---
-uid: EmersonDeltaVBatchdatasources
+uid: FactoryTalkdatasources
 ---
 
-# Emerson DeltaV Batch data sources
+# FactoryTalk datasources
 
-The Emerson DeltaV interface can collect data from the following types of data sources:
+The Rockwell FactoryTalk interface collects data from the following types of data sources:
 * DeltaV Batch Historian (SQL Server)
 * Event journal files (EVT files)
 * DeltaV Alarms and Events server (alarms and events data only, not batch events)
