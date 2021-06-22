@@ -1,8 +1,8 @@
 ---
-uid: InstallationPrerequisites
+uid: Installationprerequisites
 ---
 
-# Prerequisites for installing PI Interface for Rockwell FactoryTalk
+# FactoryTalk installation prerequisites
 
 Minimum required versions of PI System software: PI Server 3.3 and PI AF 2010 R3 (2.4)
 
