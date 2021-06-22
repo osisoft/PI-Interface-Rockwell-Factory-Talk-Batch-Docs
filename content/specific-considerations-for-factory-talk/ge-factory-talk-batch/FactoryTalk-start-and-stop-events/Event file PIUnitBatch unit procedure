@@ -23,7 +23,7 @@ Operation and phase-level recipes create parent batches and unit batches automat
 
 For procedure- and unit procedure-level recipes, the interface requires both an end event and an "equipment released" event, as follows:
 
-•	[EVENT] = "System Message" and [DESCRIPT] field = "Unit Procedure Finished".
+*	[EVENT] = "System Message" and [DESCRIPT] field = "Unit Procedure Finished".
 
 And
 
@@ -50,9 +50,9 @@ Operation- and phase-level recipes create parent batches and unit batches automa
 
 For operation-level recipes, the following two events are required to start a unit batch:
 
-•	The batch recipe event containing the [STARTTIME] timestamp associated with the operation retrieved from the batchrecipeview view.
+*	The batch recipe event containing the [STARTTIME] timestamp associated with the operation retrieved from the batchrecipeview view.
 
-•	The arbitration event containing the [ACQUIRETIME] timestamp associated with the unit arbitration event retrieved from the batchequipmentview view.
+*	The arbitration event containing the [ACQUIRETIME] timestamp associated with the unit arbitration event retrieved from the batchequipmentview view.
 
 The latest timestamp is used as the start time.
 
