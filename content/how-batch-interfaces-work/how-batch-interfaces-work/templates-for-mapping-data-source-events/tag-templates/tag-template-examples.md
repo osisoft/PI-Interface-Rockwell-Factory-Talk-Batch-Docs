@@ -103,4 +103,3 @@ Tag[5].Value = [Event] | [Pval]
 Tag[5].Trigger = [Event,value=State Change] Tag[5].UnitAlias = NONE 
 Tag[5].PhaseAlias = NONE
 ```
-![Tags_ss](../../../../images/Tags_ss.png)
