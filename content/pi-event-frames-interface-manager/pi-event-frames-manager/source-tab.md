@@ -10,4 +10,4 @@ You can configure the interface to collect real-time data from an OPC Alarms and
 
 To configure a DeltaV Event Chronicle (alarms & events) data source, you must specify mappings that ensure that process cell data is recorded correctly, because DeltaV Event Chronicle does not emit process cell information.
 	
-To use explicit logins for an SQL data source, ensure that the user running the interface and the user configuring the interface are the same user. 
+**NOTE:** To use explicit logins for an SQL data source, ensure that the user running the interface and the user configuring the interface are the same user. Database user name and Password are encrypted and stored in Windows Credential Manager. For details, see [Windows Credential Manager Authentication]{windows-credential-manager-authentication.md].  
