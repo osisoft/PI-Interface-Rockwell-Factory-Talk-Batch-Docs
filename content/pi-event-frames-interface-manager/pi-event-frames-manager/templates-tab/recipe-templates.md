@@ -33,7 +33,7 @@ For example: abc_[Procedure] If the incoming event's [Procedure] field contains 
 
 Configures the batch ID of the particular recipe object, overriding the incoming (default) batch ID. If you override the batch ID for the procedure, the batch ID is propagated to the child unit batches Batch ID field. For event frames, this template modifies the event frame name.
     	
-If you use a recipe template to set the batch ID, the recipe template overrides any batch ID mask you might have configured to enable merging of batches.
+**NOTE:** If you use a recipe template to set the batch ID, the recipe template overrides any batch ID mask you might have configured to enable merging of batches.
 
 **Module/Element Path**
 
