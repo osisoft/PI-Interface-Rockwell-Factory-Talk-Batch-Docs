@@ -4,13 +4,9 @@ uid: FactoryTalkdatasources
 
 # FactoryTalk datasources
 
-The Rockwell FactoryTalk interface collects data from the following types of data sources:
-* DeltaV Batch Historian (SQL Server)
-* Event journal files (EVT files)
-* DeltaV Alarms and Events server (alarms and events data only, not batch events)
-* OPC Alarms and Events servers (real-time batch data only, not alarms and events)
+Rockwell FactoryTalk Batch is a Manufacturing Execution System that generates consumable log files in the form of Event Journal Files (EVT files). PI Interface for Rockwell FactoryTalk Batch collects data from those EVT files.
 
-A single interface instance can collect data from multiple data sources if the data sources are all the same type.
+A single interface instance can collect data from multiple FactoryTalk sources by configuring the interface to read EVT files from multiple locations.
 
 For DeltaV 9.3 systems this interface can use the DeltaV Batch Historian or DeltaV event files as the primary data source. For DeltaV 8.4 systems this interface can only use DeltaV event files as the primary data source. Note that the use of DeltaV event files as a public interface for the DeltaV System is not recommended by Emerson. The interface can read data from batches that have been archived in DeltaV, if it runs under an account that has read access to the DeltaV archive databases. For details, refer to your DeltaV documentation.
 
