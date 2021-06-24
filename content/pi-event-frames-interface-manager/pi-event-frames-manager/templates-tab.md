@@ -12,7 +12,7 @@ You can define the following types of templates:
 * **Property:** Maps data to batch properties in the PI Batch Database or event frame attributes in PI AF.
 * **Recipe:** Defines the information stored and the naming convention used at each level in the generated batch hierarchy.
 * **Tag:** Creates and updates PI tags, specifying how they are named and what data is written to them.
-* **Link:** Associate event frames from one interface to another.
+* **Link:** Associates event frames from one interface to another.
 
 
 The following sections provide details about the specific types of templates.
