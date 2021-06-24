@@ -15,4 +15,4 @@ Sample [Time] | [Descript]-[BatchID]:[Event]__pvalue:[Pval][EU]
 Sample 2007/12/11 05:19:12:184 | Product Code:Recipe Header__pvalue:UNDEFINED
 ```
 
-To enable you to precisely extract the required data from incoming fields, batch interfaces support advanced parsing features. For detailed information about placeholders and advanced parsing, refer to the user guide for your batch interface.
+To enable you to precisely extract the required data from incoming fields, batch interfaces support advanced parsing features. See [Placeholders and advanced parsing](#placeholders-and-advanced-parsing).
