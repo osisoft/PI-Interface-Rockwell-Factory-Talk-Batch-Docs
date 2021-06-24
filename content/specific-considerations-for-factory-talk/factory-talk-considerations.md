@@ -2,8 +2,9 @@
 uid: SpecificConsiderationsForFactoryTalkBatch
 ---
 
-# Specific considerations for Factory Talk Batch
+# Specific considerations for FactoryTalk Batch
 
-OSIsoft offers batch interfaces designed to be used with DeltaV Batch and DeltaV Syncade batch execution systems.
-For DeltaV Syncade, the interface supports Syncade Work Flow 4.6 and Syncade Work Flow 4.9. The interface supports only one version of Work Flow per instance, unless specifically set using the /WorkFlow46 command line parameter. The interface defaults to Syncade Work Flow 4.9.
-The interface can capture Syncade batches, including manual phase steps (using tag and property templates) from the same data sources as the DeltaV batch interface, and from Syncade web services (historical data) and the Microsoft Message Queue (real-time data).
+The Rockwell FactoryTalk Batch interface is designed to be used with the Rockwell FactoryTalk Batch Manufacturing Execution System (MES). 
+
+The interface collects batch data, including manual phase steps (using tag and property templates) from historical and real-time data. This allows the resulting PI Batches and Event Frames to accurately reflect all steps within a process in the MES.
+
