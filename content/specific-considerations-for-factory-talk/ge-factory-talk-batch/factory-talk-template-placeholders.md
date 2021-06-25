@@ -29,7 +29,6 @@ The FactoryTalk interface supports the following placeholders, as well as the de
 
 The following placeholders are common to all PI batch interfaces:
 
-*	*
 *	BATCHID
 *	BATCHSTATE
 *	DESC    
@@ -73,3 +72,5 @@ The following placeholders are common to all PI batch interfaces:
 *	UNITPROCEDURE
 *	UNITSTATE
 *	VALUE         
+
+An asterisk can also be used as a "wildcard" placeholder.
