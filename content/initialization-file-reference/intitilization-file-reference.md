@@ -34,42 +34,30 @@ In defining settings for templates, you can use the following wildcards to compo
 
 A single interface instance can gather data from one or more data sources. In the .ini file, each data source is assigned an index, which is used to specify the settings for the data source. To specify a setting for a data source, use the following syntax:
 
+```
     Source[<index>].<setting> = <value>
+```
 
-Following are some simple examples of data source templates.
-Single DeltaV Batch Historian:
+Following is an example of a data source template:
 
-    Source[1].sqlserver = deltav10 Source[1].database = DVHisDB
-
-DeltaV Batch Historian plus Alarms and Events:
-
-    Source[1].sqlserver = deltav10 Source[1].database = DVHisDB Source[2].sqlserver = deltav10\DELTAV_CHRONICLE Source[2].database = Ejournal Source[2].isAE = true
+```
+    Source[1].evtdir = D:\Test\Release\Test_1
+```
 
 The following table lists the settings for data source templates.
 
 | Parameter | Description |
 | --------- | ----------- |
-| cursor= client | server | Optional for SQL data source. Available in DeltaV 9.3+. |
-|   | •	Client (default): The interface retrieves complete dataset prior to processing. High memory consumption on interface node. |
-|   | •	Server: The interface requests and processes one dataset record at a time. Reduces interface node memory consumption |
 | evtdir=<path> | Required for event file data sources, specifies the folder that contains the event files. Example: |
 |   | Source[1].evtdir = D:\TEST\RELEASE\test_1 |
 | excludestates=<list> | (Optional) Specifies a comma-separated list of phase states to ignore. Not case-sensitive. You can use wildcards for matching. Examples: |
 |   | excludestates=COMPLETED,AB*ING,IDLING, COMPLE* |
-| isAE=true | Indicates that the data source is a DeltaV Alarms and Events server. |
-| opcnode=<node name or IP address> | Required for OPC alarms and events data source. Available in DeltaV 10.3 and higher. Specifies the host of the DeltaV OPCAE server is installed. If used with DeltaV SQL server, must be defined for the same source. Example: |
-|   | Source[1].sqlserver = deltav10 Source[1].sqldatabase = DVHisDB Source[1].opcnode = deltav10 Source[1].opcserver = DeltaV.OPCEventServer.1 |
-| opcserver=<server name> | Optional for OPC alarms and events data source. Specifies the name of the alarms and events server, if you are not using the default server. |
 | skipphases=<list> | (Optional) Specifies a comma-separated list of phases to ignore. Not case-sensitive. You can use wildcards for matching. The interface checks the list against the [Phase] field (batch recipe) or [PhaseModule] field (equipment). Examples: |
 |  | skipphases=phase_1, ph*2,ph_test*, ph*ort* | 
 | skiprecipes=<list> | (Optional) Specifies a comma-separated list of recipes to ignore. Not case-sensitive. You can use wildcards for matching. The interface checks the list against the corresponding event field, depending on recipe type, as follows: Examples: |
 |  | skiprecipes=recipe_1, rec*2,PRC_PAINT*, UP_TEST:2 |
 | skipunits=<list> | (Optional) Specifies a comma-separated list of units to ignore. Not case-sensitive. You can use wildcards for matching. The interface checks the list against the corresponding [Unit] field. Example: |
 |  | skipunits = unit_1, u*2 |
-| sqlserver=<node name or IP address> | Required for SQL Server data source. Specifies the host where SQL Server is running. Available in DeltaV 9.3+. |
-| sqldatabase=<database name> | Optional for SQL Server data source. Specifies the name of the database, if you are not using the default database. (DVHisDB). |
-| sqlpswd=<password> | For explicit login to SQL Server, password for user specified in sqluser setting. |
-| sqluser=<user name> | User name for explicit login to SQL Server. By default the interface uses Windows authentication to connect to SQL Server. |
 
 ## Property Template Settings
 
@@ -110,7 +98,6 @@ The following table describes the settings required to define property templates
 |   |   | Property[1].Value = [BatchID] | event: <State*> | [Descript] | val: [Pval] |
 |   |   | Advanced parsing: |
 |   |   | Property[1].Value = [BatchID] | event: [*,value=”State*”] | [Descript] | val: [Pval] |
-|   |   | **NOTE:** For SQL dta sources with the "Use original batch event view" option enabled (/UOBEV), you cannot use the [PVAL] or [EU] placeholders. To obtain this data you must parse it from the [DESCRIPT] placeholder. |
 | TRIGGER | Same as NAME, except not [TIME] | Specifies the event that causes the interface to generate the property. To define a trigger, specify an expression composed of a placeholder and value. When the interface detects the specified value in the placeholder, it generates the property. You can specify multiple triggers for a single property. If you specify the triggers on a single line, the property is generated only when all the conditions are met (logical AND). If you specify the trigger expressions on separate lines, the property is generated when any of the conditions is met (logical OR). Examples: |
 |   |   | Property[1].Trigger = [Parameter, value=”State Ch*”] Property[1].Trigger = [Value, value=”tes*”] Property[1].Trigger=[Event, value=”State*] [Pval,value=RUNNING”] |
 | TRANSLATE | TRUE or FALSE | To specify that the value is to be translated according to the translation map you define set this setting to TRUE. |
@@ -148,7 +135,7 @@ The following table lists valid settings for tag templates. The timestamp for ta
 ## Recipe Templates
 
 To define the data generated for each level of the batch hierarchy, you define recipe templates.
-Following is a typical set of default recipe templates, though the precise set of default templates that a batch interface provides for a BES is vendor-specific.
+Following is a typical set of default recipe templates:
 ```
 RECIPE[1].NAME=[PROCEDURE] 
 RECIPE[1].CATEGORY=OSIBatch 
