@@ -1,1 +1,1 @@
-GE Factory Talk Batch
+PI Interface for GE Factory Talk Batch
