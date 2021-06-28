@@ -4,13 +4,24 @@ uid: BIF_Overview
 
 # Batch interface overview
 
-<!-- Add customized content between comments for the interace you're writing for -->
+<!-- Framework topic. Usually requires no edits. -->
 
+PI interfaces for Batch Execution Systems (BES) and Manufacturing Execution Systems (MES) are based on a common framework. For vendor-specific information, refer to the topic titled \"Specific considerations\...\" in this user guide.
 
+**Note:** If you record batch process data directly to PI tags and do not use a BES, you can generate batch data from PI tag data using the PiBaGen or PIEFGEN utilities. For details, refer to the manuals for these applications. For details, refer to the manuals for these applications.
 
-<!-- end comment-->
+PI batch interfaces are scan-based interfaces that populate either
 
-<!-- Content below applies to all interfaces. -->
+* PI AF database (with event frames and elements) or 
+* PI Batch Database and PI Module Database (with batches and modules) based on events and data read from a data source. The interfaces can be configured to create and update PI points based on the data received. The interface cannot update the batch data source.               
+
+**Note:** To use event frames, your PI batch interface must be version 3.x or higher.                   
+
+Batch interfaces can read data from multiple data sources, which enables the PI server to handle scenarios in which different overlapping batch recipes can access the same unit in different stages of the production cycle. By acquiring data for the same time frame from multiple sources and collating it into a single time-ordered sequence, a single interface instance can capture the complete history of the batch process.
+
+Unlike other OSIsoft interfaces, batch-related interfaces do not use PI buffering. Batch data is persistent in the data source and not in danger of being lost. If connection to the PI server is lost, the interface continues to collect data from the data source, transmitting it to the PI server when the connection is reestablished. If for any reason the interface is unable to collect data, the data remains available in the database or event files and you can use recovery mode to fill in any data that was missed during the time the interface was down.
+
+**Note:**  These interfaces are designed for recipes that constrain a unit to run only one unit procedure at a time.
 
 Two different models are used to describe batch processes: 
 
