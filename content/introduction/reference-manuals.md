@@ -4,7 +4,7 @@ uid: BIF_ReferenceManuals
 
 # Reference manuals
 
-<!-- Batch Framework topic. Usually no edited. -->
+<!-- Batch Framework topic. Usually not edited. -->
 
 See the following user guides for additional information on the operation of [!include[interface](../includes/interface-name.md)]:
 
