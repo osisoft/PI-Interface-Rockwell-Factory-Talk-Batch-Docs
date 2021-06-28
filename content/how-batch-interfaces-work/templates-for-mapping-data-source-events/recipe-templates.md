@@ -52,25 +52,25 @@ The interface includes a set of built-in default recipe templates that control t
 
     The following placeholders are supported:
 
-    * AREA
-    * BATCHID
-    * DESCRIPT
-    * EU
-    * EVENT
-    * OPERATION
-    * PHASE
-    * PHASEMODULE
-    * PHASESTATE
-    * PHASESTEP
-    * PROCEDURE
-    * PROCESSCELL
-    * PVAL
-    * UNIQUEID
-    * UNIT
-    * UNITPROCEDURE
-    * USERID
-    * [*,value= "Field"]
-    * [*,value= "mask"]
+      * AREA
+      * BATCHID
+      * DESCRIPT
+      * EU
+      * EVENT
+      * OPERATION
+      * PHASE
+      * PHASEMODULE
+      * PHASESTATE
+      * PHASESTEP
+      * PROCEDURE
+      * PROCESSCELL
+      * PVAL
+      * UNIQUEID
+      * UNIT
+      * UNITPROCEDURE
+      * USERID
+      * [*,value= "Field"]
+      * [*,value= "mask"]
 
 4. For event frames, you can configure the following additional settings.
 
