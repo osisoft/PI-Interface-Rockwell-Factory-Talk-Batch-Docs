@@ -29,7 +29,6 @@
     - topicUid: BIF_EventFrames # Customized for FactoryTalk
     - topicUid: BIF_EquipmentHierarchy # No edits
     - topicUid: BIF_HowToMergeMultipleSourceBatches # Customized for FactoryTalk
-    - topicUid: BIF_LinkingBESToMESBatchesUsingEventFrames # No modifications required
   - topicUid: BIF_TemplatesForMappingDataSourceEvents
 # Specific Considerations
 #
