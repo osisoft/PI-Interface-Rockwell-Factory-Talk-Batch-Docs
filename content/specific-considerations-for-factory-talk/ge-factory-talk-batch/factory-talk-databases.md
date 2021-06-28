@@ -4,7 +4,7 @@ uid: FactoryTalkdatasources
 
 # FactoryTalk datasources
 
-Rockwell FactoryTalk Batch is a Manufacturing Execution System that generates consumable log files in the form of Event Journal Files (EVT files). PI Interface for Rockwell FactoryTalk Batch collects data from those EVT files.
+GE FactoryTalk Batch is a Manufacturing Execution System that generates consumable log files in the form of Event Journal Files (EVT files). PI Interface for GE FactoryTalk Batch collects data from those EVT files.
 
 A single interface instance can collect data from multiple FactoryTalk sources by configuring the interface to read EVT files from multiple locations.
 

@@ -4,7 +4,7 @@ uid: index
 
 # Introduction to PI Interface for GE FactoryTalk Batch
 
-PI Interface for Rockwell FactoryTalk Batch is a scan-based interface that collects batch data from the Rockwell FactoryTalk system. It reads Event Journals (EVT files) and stores that data as event frames and elements in a PI Batch Database or a PI Asset Framework (PI AF) Database. 
+PI Interface for GE FactoryTalk Batch is a scan-based interface that collects batch data from the GE FactoryTalk system. It reads Event Journals (EVT files) and stores that data as event frames and elements in a PI Batch Database or a PI Asset Framework (PI AF) Database. 
 
 The interface also collects associated batch data in the form of PI Tags and PI Batch properties.
 
