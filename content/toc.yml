@@ -18,11 +18,11 @@
       - topicUid: BIF_ConfigureSecurityForPIAF # No edits
       - topicUid: BIF_ConfigureSecurityForPIDataArchive # No edits
 # How Batch Interfaces Work
-- topicUid: BIF_HowBatchInterfacesWork # No modifications required
+- topicUid: BIF_HowBatchInterfacesWork # No edits
   items:
+  - topicUid: BIF_InterfaceModes # No edits
   - topicUid: BIF_HowInterfacesProcessBatchEventData # No modifications required
     items: 
-    - topicUid: BIF_InterfaceModes # No modifications required
     - topicUid: BIF_HowBatchDataIsStored # Modify for interface
       items:
       - topicUid: BIF_EventFrames # No modifications required
