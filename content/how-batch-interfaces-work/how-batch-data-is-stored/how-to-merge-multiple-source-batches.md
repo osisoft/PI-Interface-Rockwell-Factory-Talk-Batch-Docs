@@ -4,7 +4,7 @@ uid: BIF_HowToMergeMultipleSourceBatches
 
 # How to merge multiple source batches
 
-<!-- Static topic. No modifications usually required -->
+<!-- Customized for FactoryTalk -->
 
 To merge multiple source batches that have identical batch IDs, enable the **Merge multiple source batches with same batch ID into one PI batch** option on the **Merge Setup** tab of the PI Event Frame Interface Manager. To ensure that related batch IDs match, you can configure a batch ID mask that extracts a common substring from the incoming ID. The interface caches batches and, when it reads a new batch from the source, it checks its cache for a batch with a matching ID. If a match is found, the interface merges the batches. If no match is found in the cache, the interface creates a new batch. By default, the interface caches batches for one day. To configure the cache duration, go to the **Time Settings** tab and set the **Cache time** value.
 
@@ -20,6 +20,10 @@ To enable the interface to merge multiple incoming source batches into a single 
 | `!`      | Repeat the previous mask symbol   |
 | `*`      | Any set of symbols                |
 
+<!-- 
+
+Mark Bishop 6/28: Comment does not apply to FactoryTalk
+
 You can specify multiple masks as a comma-separated list. The interface uses the result from the first mask that successfully generates a substring. If the interface cannot match the mask to the data in the incoming field, the entire field is used. As an example, for a data source BatchID column that contains the text `lot30112 / 90dev123 / 12345stp / ld567`, the following table lists masks and results:
 
 | Mask | Result | Matches… |
@@ -29,4 +33,6 @@ You can specify multiple masks as a comma-separated list. The interface uses the
 | `@@@#####` | lot30112 | Five contiguous digits with three contiguous characters and the characters are placed before the sequence of digits. |
 | `##@@@###` | 90dev123 | Five contiguous digits with three contiguous characters and the characters are placed before the third digit. |
 | `#####@@@` | 12345stp | Five contiguous digits with three contiguous characters and the characters are followed the digits. |
-| `?????` | lot30 | The first five characters, regardless of type. |
+| `?????` | lot30 | The first five characters, regardless of type. | 
+
+-->
