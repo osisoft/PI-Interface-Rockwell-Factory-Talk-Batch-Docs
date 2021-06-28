@@ -4,7 +4,7 @@ uid: BIF_TagTemplates
 
 # Tag templates
 
-<!-- Topic requires customization for specific interface -->
+<!-- No edits -->
 
 This section details the procedure for configuring tag templates. The tables in steps 7 and 8 define specific tag template settings and configurations to ensure that tag templates capture updates to PI Batch Database.
 
