@@ -1,8 +1,10 @@
 # Introduction
 - topicUid: BIF_Introduction # Customized for FactoryTalk
   items:
-  - topicUid: BIF_SupportedFeatures # No edits
+  - topicUid: BIF_SupportedFeatures # Customized for FactoryTalk
   - topicUid: BIF_ReferenceManuals # No edits
+# Batch Interface Overview
+- topicUid: BIF_Overview
 # Installation Prerequisites
 - topicUid: BIF_InterfaceConfiguration # Modify for interface
   items: 
