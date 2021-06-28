@@ -5,18 +5,18 @@
   - topicUid: BIF_ReferenceManuals # No edits
 # Batch Interface Overview
 - topicUid: BIF_Overview # No edits
-# Installation Prerequisites
+# Interface Configuration
 - topicUid: BIF_InterfaceConfiguration # Modify for interface
   items: 
-  - topicUid: BIF_InstallationPrerequisites # No modifications required
-  - topicUid: BIF_SecurityOverview # No modifications required
+  - topicUid: BIF_CreateAndConfigureInterfaceInstance # No edits
+  - topicUid: BIF_ConfigureInstancesForFailover # No edits
+  - topicUid: BIF_PIServerConnectivity # No edits
+  - topicUid: BIF_LoggingAndErrorMessages # No edits
+  - topicUid: BIF_SecurityOverview # No edits
     items:
-      - topicUid: BIF_AssignPermissions # No modifications required
-      - topicUid: BIF_ConfigureSecurityForPIAF # No modifications required
-      - topicUid: BIF_ConfigureSecurityForPIDataArchive # No modifications required
-  - topicUid: BIF_CreateAndConfigureInterfaceInstance # No modifications required
-  - topicUid: BIF_PIServerConnectivity # No modifications required
-  - topicUid: BIF_LoggingAndErrorMessages # No modifications required
+      - topicUid: BIF_AssignPermissions # No edits
+      - topicUid: BIF_ConfigureSecurityForPIAF # No edits
+      - topicUid: BIF_ConfigureSecurityForPIDataArchive # No edits
 # How Batch Interfaces Work
 - topicUid: BIF_HowBatchInterfacesWork # No modifications required
   items:
