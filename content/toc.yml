@@ -55,12 +55,12 @@
     items:
     - topicUid: BIF_WindowsCredentialManagerAuthentication # Customized for FactoryTalk
   - topicUid: BIF_SourceTab # Customized for FactoryTalk
-  - topicUid: BIF_TemplatesTab # Modify for interface
-  - topicUid: BIF_FiltersTab # Modify for interface
-  - topicUid: BIF_TimeSettingsTab # Modify for interface
-  - topicUid: BIF_BatchSetupTab # Modify for interface
-  - topicUid: BIF_MergeSetupTab # Modify for interface
-  - topicUid: BIF_OperationalSettingsTab # Modify for interface
+  - topicUid: BIF_TemplatesTab # Customized for FactoryTalk
+  - topicUid: BIF_FiltersTab # No edits
+  - topicUid: BIF_TimeSettingsTab # No edits
+  - topicUid: BIF_BatchSetupTab # No edits
+  - topicUid: BIF_MergeSetupTab # No edits
+  - topicUid: BIF_OperationalSettingsTab # No edits
   - topicUid: BIF_TestConfigurationTab # Modify for interface
   - topicUid: BIF_ServiceConfigurationTab # Modify for interface
 # Command Line Parameters
