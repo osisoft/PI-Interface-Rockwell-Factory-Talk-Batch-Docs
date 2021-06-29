@@ -4,7 +4,7 @@ uid: BIF_TemplatesForMappingDataSourceEvents
 
 # Templates for mapping data source events
 
-<!-- Static content. Usually requires no modifications -->
+<!-- Customized for FactoryTalk -->
 
 Templates enable you to capture data from the data source, specifying the format for the desired data and the events that cause the interface to capture the data. To configure templates, go to the PI Event Frame Interface Manager Templates tab. You can define the following types of templates:
 
@@ -13,7 +13,7 @@ Templates enable you to capture data from the data source, specifying the format
 | Tag | Create and update PI tags using data from data source. |
 | Property / Attribute |Create and update event frame attributes using data from data source. |
 | Recipe | Override the data source recipe level names. |
-| Alarm tag | Create and update PI tags using data from an Emerson DeltaV alarms and events data source. |
+| Alarm tag | Create and update PI tags using data from an alarms and events data source. |
 | Asset attribute | Create and update element attributes using data from the data source. |
 | DCS Template |Identify the value from event frame attributes that contain the batch ID of the batch that we want to link to as a child object. |
 

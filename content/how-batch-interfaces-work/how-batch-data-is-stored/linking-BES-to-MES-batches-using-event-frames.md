@@ -4,7 +4,7 @@ uid: BIF_LinkingBESToMESBatchesUsingEventFrames
 
 # Linking BES to MES batches using event frames
 
-<!-- Static topic. No modifications usually required -->
+<!-- Customized for FactoryTalk. Commenteded out DeltaV content -->
 
 To consolidate the output of a manufacturing execution system (MES) and a batch execution system (BES), specify the linking element as follows:
 
@@ -18,9 +18,11 @@ To consolidate the output of a manufacturing execution system (MES) and a batch 
 
 This configuration is typical in an environment where an MES supervises multiple batch execution systems to manufacture a single product. For each BES, configure a dedicated interface instance and specify the same PI AF linking element. When an event frame created by the MES interface references the creation of a batch in the BES, a reference is made to the MES event frame in the linking element. Then, when the BES interface creates its event frame, a reference to it is created in the MES event frame, creating a consolidated view of all the related events from different systems.
 
-For example, the following figure illustrates an event frame created based on a batch from an Emerson DeltaV batch execution system. This event frame is referenced in an event frame created by a Werum PAS-X MES. Other batch interface instances that are configured to use the same linking element create references to their batches under the same link.
+<!-- For example, the following figure illustrates an event frame created based on a batch from an Emerson DeltaV batch execution system. This event frame is referenced in an event frame created by a Werum PAS-X MES. Other batch interface instances that are configured to use the same linking element create references to their batches under the same link.
 
-![how interfaces process batch event data](../../images/how-interfaces-process-batch-event-data.png)
+![how interfaces process batch event data](../../images/how-interfaces-process-batch-event-data.png) 
+
+-->
 
 The .ini file code for creating those event frames looks like this example:
 

@@ -60,11 +60,11 @@
   - topicUid: BIF_TimeSettingsTab # No edits
   - topicUid: BIF_BatchSetupTab # No edits
   - topicUid: BIF_MergeSetupTab # No edits
-  - topicUid: BIF_OperationalSettingsTab # No edits
-  - topicUid: BIF_TestConfigurationTab # Modify for interface
-  - topicUid: BIF_ServiceConfigurationTab # Modify for interface
+  - topicUid: BIF_OperationalSettingsTab # Minor edits
+  - topicUid: BIF_TestConfigurationTab # No edits
+  - topicUid: BIF_ServiceConfigurationTab # No edits
 # Command Line Parameters
-- topicUid: BIF_CommandLineParameterReference # Modify for interface
+- topicUid: BIF_CommandLineParameterReference # Customized for FactoryTalk
 # Event file monitor utility
 - topicUid: BIF_EventFileMonitorUtility # No edits
 # Diagnostic Point Reference

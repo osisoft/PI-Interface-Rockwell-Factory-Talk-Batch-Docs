@@ -4,7 +4,7 @@ uid: BIF_CommandLineParameterReference
 
 # Command line parameter reference
 
-<!-- Topic requires customization for specific interface -->
+<!-- Customized for FactoryTalk. Commented out content does not apply to FactoryTalk. -->
 
 To configure an interface, you use the PI Event Frames Interface Manager, which maintains the files that contain batch interface settings. This appendix describes the command line settings and is provided for troubleshooting purposes.
     
@@ -24,9 +24,9 @@ The following headings describe each command line parameter available.
 
 (Optional) Enable the creation of unit batches for recipes in units that are allocated at the phase level rather than the unit batch level. By default, the interface requires the unit name to be present in the unit batch start event. When you enable /adu, the interface creates the unit batch and defers setting the unit name until the phase-level allocation event arrives.
 
-### `/batchrcp =[true | false]` 
+<!-- ### `/batchrcp =[true | false]` 
 
-(ABB only) Collect full task hierarchy. By default, the interface collects four levels. For details, refer to ABB 800xA batch start and stop events.
+(ABB only) Collect full task hierarchy. By default, the interface collects four levels. For details, refer to ABB 800xA batch start and stop events. -->
 
 ### `/bidm =<list>` 
 
@@ -63,9 +63,9 @@ In the last example, the first and second masks do not match, so the third mask 
 
 (Optional) Disable arbitration counters: directs the interface to release a unit on the first resource release event even if the number of acquire events is higher than number of release events. By default, the interface requires the number of acquire and release events for a unit to be the same.
 
-### `/damcae` 
+<!-- ### `/damcae` 
 
-(Optional) Ignore events from a DeltaV Event Chronicle (alarms & events) data source when creating or checking PI Module Database objects. If the module path defined for an AlarmTag[#].Alias entry contains the root node symbol ($), the interface checks the module path regardless of whether this option is enabled.
+(Optional) Ignore events from a DeltaV Event Chronicle (alarms & events) data source when creating or checking PI Module Database objects. If the module path defined for an AlarmTag[#].Alias entry contains the root node symbol ($), the interface checks the module path regardless of whether this option is enabled. -->
 
 ### `/datasec=<string>`
 
@@ -89,7 +89,7 @@ Example:
 
 (Optional – event frames only) Disable propagation of referenced elements to children. By default, the interface propagates each event frame element reference to its children event frames.
 
-### `/equipmentXML =<filepath>` 
+<!-- ### `/equipmentXML =<filepath>` 
 
 (Optional) Specifies the location of the DeltaV-generated equipment hierarchy XML file. The EMDVB interface uses this reference data to locate missing ProcessCell field by searching based on the combination of Area and Unit fields. Valid only when a DeltaV AE SQL datasource is defined. 
 
@@ -97,7 +97,7 @@ Example:
 
 ```text
 /EquipmentXML="C:\DeltaV\Equip.xml"
-```
+``` -->
 
 ### `/failoverID =<string>`
 
@@ -289,9 +289,9 @@ Combine event frames from different interface instances. For an MES controlling 
 
 For a BES interface controlling one or more MES systems, configure /readlink on the MES interface and configure an interface instance for each BES, specifying the same linkage element in the BES /writelink setting. The MES interface will then create event frame references under the BES event frames that refer to the MES event frames. Link templates must also be configured to define which events specify a link.
 
-### `/restore` 
+<!-- ### `/restore` 
 
-For the ABB 800xA interface, enable recovery of batches from restored archives in all configured ABB 800xA data sources.
+For the ABB 800xA interface, enable recovery of batches from restored archives in all configured ABB 800xA data sources. -->
 
 ### `/restef`
 
@@ -320,7 +320,9 @@ Remove trailing index from Recipe fields. Applicable to Procedure, Unit Procedur
 
 (Optional) Specifies, in seconds, how often to scan the data source for new data. The default is 60 seconds. A scan that returns a large amount of data can cause the interface to skip the subsequent scan.
 
-### `/singlerun` | (Optional) Perform one scan and stop.
+### `/singlerun` 
+
+(Optional) Perform one scan and stop.
 
 ### `/smp ="equipment path"`
 
@@ -328,13 +330,13 @@ Remove trailing index from Recipe fields. Applicable to Procedure, Unit Procedur
 
 `\\<RootModule>\<SubModule>\<…>`
 
-### `/sqlconnto =<seconds>` (DeltaV SQL only)
+<!-- ### `/sqlconnto =<seconds>` (DeltaV SQL only)
 
 (Optional) Override the default SQL timeout setting (60 seconds).
 
 ### `/sqldato=<seconds>` (DeltaV SQL only)
 
-(Optional) Override the default SQL data access timeout setting (100 seconds).
+(Optional) Override the default SQL data access timeout setting (100 seconds). -->
 
 ### `/swaptime =<seconds>`
 
@@ -352,7 +354,7 @@ Remove trailing index from Recipe fields. Applicable to Procedure, Unit Procedur
 
 (Optional) Specifies how the interface interprets event timestamps from an SQL data source. Options are local time or GMT. Default is GMT.
 
-### `/uobev` (DeltaV SQL 9.3+ only)
+<!-- ### `/uobev` (DeltaV SQL 9.3+ only)
 
 (Optional) Directs the interface to use the original batch event view. By default the interface queries 17 tables to retrieve data for batch-associated events. Note that this view does not provide explicit [Descript], [Pval] and [EU] fields. Instead the [Descript] field combines data from all three fields. This option is provided for backward compatibility.
 
@@ -376,7 +378,7 @@ Provided for backward compatibility with version 1.0.0.0 of the interface. |
 
 This parameter is only supported in interface PIEMDVBCS and allows the interface to ignore checking or sending requests to the Syncade workflow web services. If connecting to WF 4.9 this parameter must be set to true.
 
-Added in version 4.0.30.
+Added in version 4.0.30. -->
 
 ### `/writelink= <AFelementpath>` 
 
