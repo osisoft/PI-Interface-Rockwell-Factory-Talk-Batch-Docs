@@ -1,11 +1,14 @@
 ---
-uid: Initializationfileexamples
+uid: BIF_InitializationFileExamples
 ---
 
 # Initialization file examples
 
+<!-- Topic requires customization for specific interface -->
+
 ## Multiple EVT Sources
-```
+
+```text
 [SOURCE TEMPLATE] 
 
 Source[1].evtdir=c:\test\evt 
@@ -43,8 +46,10 @@ Tag[3].trigger = Operator Prompt
 Tag[3].unitalias = [phasemodule] abcd 
 Tag[3].phasealias = testing [PROPERTY TEMPLATE] Property[1].Value = [Time] State Change [Descript] [pval]
 ```
+
 ## DeltaV German EVT Source
-```
+
+```text
 [SOURCE TEMPLATE] 
 
 source[1].evtdir = D:\TEST\evt german\evt 
@@ -117,3 +122,51 @@ translate: "Bericht" = "Report"
 translate: "Schrittaktivit\E4\t" = "Step Activity"
 ```
 
+## DeltaV SQL
+
+```text
+[SOURCE TEMPLATE] 
+
+source[1].sqlserver = deltav10 source[1].sqldatabase = DVHisDB 
+source[2].sqlserver = deltav102 [GENERAL] ExcludeStates = NONE 
+
+[TAG TEMPLATE] 
+
+Tag[1].Name = [Unit] [Phasemodule] Report 
+Tag[1].Value = [Descript] 
+Tag[1].Type = string Tag[1].unitalias = [phasemodule] Report 
+Tag[1].phasealias = Report 
+Tag[2].Name = [Unit] [phasemodule] Tester 
+Tag[2].Value = [ atched] [Descript]=[event] 
+Tag[2].Type = string 
+Tag[2].Trigger = Owner Change 
+Tag[2].Trigger = Report 
+Tag[2].unitalias = [phasemodule] tester alias 
+Tag[2].phasealias = tester alias
+```
+
+## DeltaV SQL, OPCAE
+
+```text
+[SOURCE TEMPLATE] 
+
+source[1].opcnode = deltav101 
+source[1].opcserver = DeltaV.OPCEventServer.1 source[1].sqlserver = deltav10 
+source[1].sqldatabase = DVHisDB [GENERAL] Equipment=Areas\Abs[Area]\ProcessCells\sss_[ProcessCell]\sdf:[Unit]\Phases\[Phasemodule]_testing Product = [Product],Undefined SkipUnits = NULL*, D50* SkipPhases = Clean*, Load* ExcludeStates = IDLE, ABOR*G, STOP*G [TAG TEMPLATE] 
+
+// [DeltaV Tag Templates] 
+
+Tag[1].Name = [Unit] Report Tag[1].Value = [Descript] | [Pval] | [EU] 
+Tag[1].Trigger = [Event,value="Report"] Tag[1].Type = string 
+Tag[1].unitalias = NONE Tag[1].unitalias = NONE 
+
+// Multiple events triggering same template 
+
+Tag[2].Name = [Unit] [phasemodule] Tester 
+Tag[2].Value = [ atched] [Descript]_[event] 
+Tag[2].Type = string 
+Tag[2].Trigger = Owner Change 
+Tag[2].Trigger = Report 
+Tag[2].unitalias = [phasemodule] tester alias 
+Tag[2].phasealias = tester alias
+```

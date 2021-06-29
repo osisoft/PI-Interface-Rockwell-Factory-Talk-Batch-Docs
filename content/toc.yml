@@ -1,76 +1,75 @@
-- topicUid: index
-- topicUid: introduction
+# Introduction
+- topicUid: BIF_Introduction # Customized for FactoryTalk
   items:
-  - topicUid: SupportedFeatures
-  - topicUid: ReferenceManuals
-- topicUid: BatchInterfaceOverview
-- topicUid: InstallationPrerequisites
-- topicUid: InterfaceConfiguration
-  items:
-  - topicUid: CreateAndConfigureTheInterfaceInstance
-  - topicUid: ConfigureFailover
-  - topicUid: PIDataServerConnectivity
-  - topicUid: LoggingAndErrorMessages
-  - topicUid: SecurityOverview
-  - topicUid: AssignPermissions
-  - topicUid: ConfigureSecurityForPIAF
-  - topicUid: ConfigureSecurityForPIDataArchives
-- topicUid: HowBatchInterfacesWork
-  items:
-  - topicUid: InterfaceModes
-  - topicUid: HowInterfacesProcessBatchEventData
-  - topicUid: EquipmentArbitrationEventUnavailable
-  - topicUid: HowBatchDataIsStored
+  - topicUid: BIF_SupportedFeatures # Customized for FactoryTalk
+  - topicUid: BIF_ReferenceManuals # No edits
+# Batch Interface Overview
+- topicUid: BIF_Overview # No edits
+# Interface Configuration
+- topicUid: BIF_InterfaceConfiguration # Customized for FactoryTalk
+  items: 
+  - topicUid: BIF_CreateAndConfigureInterfaceInstance # No edits
+  - topicUid: BIF_ConfigureInstancesForFailover # No edits
+  - topicUid: BIF_PIServerConnectivity # No edits
+  - topicUid: BIF_LoggingAndErrorMessages # No edits
+  - topicUid: BIF_SecurityOverview # No edits
     items:
-    - topicUid: ThePIBatchDatabase
-    - topicUid: EventFrames
-    - topicUid: EquipmentHierarchy
-    - topicUid: HowToMergeMultipleSourceBatches
-  - topicUid: TemplatesForMappingDataSourceEvents
-  - topicUid: PlaceholdersAndAdvancedParsing
-  - topicUid: FilterIncomingEvents
-  - topicUid: PropertyTemplates
-  - topicUid: RecipeTemplates
-    items:
-    - topicUid: RecipeTemplateExamples
-  - topicUid: TagTemplates
-    items:
-    - topicUid: TagTemplateExamples
-  - topicUid: TemplatesForMappingDataSourceEvents
-  - topicUid: TranslateForeignLanguageData
-- topicUid: SpecificConsiderationsForFactoryTalkBatch
+      - topicUid: BIF_AssignPermissions # No edits
+      - topicUid: BIF_ConfigureSecurityForPIAF # No edits
+      - topicUid: BIF_ConfigureSecurityForPIDataArchive # No edits
+# How Batch Interfaces Work
+- topicUid: BIF_HowBatchInterfacesWork # No edits
   items:
-  - topicUid: FactoryTalkBatchDataSources
-  - topicUid: FactoryTalkBatchStartAndStopEvents
-  - topicUid: FactoryTalkBatchTemplatePlaceholders
-- topicUid: PIEventFramesInterfaceManager
+  - topicUid: BIF_InterfaceModes # No edits
+  - topicUid: BIF_HowInterfacesProcessBatchEventData # Customized for FactoryTalk
+  - topicUid: BIF_EquipmentArbitrationEventsUnavailable # No edits
+  - topicUid: BIF_HowBatchDataIsStored # No edits
+    items:
+    - topicUid: BIF_ThePIBatchDatabase # No edits
+    - topicUid: BIF_EventFrames # Customized for FactoryTalk
+    - topicUid: BIF_EquipmentHierarchy # No edits
+    - topicUid: BIF_HowToMergeMultipleSourceBatches # Customized for FactoryTalk
+  - topicUid: BIF_TemplatesForMappingDataSourceEvents # No edits
+  - topicUid: BIF_PlaceholdersAndAdvancedParsing # No edits
+  - topicUid: BIF_FilterIncomingEvents # No edits
+  - topicUid: BIF_PropertyTemplates # No edits
+  - topicUid: BIF_RecipeTemplates # No edits
+    items:
+    - topicUid: BIF_RecipeTemplateExamples # No edits
+  - topicUid: BIF_TagTemplates # No edits
+    items:
+    - topicUid: BIF_TagTemplateExamples # No edits
+  - topicUid: BIF_TemplatesForMappingDataSourceEvents # No edits
+  - topicUid: BIF_TranslateForeignLanguageData # No edits
+# Specific Considerations
+- topicUid: BIF_Interface # Customized for FactoryTalk
   items:
-  - topicUid: InterfaceSelectionTab
-  - topicUid: ServerInformationTab
-  - topicUid: SourceTab
-  - topicUid: TemplatesTab
-  - topicUid: FiltersTab
-  - topicUid: TimeSettingsTab
-  - topicUid: BatchSetupTab
-  - topicUid: MergeSettingsTab
-  - topicUid: OperationalSettingsTab
-  - topicUid: TestConfigurationTab
-  - topicUid: ServiceConfigurationTab
-- topicUid: Command-lineParameterReference
-- topicUid: EventFileMonitorUtility
-- topicUid: DiagnosticTagReference
-- topicUid: Glossary
-- topicUid: TechnicalSupportAndFeedback
-
-
-
-      
-      
-      
-      
-      
-    
-
-
-
-
+  - topicUid: BIF_DataSources # Customized for FactoryTalk
+  - topicUid: BIF_StartAndStopEvents # Customized for FactoryTalk
+  - topicUid: BIF_TemplatePlaceholders # Customized for FactoryTalk
+# PI Event Frames Interface Manager
+- topicUid: BIF_PIEventFramesInterfaceManager # No edits
+  items:
+  - topicUid: BIF_InterfaceSelectionTab # No edits
+  - topicUid: BIF_ServerInformationTab # Customized for FactoryTalk
+    items:
+    - topicUid: BIF_WindowsCredentialManagerAuthentication # Customized for FactoryTalk
+  - topicUid: BIF_SourceTab # Customized for FactoryTalk
+  - topicUid: BIF_TemplatesTab # Customized for FactoryTalk
+  - topicUid: BIF_FiltersTab # No edits
+  - topicUid: BIF_TimeSettingsTab # No edits
+  - topicUid: BIF_BatchSetupTab # No edits
+  - topicUid: BIF_MergeSetupTab # No edits
+  - topicUid: BIF_OperationalSettingsTab # Minor edits
+  - topicUid: BIF_TestConfigurationTab # No edits
+  - topicUid: BIF_ServiceConfigurationTab # No edits
+# Command Line Parameters
+- topicUid: BIF_CommandLineParameterReference # Customized for FactoryTalk
+# Event file monitor utility
+- topicUid: BIF_EventFileMonitorUtility # No edits
+# Diagnostic Point Reference
+- topicUid: BIF_DiagnosticPointReference # No edits
+# Glossary
+- topicUid: BIF_Glossary # No edits
+# Technical Support and Feedback
+- topicUid: BIF_TechnicalSupportAndFeedback # No edits
