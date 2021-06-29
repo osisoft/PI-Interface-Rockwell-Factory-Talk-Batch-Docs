@@ -4,7 +4,7 @@ uid: BIF_EventFileMonitorUtility
 
 # Event file monitor utility
 
-<!-- Topic requires customization for specific interface -->
+<!-- No edits -->
 
 For interfaces that can use event journal files for a data source, OSIsoft provides a utility that automatically copies new event journals from the directory where the BES creates them to the directory where the interface processes them.
 

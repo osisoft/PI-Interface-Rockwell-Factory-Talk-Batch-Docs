@@ -74,14 +74,10 @@
   - topicUid: BIF_ServiceConfigurationTab # Modify for interface
 # Command Line Parameters
 - topicUid: BIF_CommandLineParameterReference # Modify for interface
-# Initialization File
-- topicUid: BIF_InitializationFileReference # Modify for interface
-  items: 
-  - topicUid: BIF_InitializationFileExamples # Modify for interface
-# Diagnostic Point Reference
-- topicUid: BIF_DiagnosticPointReference # No modifications required
 # Event file monitor utility
-- topicUid: BIF_EventFileMonitorUtility # No modifications required
+- topicUid: BIF_EventFileMonitorUtility # No edits
+# Diagnostic Point Reference
+- topicUid: BIF_DiagnosticPointReference # No edits
 # Glossary
 - topicUid: BIF_Glossary
 # Technical Support and Feedback
