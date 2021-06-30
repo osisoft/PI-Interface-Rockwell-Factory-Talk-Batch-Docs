@@ -723,9 +723,9 @@
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">PI Interfaces</Data></Cell>
     <Cell ss:StyleID="s78"><Data ss:Type="String">interface</Data></Cell>
-    <Cell ss:StyleID="s82"><Data ss:Type="String">PI Interface for Rockwell FactoryTalk Batch</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">PI Interface for Rockwell Factory Talk Batch</Data></Cell>
     <Cell ss:StyleID="s85"><Data ss:Type="String">PI-Interface-for-Rockwell-Factory-Talk-Batch</Data></Cell>
-    <Cell ss:StyleID="s84"><Data ss:Type="String">PI Interface for Rockwell FactoryTalk Batch</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">PI Interface for Rockwell Factory Talk Batch</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">PI Connectors</Data></Cell>
