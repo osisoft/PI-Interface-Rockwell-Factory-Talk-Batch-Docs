@@ -216,12 +216,12 @@
    <Row ss:Height="14.5">
     <Cell><Data ss:Type="String">MAP</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">interface</Data></Cell>
-    <Cell ss:StyleID="s17"><Data ss:Type="String">PI-Interface-for-GE-Factory-Talk-Batch</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">PI-Interface-for-Rockwell-Factory-Talk-Batch</Data></Cell>
    </Row>
    <Row ss:Height="14.5">
     <Cell><Data ss:Type="String">apply-ALL</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">interface</Data></Cell>
-    <Cell ss:StyleID="s101"><Data ss:Type="String">PI-Interface-for-GE-Factory-Talk-Batch</Data></Cell>
+    <Cell ss:StyleID="s101"><Data ss:Type="String">PI-Interface-for-Rockwell-Factory-Talk-Batch</Data></Cell>
    </Row>
    <Row>
     <Cell><Data ss:Type="String">default</Data></Cell>
