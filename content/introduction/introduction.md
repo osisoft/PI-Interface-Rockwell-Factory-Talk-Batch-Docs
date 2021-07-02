@@ -2,7 +2,7 @@
 uid: BIF_Introduction
 ---
 
-# Introduction to [!include[interface](../includes/interface-name.md)]
+# Introduction
 
 <!-- Rick left two intros in this doc. Which is the correct one: A or B?-->
 
