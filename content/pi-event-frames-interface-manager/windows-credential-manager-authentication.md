@@ -20,7 +20,7 @@ Credentials are stored in Windows Credential Manager using the following format:
 
 The `{source}` can be "PI", "AF", or can also be `{source}_{index number}`. For example, a credential used for the [!include[interface](../includes/interface-name.md)] may be identified in Windows Credential Manager as:
 
-<!-- Update <PLACHOLDERS> for interface -->
+<!-- Update PLACHOLDERS for interface -->
 
 * `FactoryTalk_1_PI` for the PI Data server associated with the [!include[interface](../includes/interface-name.md)]
 * `FactoryTalk_1_AF` for the PI Asset Framework server associated with the [!include[interface](../includes/interface-name.md)]
