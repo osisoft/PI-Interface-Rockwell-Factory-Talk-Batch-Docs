@@ -27,7 +27,6 @@ Mark Bishop 6/28: Comment does not apply to FactoryTalk
 You can specify multiple masks as a comma-separated list. The interface uses the result from the first mask that successfully generates a substring. If the interface cannot match the mask to the data in the incoming field, the entire field is used. As an example, for a data source BatchID column that contains the text `lot30112 / 90dev123 / 12345stp / ld567`, the following table lists masks and results:
 
 | Mask | Result | Matches… |
-|-|-|-|
 | `#####` | 30112 | The first five contiguous digits. The first matching substring is used. |
 | `###` | 301 | The first three contiguous digits. |
 | `@@@#####` | lot30112 | Five contiguous digits with three contiguous characters and the characters are placed before the sequence of digits. |
