@@ -89,7 +89,7 @@ Example:
 
 (Optional – event frames only) Disable propagation of referenced elements to children. By default, the interface propagates each event frame element reference to its children event frames.
 
-<!-- ### `/equipmentXML =<filepath>` 
+<!-- ### `/equipmentXML =filepath` 
 
 (Optional) Specifies the location of the DeltaV-generated equipment hierarchy XML file. The EMDVB interface uses this reference data to locate missing ProcessCell field by searching based on the combination of Area and Unit fields. Valid only when a DeltaV AE SQL datasource is defined. 
 
@@ -330,11 +330,11 @@ Remove trailing index from Recipe fields. Applicable to Procedure, Unit Procedur
 
 `\\<RootModule>\<SubModule>\<…>`
 
-<!-- ### `/sqlconnto =<seconds>` (DeltaV SQL only)
+<!-- ### `/sqlconnto =seconds` (DeltaV SQL only)
 
 (Optional) Override the default SQL timeout setting (60 seconds).
 
-### `/sqldato=<seconds>` (DeltaV SQL only)
+### `/sqldato=seconds` (DeltaV SQL only)
 
 (Optional) Override the default SQL data access timeout setting (100 seconds). -->
 

@@ -69,11 +69,11 @@ Mark Bishop 6/21/21: SQL Settings used sometimes
 
 ## SQL server connection settings
 
-### SQL connection timeout (/PICONNTO=<seconds>)
+### SQL connection timeout (/PICONNTO=seconds)
 
 Override the default SQL Connection TimeOut property.
 
-### SQL data access timeout (/PIDATO=<seconds>)
+### SQL data access timeout (/PIDATO=seconds)
 
 Override the default SQL Data Access TimeOut property.  
 
