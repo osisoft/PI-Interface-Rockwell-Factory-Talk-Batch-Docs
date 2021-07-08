@@ -3,20 +3,20 @@
   items:
   - topicUid: BIF_SupportedFeatures # Customized for FactoryTalk
   - topicUid: BIF_ReferenceManuals # No edits
-# Batch Interface Overview
-- topicUid: BIF_Overview # No edits
-# Interface Configuration
-- topicUid: BIF_InterfaceConfiguration # Customized for FactoryTalk
+  - topicUid: BIF_Overview # No edits
+# Installation Prerequisites
+- topicUid: BIF_InstallationPrerequisites # No edits
   items: 
+  - topicUid: BIF_InterfaceConfiguration # Customized for FactoryTalk
   - topicUid: BIF_CreateAndConfigureInterfaceInstance # No edits
-  - topicUid: BIF_ConfigureInstancesForFailover # No edits
-  - topicUid: BIF_PIServerConnectivity # No edits
-  - topicUid: BIF_LoggingAndErrorMessages # No edits
   - topicUid: BIF_SecurityOverview # No edits
     items:
       - topicUid: BIF_AssignPermissions # No edits
       - topicUid: BIF_ConfigureSecurityForPIAF # No edits
       - topicUid: BIF_ConfigureSecurityForPIDataArchive # No edits
+  - topicUid: BIF_ConfigureInstancesForFailover # No edits
+  - topicUid: BIF_PIServerConnectivity # No edits
+  - topicUid: BIF_LoggingAndErrorMessages # No edits
 # How Batch Interfaces Work
 - topicUid: BIF_HowBatchInterfacesWork # No edits
   items:
