@@ -62,6 +62,15 @@
     - topicUid: BIF_WindowsCredentialManagerAuthentication # Customized for FactoryTalk
   - topicUid: BIF_SourceTab # Customized for FactoryTalk
   - topicUid: BIF_TemplatesTab # Customized for FactoryTalk
+    items:
+    - topicUid: BIF_PropertyTemplatesEFIM # No edits
+    - topicUid: BIF_RecipeTemplatesEFIM # No edits
+    - topicUid: BIF_TagTemplatesEFIM # No edits
+    - topicUid: BIF_DefineAttributeTemplates # No edits
+  # missing "create template placholders"
+  - topicUid: BIF_ConfigureTagTemplates # No edits
+  - topicUid: BIF_DefineRecipeTemplates # No edits
+  - topicUid: BIF_EventFramesLinkTemplates # No edits
   - topicUid: BIF_FiltersTab # No edits
   - topicUid: BIF_TimeSettingsTab # No edits
   - topicUid: BIF_BatchSetupTab # No edits
@@ -69,6 +78,7 @@
   - topicUid: BIF_OperationalSettingsTab # Minor edits
   - topicUid: BIF_TestConfigurationTab # No edits
   - topicUid: BIF_ServiceConfigurationTab # No edits
+  # missing "configure-tab-templates"
 # Command Line Parameters
 - topicUid: BIF_CommandLineParameterReference # Customized for FactoryTalk
 # Event file monitor utility
