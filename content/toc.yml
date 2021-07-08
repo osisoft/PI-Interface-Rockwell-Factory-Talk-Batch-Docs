@@ -81,6 +81,10 @@
   # missing "configure-tab-templates"
 # Command Line Parameters
 - topicUid: BIF_CommandLineParameterReference # Customized for FactoryTalk
+# Initialization File References
+- topicUid: BIF_InitializationFileReference # No edits
+  items:
+  - topicUid: BIF_InitializationFileExamples # No edits
 # Event file monitor utility
 - topicUid: BIF_EventFileMonitorUtility # No edits
 # Diagnostic Point Reference
