@@ -6,7 +6,7 @@ uid: BIF_Overview
 
 <!-- Framework topic. Usually requires no edits. -->
 
-PI interfaces for Batch Execution Systems (BES) and Manufacturing Execution Systems (MES) are based on a common framework. For vendor-specific information, refer to the topic titled \"Specific considerations\...\" in this user guide.
+[!include[interface](../includes/interface-name.md)] is classified as a PI interface for Batch Execution Systems (BES) and Manufacturing Execution Systems (MES), which are based on a common framework. 
 
 **Note:** If you record batch process data directly to PI tags and do not use a BES, you can generate batch data from PI tag data using the PiBaGen or PIEFGEN utilities. For details, refer to the manuals for these applications. For details, refer to the manuals for these applications.
 
