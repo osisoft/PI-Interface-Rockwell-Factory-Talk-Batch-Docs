@@ -1,6 +1,7 @@
 # Introduction
 - topicUid: BIF_Introduction # Customized for FactoryTalk
   items:
+  - topicUid: BIF_InterfaceModes # No edits
   - topicUid: BIF_SupportedFeatures # Customized for FactoryTalk
   - topicUid: BIF_ReferenceManuals # No edits
   - topicUid: BIF_Overview # No edits
@@ -38,7 +39,6 @@
     - topicUid: BIF_RecipeTemplateExamples # No edits
     - topicUid: BIF_FilterIncomingEvents # No edits
     - topicUid: BIF_TranslateForeignLanguageData # No edits
-  - topicUid: BIF_InterfaceModes # No edits
 # Specific Considerations
 - topicUid: BIF_Interface # Customized for FactoryTalk
   items:
