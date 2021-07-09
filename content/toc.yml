@@ -43,7 +43,7 @@
 - topicUid: BIF_Interface # Customized for FactoryTalk
   items:
   - topicUid: BIF_DataSources # Customized for FactoryTalk
-  - topicUid: BIF_DataBases # No edits
+  - topicUid: BIF_Databases # No edits
   - topicUid: BIF_StartAndStopEvents # Customized for FactoryTalk
   - topicUid: BIF_EventFilePIBatchProcedure # No edits
   - topicUid: BIF_EventFilePIBatchUnitProcedure # No edits
