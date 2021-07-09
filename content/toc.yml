@@ -61,20 +61,19 @@
 - topicUid: BIF_PIEventFramesInterfaceManager # No edits
   items:
   - topicUid: BIF_InterfaceSelectionTab # No edits
+    items:
+    - topicUid: BIF_CreateANewInstanceOfThePIEFGenInterface # No edits
   - topicUid: BIF_ServerInformationTab # Customized for FactoryTalk
     items:
     - topicUid: BIF_WindowsCredentialManagerAuthentication # Customized for FactoryTalk
   - topicUid: BIF_SourceTab # Customized for FactoryTalk
   - topicUid: BIF_TemplatesTab # Customized for FactoryTalk
     items:
+    - topicUid: BIF_DefineAttributeTemplates # No edits
     - topicUid: BIF_PropertyTemplatesEFIM # No edits
     - topicUid: BIF_RecipeTemplatesEFIM # No edits
     - topicUid: BIF_TagTemplatesEFIM # No edits
-    - topicUid: BIF_DefineAttributeTemplates # No edits
-  - topicUid: BIF_CreateTemplatePlaceholders # No edits
-  - topicUid: BIF_ConfigureTagTemplates # No edits
-  - topicUid: BIF_DefineRecipeTemplates # No edits
-  - topicUid: BIF_EventFramesLinkTemplates # No edits
+    - topicUid: BIF_LinkTemplatesEFIM # No edits
   - topicUid: BIF_FiltersTab # No edits
   - topicUid: BIF_TimeSettingsTab # No edits
   - topicUid: BIF_BatchSetupTab # No edits
