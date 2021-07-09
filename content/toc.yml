@@ -48,14 +48,14 @@
 - topicUid: BIF_Interface # Customized for FactoryTalk
   items:
   - topicUid: BIF_DataSources # Customized for FactoryTalk
-  - topicUid: BIF_Databases # No edits
   - topicUid: BIF_StartAndStopEvents # Customized for FactoryTalk
-  - topicUid: BIF_EventFilePIBatchProcedure # No edits
-  - topicUid: BIF_EventFilePIBatchUnitProcedure # No edits
-  - topicUid: BIF_EventFileOperation # No edits
-  - topicUid: BIF_EventFilePhase # No edits
-  - topicUid: BIF_EventFilePhaseState # No edits
-  - topicUid: BIF_EventFilePhaseStep # No edits
+    items: 
+    - topicUid: BIF_EventFilePIBatchProcedure # No edits
+    - topicUid: BIF_EventFilePIBatchUnitProcedure # No edits
+    - topicUid: BIF_EventFileOperation # No edits
+    - topicUid: BIF_EventFilePhase # No edits
+    - topicUid: BIF_EventFilePhaseState # No edits
+    - topicUid: BIF_EventFilePhaseStep # No edits
   - topicUid: BIF_TemplatePlaceholders # Customized for FactoryTalk
 # PI Event Frames Interface Manager
 - topicUid: BIF_PIEventFramesInterfaceManager # No edits
