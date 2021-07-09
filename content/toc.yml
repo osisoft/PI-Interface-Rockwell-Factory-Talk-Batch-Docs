@@ -3,49 +3,54 @@
   items:
   - topicUid: BIF_SupportedFeatures # Customized for FactoryTalk
   - topicUid: BIF_ReferenceManuals # No edits
-# Batch Interface Overview
-- topicUid: BIF_Overview # No edits
-# Interface Configuration
-- topicUid: BIF_InterfaceConfiguration # Customized for FactoryTalk
+  - topicUid: BIF_Overview # No edits
+# Installation Prerequisites
+- topicUid: BIF_InstallationPrerequisites # No edits
   items: 
+  - topicUid: BIF_InterfaceConfiguration # Customized for FactoryTalk
   - topicUid: BIF_CreateAndConfigureInterfaceInstance # No edits
-  - topicUid: BIF_ConfigureInstancesForFailover # No edits
-  - topicUid: BIF_PIServerConnectivity # No edits
-  - topicUid: BIF_LoggingAndErrorMessages # No edits
   - topicUid: BIF_SecurityOverview # No edits
     items:
       - topicUid: BIF_AssignPermissions # No edits
       - topicUid: BIF_ConfigureSecurityForPIAF # No edits
       - topicUid: BIF_ConfigureSecurityForPIDataArchive # No edits
+  - topicUid: BIF_ConfigureInstancesForFailover # No edits
+  - topicUid: BIF_PIServerConnectivity # No edits
+  - topicUid: BIF_LoggingAndErrorMessages # No edits
 # How Batch Interfaces Work
 - topicUid: BIF_HowBatchInterfacesWork # No edits
   items:
-  - topicUid: BIF_InterfaceModes # No edits
   - topicUid: BIF_HowInterfacesProcessBatchEventData # Customized for FactoryTalk
-  - topicUid: BIF_EquipmentArbitrationEventsUnavailable # No edits
   - topicUid: BIF_HowBatchDataIsStored # No edits
     items:
     - topicUid: BIF_ThePIBatchDatabase # No edits
     - topicUid: BIF_EventFrames # Customized for FactoryTalk
     - topicUid: BIF_EquipmentHierarchy # No edits
-    - topicUid: BIF_HowToMergeMultipleSourceBatches # Customized for FactoryTalk
+  - topicUid: BIF_EquipmentArbitrationEventsUnavailable # No edits
   - topicUid: BIF_TemplatesForMappingDataSourceEvents # No edits
-  - topicUid: BIF_PlaceholdersAndAdvancedParsing # No edits
-  - topicUid: BIF_FilterIncomingEvents # No edits
-  - topicUid: BIF_PropertyTemplates # No edits
-  - topicUid: BIF_RecipeTemplates # No edits
     items:
-    - topicUid: BIF_RecipeTemplateExamples # No edits
-  - topicUid: BIF_TagTemplates # No edits
-    items:
+    - topicUid: BIF_PlaceholdersAndAdvancedParsing # No edits
+    - topicUid: BIF_TagTemplates # No edits
     - topicUid: BIF_TagTemplateExamples # No edits
-  - topicUid: BIF_TemplatesForMappingDataSourceEvents # No edits
-  - topicUid: BIF_TranslateForeignLanguageData # No edits
+    - topicUid: BIF_LinkTemplates # No edits
+    - topicUid: BIF_PropertyTemplates # No edits
+    - topicUid: BIF_RecipeTemplates # No edits
+    - topicUid: BIF_RecipeTemplateExamples # No edits
+    - topicUid: BIF_FilterIncomingEvents # No edits
+    - topicUid: BIF_TranslateForeignLanguageData # No edits
+  - topicUid: BIF_InterfaceModes # No edits
 # Specific Considerations
 - topicUid: BIF_Interface # Customized for FactoryTalk
   items:
   - topicUid: BIF_DataSources # Customized for FactoryTalk
+  - topicUid: BIF_Databases # No edits
   - topicUid: BIF_StartAndStopEvents # Customized for FactoryTalk
+  - topicUid: BIF_EventFilePIBatchProcedure # No edits
+  - topicUid: BIF_EventFilePIBatchUnitProcedure # No edits
+  - topicUid: BIF_EventFileOperation # No edits
+  - topicUid: BIF_EventFilePhase # No edits
+  - topicUid: BIF_EventFilePhaseState # No edits
+  - topicUid: BIF_EventFilePhaseStep # No edits
   - topicUid: BIF_TemplatePlaceholders # Customized for FactoryTalk
 # PI Event Frames Interface Manager
 - topicUid: BIF_PIEventFramesInterfaceManager # No edits
@@ -56,6 +61,15 @@
     - topicUid: BIF_WindowsCredentialManagerAuthentication # Customized for FactoryTalk
   - topicUid: BIF_SourceTab # Customized for FactoryTalk
   - topicUid: BIF_TemplatesTab # Customized for FactoryTalk
+    items:
+    - topicUid: BIF_PropertyTemplatesEFIM # No edits
+    - topicUid: BIF_RecipeTemplatesEFIM # No edits
+    - topicUid: BIF_TagTemplatesEFIM # No edits
+    - topicUid: BIF_DefineAttributeTemplates # No edits
+  - topicUid: BIF_CreateTemplatePlaceholders # No edits
+  - topicUid: BIF_ConfigureTagTemplates # No edits
+  - topicUid: BIF_DefineRecipeTemplates # No edits
+  - topicUid: BIF_EventFramesLinkTemplates # No edits
   - topicUid: BIF_FiltersTab # No edits
   - topicUid: BIF_TimeSettingsTab # No edits
   - topicUid: BIF_BatchSetupTab # No edits
@@ -63,12 +77,17 @@
   - topicUid: BIF_OperationalSettingsTab # Minor edits
   - topicUid: BIF_TestConfigurationTab # No edits
   - topicUid: BIF_ServiceConfigurationTab # No edits
+  # missing "configure-tab-templates.md"
 # Command Line Parameters
 - topicUid: BIF_CommandLineParameterReference # Customized for FactoryTalk
-# Event file monitor utility
-- topicUid: BIF_EventFileMonitorUtility # No edits
+# Initialization File References
+- topicUid: BIF_InitializationFileReference # No edits
+  items:
+  - topicUid: BIF_InitializationFileExamples # No edits
 # Diagnostic Point Reference
 - topicUid: BIF_DiagnosticPointReference # No edits
+# Event file monitor utility
+- topicUid: BIF_EventFileMonitorUtility # No edits
 # Glossary
 - topicUid: BIF_Glossary # No edits
 # Technical Support and Feedback
