@@ -77,7 +77,7 @@
   - topicUid: BIF_OperationalSettingsTab # Minor edits
   - topicUid: BIF_TestConfigurationTab # No edits
   - topicUid: BIF_ServiceConfigurationTab # No edits
-  # missing "configure-tab-templates"
+  # missing "configure-tab-templates.md"
 # Command Line Parameters
 - topicUid: BIF_CommandLineParameterReference # Customized for FactoryTalk
 # Initialization File References
