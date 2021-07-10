@@ -26,7 +26,11 @@ The interface installation directory contains all the files and folders required
 
 The interface can run on the same computer as the BES or on a dedicated node. To avoid affecting the performance of the PI Data Archive, do not install the interface on the same computer as the PI Data Archive. When installing the interface, reserve the C: drive for the operating system, and install the interface on another drive.
 
+<!-- Flag -->
+
 If the data source is Microsoft SQL Server, you must install the Microsoft SQL Native Client on the interface node. You can download the client from the MSDN web site. If the data source is an Oracle database, you must install the corresponding version of Oracle Provider for OLE DB.
+
+<!-- /Flag -->
 
 To configure the interface, use the PI Event Frame Manager configuration tool.
     
