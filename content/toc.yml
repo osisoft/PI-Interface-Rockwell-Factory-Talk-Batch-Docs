@@ -6,8 +6,9 @@
   - topicUid: BIF_ReferenceManuals # No edits
   - topicUid: BIF_Overview # No edits
 # Installation Prerequisites
-- topicUid: BIF_InstallationPrerequisites # No edits
+- name: Installation  
   items: 
+  - topicUid: BIF_InstallationPrerequisites # No edits
   - topicUid: BIF_SecurityOverview # No edits
     items:
       - topicUid: BIF_AssignPermissions # No edits
