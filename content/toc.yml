@@ -17,8 +17,6 @@
   - topicUid: BIF_CreateAndConfigureInterfaceInstance # No edits
   - topicUid: BIF_ConfigureInstancesForFailover # No edits
   - topicUid: BIF_InterfaceConfiguration # Customized for FactoryTalk
-  - topicUid: BIF_PIServerConnectivity # No edits
-  - topicUid: BIF_LoggingAndErrorMessages # No edits
 # How Batch Interfaces Work
 - topicUid: BIF_HowBatchInterfacesWork # No edits
   items:
@@ -82,6 +80,12 @@
   - topicUid: BIF_TestConfigurationTab # No edits
   - topicUid: BIF_ServiceConfigurationTab # No edits
   # missing "configure-tab-templates.md"
+# Troubleshooting
+- name: Troubleshooting
+  items:
+  - topicUid: BIF_PIServerConnectivity # No edits
+  - topicUid: BIF_LoggingAndErrorMessages # No edits
+
 # Command Line Parameters
 - topicUid: BIF_CommandLineParameterReference # Customized for FactoryTalk
 # Initialization File References
