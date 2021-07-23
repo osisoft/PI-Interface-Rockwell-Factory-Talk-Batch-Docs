@@ -9,7 +9,6 @@ This section details the procedure for configuring tag templates. The tables in 
 
 1. To create or update PI tags when specified events are read, configure tag templates.
 
-
 1. To define tag templates using PI Event Frame Interface Manager, go to the **Templates** page and click the **Tag** tab.
 
 1. To configure the name of the tag to be created or updated, specify the **Name** field. To assign tag names based on incoming data, use placeholders.
