@@ -1,24 +1,22 @@
 ---
 uid: BIF_TagTemplates
+framework: customized for FactoryTalk
 ---
 
 # Tag templates
 
-<!-- No edits -->
-
-This section details the procedure for configuring tag templates. The tables in steps 7 and 8 define specific tag template settings and configurations to ensure that tag templates capture updates to PI Batch Database.
+This section details the procedure for configuring tag templates. The tables in steps 6 and 7 define specific tag template settings and configurations to ensure that tag templates capture updates to PI Batch Database.
 
 1. To create or update PI tags when specified events are read, configure tag templates.
 
-2. To create or update PI tags based on alarms read from an Emerson DeltaV Event Chronicle (alarms & events) data source, configure alarm tag templates.
 
-3. To define tag templates using PI Event Frame Interface Manager, go to the **Templates** page and click the **Tag** tab.
+1. To define tag templates using PI Event Frame Interface Manager, go to the **Templates** page and click the **Tag** tab.
 
-4. To configure the name of the tag to be created or updated, specify the **Name** field. To assign tag names based on incoming data, use placeholders.
+1. To configure the name of the tag to be created or updated, specify the **Name** field. To assign tag names based on incoming data, use placeholders.
 
     For example, to track phase module report events on a per-unit basis, you might configure the name as follows:
     
-    `[Unit] [phasemodule] Report`
+    `[UNIT] [PHASEMODULE] Report`
     
     With the preceding template, when the interface reads a report event for the NORTON phase module on unit XUNIT_52003, it replaces the placeholders with data from the specified fields and creates or updates a PI tag with the following name:
     
@@ -28,7 +26,7 @@ This section details the procedure for configuring tag templates. The tables in 
 
     Different templates can update the same PI tag, if the templates' name structure resolves to the same tag. This capability enables you to write different values to the tag depending on the nature of the triggering event. For example, a value of 1 can be written to the tag when a unit procedure starts and a value of 0 can be written to the same tag when the unit procedure ends.
 
-5. To specify the data to be written to the tag, configure the **Value** field. To include data read from the data source in the tag value, use placeholders.
+1. To specify the data to be written to the tag, configure the **Value** field. To include data read from the data source in the tag value, use placeholders.
 
     For example, to simply record the incoming value without transforming it, specify the [PVAL] placeholder. A more complex example: to configure a value that concatenates phase module, event, description, incoming value and engineering units, specify the following:
     
@@ -40,7 +38,7 @@ This section details the procedure for configuring tag templates. The tables in 
     
     Unlike placeholders in tag names, value placeholders can be replaced with empty fields from the incoming event, unless you use advanced field parsing to configure the value.
     
-6. To update a tag when a particular event is read from the data source, specify the EVENT keyword in the **Name** field, as follows:
+1. To update a tag when a particular event is read from the data source, specify the EVENT keyword in the **Name** field, as follows:
 
     `[EVENT, VALUE="event_text"]`
     
@@ -58,7 +56,7 @@ This section details the procedure for configuring tag templates. The tables in 
     
     You can use wildcards to specify pattern-matching expressions in triggers.
 
-7. To configure the tag template settings, specify settings as described in the following table:
+1. To configure the tag template settings, specify settings as described in the following table:
 
     | Setting | Description |
     |--|--|
@@ -74,7 +72,7 @@ This section details the procedure for configuring tag templates. The tables in 
     | **ANNOTATION** | Simple annotation to be written to the tag when the interface updates it. |
     | **ANNOTATION2** | Structured annotation to be written to the tag when the interface updates it. For details about structured annotations, refer to the PI Data Archive System Management Guide. |
 
-8. To configure tag templates that catch events raised by the interface when it updates the PI Batch Database, specify the following placeholders in the TRIGGER setting of the tag template:
+1. To configure tag templates that catch events raised by the interface when it updates the PI Batch Database, specify the following placeholders in the TRIGGER setting of the tag template:
 
     | Placeholder | Values | Description |
     |--|--|--|
