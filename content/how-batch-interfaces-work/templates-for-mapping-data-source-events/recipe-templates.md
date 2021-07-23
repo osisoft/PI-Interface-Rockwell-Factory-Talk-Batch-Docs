@@ -24,7 +24,7 @@ The interface includes a set of built-in default recipe templates that control t
     **TRANSLATE** | (Optional) To enable translation, set to `TRUE`. Default: `FALSE`
     **MERGE** | (Optional) To merge identically named objects under the same parent, set to `TRUE`. Default: `FALSE`
 
-    For more information on the placeholders supported for each setting, see <xref:BIF_TemplatePlaceholders>
+    For more information on the placeholders supported for each setting, see <xref:BIF_TemplatePlaceholders>.
 
 
 4. For event frames, you can configure the following settings.
