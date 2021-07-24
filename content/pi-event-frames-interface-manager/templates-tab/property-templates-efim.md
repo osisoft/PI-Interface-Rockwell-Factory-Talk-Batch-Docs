@@ -4,6 +4,8 @@ uid: BIF_PropertyTemplatesEFIM
 
 # Property templates
 
+<!-- Customized for FactoryTalk. Removed "UOM" option and "Advanced Features"-->
+
 Property templates enable you to configure how data from the data source is written to event frame attributes or batch database properties. Each interface provides a set of default properties, which contain commonly-desired data. To add these properties, right-click the **Property Templates** node and choose **Add Default Templates**.
 
 ## Configuration
@@ -38,20 +40,3 @@ PI data type of the value. Note that if the incoming value is incompatible with 
 
 Maps text from the data source to the text that you want to record in the PI System. 
 
-### UOM
-    
-Unit of measure to be used to store value, if different from unit provided by data source. 
-
-## Advanced features
-
-### Descriptor
-    
-Populates the tag's Descriptor field. 
-
-### Engineering units
-    
-Unit of measurement. 
-
-### Category
-    
-Specifies the PI AF category to be associated with the value. 
