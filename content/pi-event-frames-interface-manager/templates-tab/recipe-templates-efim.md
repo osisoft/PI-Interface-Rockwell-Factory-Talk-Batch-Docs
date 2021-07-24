@@ -29,7 +29,15 @@ Defines the naming convention used by the interface to assign names to batch eve
 
 For example: abc_[Procedure] If the incoming event's [Procedure] field contains "Test", the resulting procedure **Recipe** field is "abc_Test".
 
+### Translate
+
+Maps text from the data source to the text that you want to record in the PI System. 
+
 ## Advanced features
+
+### Descriptor
+    
+Populates the tag's Descriptor field. 
 
 ### Batch ID
 
@@ -37,27 +45,32 @@ Configures the batch ID of the particular recipe object, overriding the incoming
         
 **Note:** If you use a recipe template to set the batch ID, the recipe template overrides any batch ID mask you might have configured to enable merging of batches.
 
-### Module/Element Path
-
-Specifies the location in the PI module or AF element hierarchy where the unit or phase module resides. Valid for unit procedure (level 2) and phase (level 4). 
 
 ### Product
 
 Specifies the product of the particular recipe object. Supports the procedure and unit procedure [Product] fields, which must be present in the source event that creates the batch. If a product trigger is not defined, this template is populated based on the data in the event that creates the particular Recipe object. 
 
-### Product Trigger
+### Product trigger
 
 Populates the [Product] field of the particular recipe object after the object is created, which is useful if the product is defined in a separate event.
 
 For example: `[Parameter, Value="Recipe Header"] [Descript, value="Product Name"]`.
 
-### Event Frame Template
+### Select event frame template
 
 (Event frames only) Specifies the AF template to be used to create event frames for this recipe. 
 
-### Category
+### Select category
 
 (Event frames only) Specifies the AF category to be applied to the event frame. 
+
+### AllowEmptyValue 
+
+<!-- Help wanted -->
+
+### Tag path 
+
+<!-- Help wanted -->
 
 ### Merge same named objects under parent
 
