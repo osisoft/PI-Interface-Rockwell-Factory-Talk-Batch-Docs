@@ -45,6 +45,9 @@ Configures the batch ID of the particular recipe object, overriding the incoming
         
 **Note:** If you use a recipe template to set the batch ID, the recipe template overrides any batch ID mask you might have configured to enable merging of batches.
 
+### Element Path
+
+Specifies the location in the PI module or AF element hierarchy where the unit or phase module resides. Valid for unit procedure (level 2) and phase (level 4). 
 
 ### Product
 
