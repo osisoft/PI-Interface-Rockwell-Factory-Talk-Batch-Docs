@@ -51,7 +51,11 @@ Specifies the numeric interface instance identifier (maximum nine digits). To de
 
 ### Point source (/PS=x)
     
-Point source for the interface instance. Point source is not case sensitive. Corresponds to the PointSource attribute of individual PI points. The interface loads PI points with the same point source. 
+Point source for the interface instance. Point source is not case sensitive. Corresponds to the PointSource attribute of individual PI points. The interface loads PI points with the same point source.
+
+### Associate all reference elements with child Event Frames
+
+<!-- Help Wanted -->
 
 ## Failover settings
 
@@ -76,3 +80,7 @@ Override the default point security created by the interface. Click **Change** t
 ### Specify data security (/DATASEC=x)
 
 Override the default data security of PI points created by the interface. Click Change to open the Change security window. 
+
+### Event frames inherit security setting from the primary reference element 
+
+<!-- Help Wanted -->
