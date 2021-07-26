@@ -59,8 +59,6 @@
 - topicUid: BIF_PIEventFramesInterfaceManager # No edits
   items:
   - topicUid: BIF_InterfaceSelectionTab # No edits
-    items:
-    - topicUid: BIF_CreateANewInstanceOfThePIEFGenInterface # No edits
   - topicUid: BIF_ServerInformationTab # Customized for FactoryTalk
     items:
     - topicUid: BIF_WindowsCredentialManagerAuthentication # Customized for FactoryTalk
