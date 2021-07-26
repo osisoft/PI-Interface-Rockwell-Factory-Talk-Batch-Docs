@@ -32,7 +32,7 @@ The interface performs one scan of active points, then exits.
     
 Print the results of the first scan to the specified text file. The results include the event frame hierarchy tree, the tag list, and the equipment tree. This parameter is designed primarily for troubleshooting and configuration testing when the interface is run in statistics mode. Enter a name for the scan in the field provided (for example, `C:\Users\jdoe\Documents\PIWPASXBatch1_stat.dat`). You have the option of clicking **Select file** to browse to the file path. 
 
-### Local debug messages (/DB=<#>)
+### Log debug messages (/DB=<#>)
 
 Specifies level of detail for logging as follows:
 
