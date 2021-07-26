@@ -136,7 +136,7 @@ Examples:
 
 ### `/link =<AF element path>`
 
-(Deprecated, see /readlink and /writelink.) Combine event frames from different interface instances. Useful when you have an MES controlling multiple BESs. Configure an interface instance for each BES, specifying the same linkage element. The BES interface instances create event frame references under the MES event frames that refer to the BES interface instances. For Emerson Syncade systems, the AutomationBatchID field must match the batchID of the batch created by the BES.
+(Deprecated, see /readlink and /writelink.) Combine event frames from different interface instances. Useful when you have an MES controlling multiple BESs. Configure an interface instance for each BES, specifying the same linkage element. The BES interface instances create event frame references under the MES event frames that refer to the BES interface instances. <!-- For Emerson Syncade systems, the AutomationBatchID field must match the batchID of the batch created by the BES. -->
 
 ### `/maxqtf =<days>`
 
@@ -285,7 +285,7 @@ If the Descript Column contains TEST123-STRT-B, the interface generates a phase 
 
 ### `/readlink= <AFelementpath>`
 
-Combine event frames from different interface instances. For an MES controlling one or more BES systems, configure /readlink on the MES interface and configure an interface instance for each BES, specifying the same linkage element in the BES /writelink setting. The BES interface instances will then create event frame references under the MES event frames that refer to the BES event frames. For Emerson Syncade systems, the AutomationBatchID field must match the batchID of the batch created by the BES.
+Combine event frames from different interface instances. For an MES controlling one or more BES systems, configure /readlink on the MES interface and configure an interface instance for each BES, specifying the same linkage element in the BES /writelink setting. The BES interface instances will then create event frame references under the MES event frames that refer to the BES event frames. <!-- For Emerson Syncade systems, the AutomationBatchID field must match the batchID of the batch created by the BES.-->
 
 For a BES interface controlling one or more MES systems, configure /readlink on the MES interface and configure an interface instance for each BES, specifying the same linkage element in the BES /writelink setting. The MES interface will then create event frame references under the BES event frames that refer to the MES event frames. Link templates must also be configured to define which events specify a link.
 
@@ -312,9 +312,9 @@ Specifies how long the interface retries a failed attempt to write data before t
 
 (Optional) Specifies recovery start time. The interface recovers batches that start after the specified time, as well as batches that start before the specified time but end after it. Specify the time using the interface node format and time zone.
 
-### `/rti`
+<!-- ### `/rti`
 
-Remove trailing index from Recipe fields. Applicable to Procedure, Unit Procedure and Operation Recipe fields. Emerson EVT data source only.
+Remove trailing index from Recipe fields. Applicable to Procedure, Unit Procedure and Operation Recipe fields. Emerson EVT data source only. -->
 
 ### `/scan =<seconds>`
 
@@ -350,9 +350,9 @@ Remove trailing index from Recipe fields. Applicable to Procedure, Unit Procedur
 
 (Optional) Directs the interface to use top level recipe start/end events for creating batch objects. By default, the interface uses batch load/unload events. Intended for batches with S88 recipe types: Procedure, Unit Procedure, Operation, and Phase.
 
-### `/ts=GMT | LCL` 
+<!-- ### `/ts=GMT | LCL` 
 
-(Optional) Specifies how the interface interprets event timestamps from an SQL data source. Options are local time or GMT. Default is GMT.
+(Optional) Specifies how the interface interprets event timestamps from an SQL data source. Options are local time or GMT. Default is GMT. -->
 
 <!-- ### `/uobev` (DeltaV SQL 9.3+ only)
 
@@ -382,6 +382,6 @@ Added in version 4.0.30. -->
 
 ### `/writelink= <AFelementpath>` 
 
-Combine event frames from different interface instances. For an MES controlling one or more BES systems, configure /writelink on the MES interface and configure an interface instance for each BES, specifying the same linkage element in the BES /readlink setting. The BES interface instances will then create event frame references under the MES event frames that refer to the BES event frames. For Emerson Syncade systems, the AutomationBatchID field must match the batchID of the batch created by the BES.
+Combine event frames from different interface instances. For an MES controlling one or more BES systems, configure /writelink on the MES interface and configure an interface instance for each BES, specifying the same linkage element in the BES /readlink setting. The BES interface instances will then create event frame references under the MES event frames that refer to the BES event frames. <!-- For Emerson Syncade systems, the AutomationBatchID field must match the batchID of the batch created by the BES. -->
 
 For a BES interface controlling one or more MES systems, configure /readlink on the MES interface and configure an interface instance for each BES, specifying the same linkage element in the BES /writelink setting. The MES interface will then create event frame references under the BES event frames that refer to the MES event frames. Link templates must also be configured to define which events specify a link.
