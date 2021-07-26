@@ -4,7 +4,7 @@ uid: BIF_BatchSetupTab
 
 # Batch Setup tab
 
-<!-- Topic requires customization for specific interface -->
+<!-- Customized for FactoryTalk -->
 
 Use the settings on this tab to identify the elements for various batch settings.
 
@@ -12,9 +12,17 @@ Use the settings on this tab to identify the elements for various batch settings
 
 Select this option and then set a Start and an End date. 
 
-## Alternate PI module path
+## Alternate PI AF element path
 
-Select this option to specify an alternate PI Module path or PI AF element path for a particular equipment hierarchy. Click Find module to open the Browse to PI Module Path window to navigate to the desired PI module. Select the PI Module to display the path in the Module path field, then click OK. 
+Select this option to specify an alternate PI AF element path for a particular equipment hierarchy. Click **Find element** to navigate to the desired PI AF element path. Select the PI AF element path to display the path in the Module path field, then click OK.
+
+## Link to child event frames
+
+<!-- Help Wanted -->
+
+## Link from parent event frames
+
+<!-- Help Wanted -->
 
 ## Disable arbitration
 
@@ -31,3 +39,7 @@ Select this option to use top level recipe start/end events for creating batch o
 ## Allow deferred units
     
 Select this option to enable the creation of unit batches for recipes in units that are allocated at the phase level rather than the unit batch level.
+
+## Enable equipment history
+
+<!-- Help wanted -->
