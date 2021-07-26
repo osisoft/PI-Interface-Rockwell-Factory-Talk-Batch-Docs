@@ -42,4 +42,8 @@ Select this option to enable the creation of unit batches for recipes in units t
 
 ## Enable equipment history
 
+<<<<<<< HEAD
 - <!-- Help wanted -->
+=======
+<!-- Help wanted -->
+>>>>>>> 83f54401bd04b73e3827e5aaea4c4f60f6a73f07
