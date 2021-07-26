@@ -45,7 +45,7 @@ Specifies the maximum time allowed for the interface to properly shutdown. If th
 
 Specifies whether timestamps from an SQL data source are interpreted as local time or GMT. By default, timestamps are interpreted as GMT. 
 
-## PI connection settings
+## PI Data Archive connection settings
 
 ### PI connection timeout (/PICONNTO=<seconds>)
 
