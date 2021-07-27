@@ -59,12 +59,12 @@ Source[1].sqlserver = deltav10 Source[1].database = DVHisDB Source[2].sqlserver 
 
 The following headings describe the parameters for data source templates.
 
-#### `cursor= client | server` 
+<!-- #### `cursor= client | server` 
 
 Optional for SQL data source. Available in DeltaV 9.3+.
 
 * Client (default): The interface retrieves complete dataset prior to processing. High memory consumption on interface node.
-* Server: The interface requests and processes one dataset record at a time. Reduces interface node memory consumption.
+* Server: The interface requests and processes one dataset record at a time. Reduces interface node memory consumption. -->
 
 #### `evtdir=<path>`
 
@@ -86,11 +86,11 @@ Examples:
 excludestates=COMPLETED,AB*ING,IDLING, COMPLE*
 ```
 
-#### `isAE=true`
+<!-- #### `isAE=true`
 
-Indicates that the data source is a DeltaV Alarms and Events server.
+Indicates that the data source is a DeltaV Alarms and Events server. -->
 
-#### `opcnode=<node name or IP address>`
+<!-- #### `opcnode=<node name or IP address>`
 
 Required for OPC alarms and events data source. Available in DeltaV 10.3 and higher. Specifies the host of the DeltaV OPCAE server is installed. If used with DeltaV SQL server, must be defined for the same source. 
 
@@ -101,7 +101,7 @@ Source[1].sqlserver = deltav10
 Source[1].sqldatabase = DVHisDB
 Source[1].opcnode = deltav10
 Source[1].opcserver = DeltaV.OPCEventServer.1
-```
+``` -->
 
 #### `opcserver=<server name>`
 
@@ -134,7 +134,7 @@ Example:
 ```text
 skipunits = unit_1, u*2
 ```
-
+<!-- 
 #### `sqlserver=<node name or IP address>`
 
 Required for SQL Server data source. Specifies the host where SQL Server is running. Available in DeltaV 9.3+.
@@ -149,7 +149,7 @@ For explicit login to SQL Server, password for user specified in sqluser setting
 
 #### `sqluser=<user name>` 
 
-User name for explicit login to SQL Server. By default the interface uses Windows authentication to connect to SQL Server.
+User name for explicit login to SQL Server. By default the interface uses Windows authentication to connect to SQL Server. -->
 
 ## Property template settings
 
