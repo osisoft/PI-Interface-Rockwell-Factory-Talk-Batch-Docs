@@ -237,7 +237,7 @@ Advanced parsing:
 Property[1].Value = [BatchID] | event: [*,value="State*"] | [Descript] | val: [Pval]
 ```
 
-**Note:** For SQL dta sources with the "Use original batch event view" option enabled (/UOBEV), you cannot use the [PVAL] or [EU] placeholders. To obtain this data you must parse it from the [DESCRIPT] placeholder.
+<!-- **Note:** For SQL data sources with the "Use original batch event view" option enabled (/UOBEV), you cannot use the [PVAL] or [EU] placeholders. To obtain this data you must parse it from the [DESCRIPT] placeholder. -->
 
 **Valid Placeholders**
 
