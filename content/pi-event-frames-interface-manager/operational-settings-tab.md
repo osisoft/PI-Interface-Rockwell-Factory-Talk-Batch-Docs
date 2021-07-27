@@ -4,7 +4,7 @@ uid: BIF_OperationalSettingsTab
 
 # Operational Settings tab
 
-<!-- No edits -->
+<!-- Customized for FactoryTalk. Added descriptions for "Associate all reference elements with child frames" and "Event Frames inherit security settings from the primary reference element" -->
 
 Modify the settings on the Operational Settings tab to configure the interface mode and other related settings.
 
@@ -51,7 +51,11 @@ Specifies the numeric interface instance identifier (maximum nine digits). To de
 
 ### Point source (/PS=x)
     
-Point source for the interface instance. Point source is not case sensitive. Corresponds to the PointSource attribute of individual PI points. The interface loads PI points with the same point source. 
+Point source for the interface instance. Point source is not case sensitive. Corresponds to the PointSource attribute of individual PI points. The interface loads PI points with the same point source.
+
+### Associate all reference elements with child Event Frames (/PRETC=x)
+
+Disable propagation of reference elements to children. By Default, the interface propagates each event frame element reference to its child event frames.
 
 ## Failover settings
 
@@ -76,3 +80,7 @@ Override the default point security created by the interface. Click **Change** t
 ### Specify data security (/DATASEC=x)
 
 Override the default data security of PI points created by the interface. Click Change to open the Change security window. 
+
+### Event frames inherit security setting from the primary reference element 
+
+The security model from the Reference Element will be applied to any corresponding Event Frames linked to it.
