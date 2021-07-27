@@ -2,7 +2,7 @@
 uid: BIF_CreateANewInstanceOfThePIEFGenInterface
 ---
 
-# Create a new instance of the PI EFGen interface
+# Create a new instance of the [!include[interface](../../includes/interface-name.md)]
 
 1. Click **Add Interface**. 
 
@@ -12,4 +12,4 @@ uid: BIF_CreateANewInstanceOfThePIEFGenInterface
 
 3. Click **OK**. 
 
-    The Interface field displays the name of the PI EFGen instance that you created.
+    The Interface field displays the name of the [!include[interface](../../includes/interface-name.md)] instance that you created.
