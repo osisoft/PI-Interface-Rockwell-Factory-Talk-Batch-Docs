@@ -9,16 +9,16 @@ uid: BIF_SupportedFeatures
 
 | Feature | Support |
 | ------- | ------- |
-| Auto-creates PI Points and equipment assets? | Yes |
+| Auto-creates PI points and equipment assets? | Yes |
 | Point Builder Utility | No |
 | Stores batch data in PIBatch Database and PI Module Database | No |
 | Stores batch data in PI AF | Yes |
 | Supports equipment arbitration events | No |
 | ICU Control | No (use PI Event Frame Interface Manager configuration tool) |
-| PI Point Data Types | Int32/ Float32/ String |
+| PI point Data Types | Int32/ Float32/ String |
 | Sub-second Timestamps | Yes |
 | Sub-second Scan Classes | No |
-| Automatically Incorporates Changes to PI Point Attributes | No |
+| Automatically Incorporates Changes to PI point Attributes | No |
 | Exception Reporting | No |
 | Outputs from PI | No |
 | Inputs to PI | Event and Scan-based |
