@@ -10,7 +10,12 @@ Mark Bishop 6/28/21: There's some questionable content in this topic referencing
 
 -->
 
-The start and end times set by the interface depend on the type of data source and whether the "Use Batch Recipe" (UBR) option is enabled. The UBR option is provided for backward compatibility with the PI EVT File interface.) The sections below provide details about how the interface determines start and end times.
+The start and end times set by the interface depend on:
+
+* The type of data source
+* Whether you enable the **Use Batch Recipe** (UBR) option. 
+
+Enable the UBR option to provide backward compatibility with the PI EVT File interface. The sections below provide details about how the interface determines start and end times.
 
 ## Event Files Data Source
 
