@@ -126,7 +126,7 @@ Examples:
 
 ### `/id =<identifier>`
 
-(Required) Specify a one- to nine-number identifier for the interface instance. Assigned to the Location1 attribute of tags that are updated by the interface instance.
+(Required) Specify a one- to nine-number identifier for the interface instance. Assigned to the Location1 attribute of tags that the interface instance updates.
 
 ### `/includeincompletedata`
 
@@ -172,7 +172,7 @@ With merging enabled, only the CleaningTest batches are merged. To merge the oth
 
 (Optional) Valid modes are as follows:
 
-* **Realtime:** (Default) Real-time data collection. If a recovery start time is specified (`/rst`), the interface recovers data before starting realtime collection.
+* **Realtime:** (Default) Real-time data collection. If a recovery start time is specified (`/rst`), the interface recovers data before starting real-time collection.
 
 * **Stat:** Statistics mode. Compare source data with the corresponding PI System batch data. The interface does not write to or modify any data PI batch data. On completion, the interface reports results and stops.
 
@@ -182,11 +182,11 @@ With merging enabled, only the CleaningTest batches are merged. To merge the oth
   
 ### `/mop`
 
-(Optional) Merge identically-named operations under the same parent unit procedure. The start time of the combined operation is the start of the earliest operation and the end time is the end time of the latest or longest operation that was merged.
+(Optional) Merge identically named operations under the same parent unit procedure. The start time of the combined operation is the start of the earliest operation and the end time is the end time of the latest or longest operation that was merged.
 
 ### `/mup`
 
-(Optional) Merge identically-named sequential unit procedures running on the same unit into a single unit procedure. Unit procedures are not merged if the unit was used by another recipe between candidates for merging. The start time of the resulting merged unit procedure is the start of the earliest unit procedure, and the end time is the end time of the latest or longest unit procedure that was merged.
+(Optional) Merge identically named sequential unit procedures running on the same unit into a single unit procedure. Unit procedures are not merged if the unit was used by another recipe between candidates for merging. The start time of the resulting merged unit procedure is the start of the earliest unit procedure, and the end time is the end time of the latest or longest unit procedure that was merged.
 
 ### `/noarbitration`
 
@@ -316,7 +316,7 @@ Specifies how long the interface retries a failed attempt to write data before t
 
 ### `/rti`
 
-Remove trailing index from Recipe fields. Applicable to Procedure, Unit Procedure and Operation Recipe fields. Emerson EVT data source only.
+Remove trailing index from Recipe fields. Applicable to Procedure, Unit Procedure, and Operation Recipe fields. Emerson EVT data source only.
 
 ### `/scan =<seconds>`
 
@@ -386,4 +386,4 @@ Added in version 4.0.30. -->
 
 Combine event frames from different interface instances. For an MES controlling one or more BES systems, configure `/writelink` on the MES interface and configure an interface instance for each BES, specifying the same linkage element in the BES `/readlink` setting. The BES interface instances will then create event frame references under the MES event frames that refer to the BES event frames. For Emerson Syncade systems, the AutomationBatchID field must match the batchID of the batch created by the BES.
 
-For a BES interface controlling one or more MES systems, configure `/readlink` on the MES interface and configure an interface instance for each BES, specifying the same linkage element in the BES `/writelink` setting. The MES interface will then create event frame references under the BES event frames that refer to the MES event frames. Link templates must also be configured to define which events specify a link.
+For a BES interface controlling one or more MES systems, configure `/readlink` on the MES interface and configure an interface instance for each BES, specifying the same linkage element in the BES `/writelink` setting. The MES interface will then create event frame references under the BES event frames that refer to the MES event frames. You must configure Link templates to define which events specify a link.
