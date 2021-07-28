@@ -15,7 +15,7 @@ The start and end times set by the interface depend on:
 * The type of data source
 * Whether you enable the **Use Batch Recipe** (UBR) option. 
 
-Enable the UBR option to provide backward compatibility with the PI EVT File interface. The sections below provide details about how the interface determines start and end times.
+    Enable the UBR option to provide backward compatibility with the PI EVT File interface. The sections below provide details about how the interface determines start and end times.
 
 ## Event Files Data Source
 
@@ -30,7 +30,7 @@ The interface detects start and end events by scanning the [EVENT] field for "St
 | Operation | "RUNNING" | "COMPLETE", "STOPPED", or "ABORTED" |  |
 | Phase | "RUNNING" | "COMPLETE", "STOPPED", or "ABORTED" |  |
 | Phase state | "RUNNING" | n/a | The start of a phase state ends any preceding phase state. If the interface detects multiple start or end events for the same phase state, it uses the first event. |
-| Phase step | n/a | n/a | To enable phase steps, specify the /RAS flag in the INI file or, using PI Event Frames Interface Manager, go to the Batch Setup page and enable Report As Step and specify start and end text. Phase steps do not create higher-level procedures, unit procedures, and so on, if a parent phase is not found. If no phase step close event is found, the phase step is closed when its parent operation is closed. The interface ignores any zero-duration phase steps. |
+| Phase step | n/a | n/a | To enable phase steps, specify the [/RAS flag](xref:BIF_CommandLineParameterReference#ras-startstr-stopstr) in the INI file or, using PI Event Frames Interface Manager, go to the [Batch Setup page](xref:BIF_BatchSetupTab#report-as-step) and enable Report As Step and specify start and end text. Phase steps do not create higher-level procedures, unit procedures, and so on, if a parent phase is not found. If no phase step close event is found, the phase step is closed when its parent operation is closed. The interface ignores any zero-duration phase steps. |
 
 ## EVT File "Use batch recipe" (UBR) Enabled Start and Stop Events
 | Recipe Level | [EVENT] | [PVALUE] |
