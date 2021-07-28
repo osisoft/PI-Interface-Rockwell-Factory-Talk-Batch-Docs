@@ -601,7 +601,7 @@ Specifies the event that causes the interface to generate or update the tag. To 
 
 #### TRANSLATE 
 
-To specify that tag settings are to be translated according to the translation map you define, set this setting to TRUE.
+To translate the value according to the translation map that you define, set to TRUE.
 
 **Valid Placeholders**
 
