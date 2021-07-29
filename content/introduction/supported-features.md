@@ -9,6 +9,7 @@ uid: BIF_SupportedFeatures
 
 | Feature | Support |
 | ------- | ------- |
+| Part Number | PI-IN-RW-FTB-NTI |
 | Auto-creates PI points and equipment assets? | Yes |
 | Point Builder Utility | No |
 | Stores batch data in PI Batch Database and PI Module Database | No |
