@@ -24,7 +24,7 @@ Tag aliases enable you to associate PI tags with equipment assets (PI units or A
 | --------- | ------- |
 | Descriptor | Populates the descriptor field for the target PI tag. |
 | Engineering units | The engineering units for the data. 
-Unit Alias | Specifies an alias to be recorded under the Aliases node in the corresponding PIUnit or AF element. |
+| Unit Alias | Specifies an alias to be recorded under the Aliases node in the corresponding PIUnit or AF element. |
 | Phase Alias | Specifies an alias to be recorded under the Phases > Aliases node in the corresponding PIUnit or element. |
 | Annotation | Specifies the annotation to be associated with the event. The result is stored in a PI tag as a string. |
 | Use the NamedValues collection for annotations | Store annotations in a PI tag as a name-value collection. The name is derived from the event sent by the data source. |
