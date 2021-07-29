@@ -1,13 +1,13 @@
 # Introduction
 - topicUid: BIF_Introduction # Customized for FactoryTalk
   items:
-  - topicUid: BIF_InterfaceModes # No edits
   - topicUid: BIF_SupportedFeatures # Customized for FactoryTalk
   - topicUid: BIF_ReferenceManuals # No edits
   - topicUid: BIF_Overview # No edits
 # Installation Prerequisites
-- topicUid: BIF_InstallationPrerequisites # No edits
+- name: Installation  
   items: 
+  - topicUid: BIF_InstallationPrerequisites # No edits
   - topicUid: BIF_SecurityOverview # No edits
     items:
       - topicUid: BIF_AssignPermissions # No edits
@@ -17,8 +17,6 @@
   - topicUid: BIF_CreateAndConfigureInterfaceInstance # No edits
   - topicUid: BIF_ConfigureInstancesForFailover # No edits
   - topicUid: BIF_InterfaceConfiguration # Customized for FactoryTalk
-  - topicUid: BIF_PIServerConnectivity # No edits
-  - topicUid: BIF_LoggingAndErrorMessages # No edits
 # How Batch Interfaces Work
 - topicUid: BIF_HowBatchInterfacesWork # No edits
   items:
@@ -33,12 +31,12 @@
   - topicUid: BIF_TemplatesForMappingDataSourceEvents # No edits
     items:
     - topicUid: BIF_PlaceholdersAndAdvancedParsing # No edits
+    - topicUid: BIF_PropertyTemplates # No edits
+    - topicUid: BIF_RecipeTemplates # No edits
     - topicUid: BIF_TagTemplates # No edits
       items:
       - topicUid: BIF_TagTemplateExamples # No edits
-    - topicUid: BIF_LinkTemplates # No edits
-    - topicUid: BIF_PropertyTemplates # No edits
-    - topicUid: BIF_RecipeTemplates # No edits
+    - topicUid: BIF_Templates # No edits
       items:
       - topicUid: BIF_RecipeTemplateExamples # No edits
     - topicUid: BIF_FilterIncomingEvents # No edits
@@ -82,6 +80,11 @@
   - topicUid: BIF_TestConfigurationTab # No edits
   - topicUid: BIF_ServiceConfigurationTab # No edits
   # missing "configure-tab-templates.md"
+# Troubleshooting
+- name: Troubleshooting
+  items:
+  - topicUid: BIF_PIServerConnectivity # No edits
+  - topicUid: BIF_LoggingAndErrorMessages # No edits
 # Command Line Parameters
 - topicUid: BIF_CommandLineParameterReference # Customized for FactoryTalk
 # Initialization File References

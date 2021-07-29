@@ -4,7 +4,7 @@ uid: BIF_TagTemplatesEFIM
 
 # Tag templates
 
-Tag templates create and update PI tags when events are read from the data source. Alarm tag templates create and update PI tags based on alarms raised by Emerson DeltaV Event Chronicle (alarms and events historian). If you define one or more triggers, the target PI tag is updated only when the specified events occur. If you do not define any triggers, every event from the data source triggers an update of the target PI tag.
+Tag templates create and update PI tags when the interface reads from the data source. If you define one or more triggers, the interface updates target PI tag only when the specified events occur. If you do not define any triggers, every event from the data source triggers an update of the target PI tag.
 
 Tag aliases enable you to associate PI tags with equipment assets (PI units or AF elements). All batch interfaces support the creation of aliases at the unit batch and phase level. In addition, some batch interfaces permit you to define aliases at any level of the batch hierarchy by providing level-specific placeholders. For details, refer to the interface-specific section in this guide.
 
@@ -24,7 +24,7 @@ Tag aliases enable you to associate PI tags with equipment assets (PI units or A
 | --------- | ------- |
 | Descriptor | Populates the descriptor field for the target PI tag. |
 | Engineering units | The engineering units for the data. 
-Unit Alias | Specifies an alias to be recorded under the Aliases node in the corresponding PIUnit or AF element. |
+| Unit Alias | Specifies an alias to be recorded under the Aliases node in the corresponding PIUnit or AF element. |
 | Phase Alias | Specifies an alias to be recorded under the Phases > Aliases node in the corresponding PIUnit or element. |
 | Annotation | Specifies the annotation to be associated with the event. The result is stored in a PI tag as a string. |
 | Use the NamedValues collection for annotations | Store annotations in a PI tag as a name-value collection. The name is derived from the event sent by the data source. |

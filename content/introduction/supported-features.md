@@ -10,36 +10,36 @@ uid: BIF_SupportedFeatures
 | Feature | Support |
 | ------- | ------- |
 | Part Number | PI-IN-RW-FTB-NTI |
-| Auto-creates PI Points and equipment assets? | Yes |
+| Auto-creates PI points and equipment assets? | Yes |
 | Point Builder Utility | No |
-| Stores batch data in PIBatch Database and PI Module Database | No |
+| Stores batch data in PI Batch Database and PI Module Database | No |
 | Stores batch data in PI AF | Yes |
 | Supports equipment arbitration events | No |
-| ICU Control | No (use PI Event Frame Interface Manager configuration tool) |
-| PI Point Data Types | Int32/ Float32/ String |
-| Sub-second Timestamps | Yes |
-| Sub-second Scan Classes | No |
-| Automatically Incorporates Changes to PI Point Attributes | No |
-| Exception Reporting | No |
+| ICU control | No (use PI Event Frame Interface Manager configuration tool) |
+| PI point data types | Int32/ Float32/ String |
+| Sub-second timestamps | Yes |
+| Sub-second scan classes | No |
+| Automatically incorporates changes to PI point attributes | No |
+| Exception reporting | No |
 | Outputs from PI | No |
-| Inputs to PI | Event and Scan-based |
-| Supports Questionable Bit | No |
-| Supports Multi-character Pointsource | Yes |
-| Maximum Point Count | No maximum |
+| Inputs to PI | Event-based |
+| Supports questionable bit | No |
+| Supports multi-character pointsource | Yes |
+| Maximum point count | No maximum |
 | Uses PI SDK | Yes: version 1.3.4.333 or higher required|
 | Uses AF SDK | Yes: version 2.5.x or higher required |
-| PINet String Support | N/A |
-| Source of Timestamps | BES (not system time on interface node) |
-| History Recovery | Yes |
+| PINet string support | N/A |
+| Source of timestamps | BES (not system time on interface node) |
+| History recovery | Yes |
 | UniInt-based | No |
-| Disconnected Startup | No |
+| Disconnected startup | No |
 | SetDeviceStatus | Yes |
 | Failover | Yes |
-| Vendor Software Required on PI Interface Node | No |
-| Vendor Hardware Required | No |
-| Additional PI Software Included with Interface | Yes  |
-| Device Point Types | The interface receives data from source as strings and coerces the data into numerical types according to tag templates, if defined.|
-| Serial-Based Interface | No |
+| Vendor software required on PI Interface node | No |
+| Vendor hardware required | No |
+| Additional PI software included with interface | Yes  |
+| Device point types | The interface receives data from source as strings and coerces the data into numerical types according to tag templates, if defined.|
+| Serial-based interface | No |
 
 ## Equipment arbitration events
 
