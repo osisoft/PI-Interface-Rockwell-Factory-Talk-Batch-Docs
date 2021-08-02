@@ -51,3 +51,8 @@ The FactoryTalk interface supports the following placeholders while working with
 * [UNITSTATE]
 * [USERID]
 * [VALUE]
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 73f5b79d43cd00c3dad2f967ad03675e6b6467d4
