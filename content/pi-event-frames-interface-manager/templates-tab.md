@@ -10,9 +10,8 @@ Templates map data from the data source to PI tags, batches and event frames. Wh
 
 You can define the following types of templates:
 
-<!-- Added "Link" to list -->
+<!-- Added "Link" to list, removed "Alarm tag" -->
 
-* **Alarm tag:** Writes data to a PI tag when the data source raises an alarm.
 * **Property:** Maps data to batch properties in the PI Batch Database or event frame attributes in PI AF.
 * **Recipe:** Defines the information stored and the naming convention used at each level in the generated batch hierarchy.
 * **Tag:** Creates and updates PI tags, specifying how they are named and what data is written to them.
