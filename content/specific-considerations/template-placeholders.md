@@ -8,7 +8,7 @@ uid: BIF_TemplatePlaceholders
 
 The FactoryTalk interface supports the following placeholders while working with property, recipe, or tag templates:
 
-* `[*]: You `can use an asterisk as a wildcard placeholder.
+* `[*]`: You can use an asterisk as a wildcard placeholder.
 * `[ACTIONID]`
 * `[AREA]`
 * `[BATCHID]`
