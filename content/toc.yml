@@ -36,7 +36,7 @@
     - topicUid: BIF_TagTemplates # No edits
       items:
       - topicUid: BIF_TagTemplateExamples # No edits
-    - topicUid: BIF_Templates # No edits
+    - topicUid: BIF_RecipeTemplates # No edits
       items:
       - topicUid: BIF_RecipeTemplateExamples # No edits
     - topicUid: BIF_FilterIncomingEvents # No edits
