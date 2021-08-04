@@ -4,7 +4,7 @@ uid: BIF_Introduction
 
 # Introduction 
 
-PI Interface for Rockwell FactoryTalk Batch [!include[version](../includes/version.md)] is an event-based interface that collects data from [Rockwell FactoryTalk](#what-is-factorytalk). The interface performs the following actions:
+PI Interface for Rockwell FactoryTalk Batch [!include[version](../includes/product-version.md)] is an event-based interface that collects data from [Rockwell FactoryTalk](#what-is-factorytalk). The interface performs the following actions:
 
 * **Collects** batch data from Event Journals (EVT files).
 * **Converts** the data to PI tags and PI batch properties.
