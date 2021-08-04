@@ -22,6 +22,6 @@ For recipes that run at or above the operation level, the earlier of the followi
 
 Or
 
-* The event containing [EVENT] = "State Change" and [PVALUE] field = "REMOVED" or "COMPLETE" or "ABORTED" and [RECIPE] = "Operation".
+* The event containing [EVENT] = "State Change" and [PVALUE] field = "REMOVED" and [RECIPE] = "Operation".
 
 For phase-level recipes, the interface assigns the operation start time from the batch recipe event containing [EVENT] = "State Change" and [PVALUE] = "RUNNING".
