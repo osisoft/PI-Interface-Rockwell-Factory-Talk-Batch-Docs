@@ -174,7 +174,6 @@ Property[1].Name = $\[Event]
 * [UNIT]
 * [UNITPROCEDURE]
 * [USERID] 
-
 * [*,value="Exact Field"]
 * [*,value="Field Mask"]
 * advanced parsing
