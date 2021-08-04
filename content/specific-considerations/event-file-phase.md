@@ -14,4 +14,4 @@ For recipes that run at or above the phase level, the event containing [EVENT] =
 
 ### End
 
-For recipes that run at or above the phase level, the event containing [EVENT] = "State Change" and [PVALUE] field = "COMPLETE" / "STOPPED" / "ABORTED" ends a phase.
+For recipes that run at or above the phase level, the event containing [EVENT] = "State Change" and [PVALUE] field = "COMPLETE" / "STOPPED" / "ABORTED" / "REMOVED" ends a phase.
