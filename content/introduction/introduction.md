@@ -12,7 +12,7 @@ PI Interface for Rockwell FactoryTalk Batch [!include[version](../includes/produ
 
 * **Stores** the collected data as event frames and elements within a supported database: PI Batch Database or PI Asset Framework (PI AF) Database.
 
-    Batch data is stored within the PI point database. You can use tag templates to control PI point creation, commonly known as tag creation and event population. All modules, tags, tag aliases, and health tags are automatically created on the PI server. 
+    You can use tag templates to control PI point creation, commonly known as tag creation and event population. All modules, tags, tag aliases, and health tags are automatically created on the PI server. 
 
 PI Interface for Rockwell FactoryTalk Batch processes data using the following rules:
 
