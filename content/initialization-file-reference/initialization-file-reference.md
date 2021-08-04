@@ -45,18 +45,9 @@ Source[<index>].<setting> = <value>
 
 Following are some simple examples of data source templates.
 
-Single DeltaV Batch Historian:
-
 ```text
-Source[1].sqlserver = deltav10 Source[1].database = DVHisDB
+Source[1].evtdir = D:\Test\FTB evt\evt
 ```
-
-DeltaV Batch Historian plus Alarms and Events:
-
-```text
-Source[1].sqlserver = deltav10 Source[1].database = DVHisDB Source[2].sqlserver = deltav10\DELTAV_CHRONICLE Source[2].database = Ejournal Source[2].isAE = true
-```
-
 ### Data source template parameters
 
 The following headings describe the parameters for data source templates.
@@ -91,19 +82,6 @@ excludestates=COMPLETED,AB*ING,IDLING, COMPLE*
 #### `isAE=true`
 
 Indicates that the data source is a DeltaV Alarms and Events server.
-
-#### `opcnode=<node name or IP address>`
-
-Required for OPC alarms and events data source. Available in DeltaV 10.3 and higher. Specifies the host of the DeltaV OPCAE server is installed. If used with DeltaV SQL server, must be defined for the same source. 
-
-Example:
-
-```text
-Source[1].sqlserver = deltav10
-Source[1].sqldatabase = DVHisDB
-Source[1].opcnode = deltav10
-Source[1].opcserver = DeltaV.OPCEventServer.1
-```
 
 #### `opcserver=<server name>`
 
