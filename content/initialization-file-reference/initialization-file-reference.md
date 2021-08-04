@@ -6,7 +6,7 @@ uid: BIF_InitializationFileReference
 
 <!-- Removed options related to SQL Server -->
 
-The initialization (.ini) file stores configuration information for an interface instance. The PI Event Frame Interface Manager configuration tool generates and updates this file each time you edit the instance configuration. You can access initialization files for [!include[interface](../includes/product-short.md)] from `[!include[program data](../includes/dir-long.md)]`. 
+The initialization (.ini) file stores configuration information for an interface instance. The PI Event Frame Interface Manager configuration tool generates and updates this file each time you edit the instance configuration. You can access initialization files for [!include[interface](../includes/product-short.md)] from [!include[program data](../includes/dir-long.md)]. 
 
 **Note:** Before release 4.x, initialization files were stored in the interface installation directory.
 
