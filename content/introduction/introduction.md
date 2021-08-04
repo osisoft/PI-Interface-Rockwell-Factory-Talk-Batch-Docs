@@ -4,13 +4,15 @@ uid: BIF_Introduction
 
 # Introduction 
 
-PI Interface for Rockwell FactoryTalk Batch [!include[version](../includes/version.md)] is an event-based interface that collects data from [Rockwell FactoryTalk](#what-is-factorytalk). The interface performs the following actions:
+PI Interface for Rockwell FactoryTalk Batch [!include[version](../includes/product-version.md)] is an event-based interface that collects data from [Rockwell FactoryTalk](#what-is-factorytalk). The interface performs the following actions:
 
 * **Collects** batch data from Event Journals (EVT files).
+  
 * **Converts** the data to PI tags and PI batch properties.
+
 * **Stores** the collected data as event frames and elements within a supported database: PI Batch Database or PI Asset Framework (PI AF) Database.
 
-    Batch data is stored within the PI point database. You can use tag templates to control PI point creation, commonly known as tag creation and event population. All modules, tags, tag aliases, and health tags are automatically created on the PI server. 
+    You can use tag templates to control PI point creation, commonly known as tag creation and event population. All modules, tags, tag aliases, and health tags are automatically created on the PI server. 
 
 PI Interface for Rockwell FactoryTalk Batch processes data using the following rules:
 
