@@ -2,7 +2,7 @@
 uid: BIF_EventFilePhaseState
 ---
 
-# Event file phase state
+# Event file Phase State
 
 <!-- Customized for FactoryTalk. Remove SQL heading. -->
 
