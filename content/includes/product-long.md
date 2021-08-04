@@ -1,1 +1,1 @@
-<PRODUCT_LONG>
+PI Interface for Rockwell FactoryTalk Batch

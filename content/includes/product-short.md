@@ -1,1 +1,1 @@
-<PRODUCT_SHORT>
+Rockwell FactoryTalk Batch
