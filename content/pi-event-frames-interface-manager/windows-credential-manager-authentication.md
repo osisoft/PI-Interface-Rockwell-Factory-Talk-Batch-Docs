@@ -19,11 +19,11 @@ Storage of credentials within Windows Credential Manager benefits you by:
 
 ## Credential creation
 
-When you configure an interface using the PI Event Frames Interface Manager (see links in tip above), [!include[interface](../includes/product-short.md)] temporarily writes the credentials that you enter to the applicable .ini file. These settings remain in the .ini file until you start the interface. 
+When you configure an interface using the PI Event Frames Interface Manager (see link in tip above), [!include[interface](../includes/product-short.md)] temporarily writes the credentials that you enter to the applicable .ini file. These settings remain in the .ini file until you start the interface. 
 
 After you start [!include[interface](../includes/product-short.md)], it makes the following updates:
 
-* All credentials are saved to Windows Credential Manager.
+* All credentials within the .ini file are saved to Windows Credential Manager.
 * Within the interface .ini file, any reference to passwords are removed.
 
 ## Credential storage

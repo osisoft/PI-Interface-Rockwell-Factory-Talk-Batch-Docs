@@ -16,8 +16,6 @@ If you are using a PI Data Archive version prior to 3.4.380.36, select **Use exp
 
 **Note:** When you use an explicit login to authenticate with PI Data server, [!include[interface](../includes/product-short.md)] stores the credentials you enter in Windows Credential Manager. For details, see <xref:BIF_WindowsCredentialManagerAuthentication>.
 
-**Note:** PI batch interfaces use Windows Credential Manager to store log in credentials for PI Data and PI Asset server authentication. Upon your initial log in, your credentials are encrypted and stored for automatic authentication for future log ins. For details, see Windows Credential Manager authentication. Following the initial log in, you see a note under the filled-in log in field telling you that "Windows Credential Manager is being used to store login credentials". For more information, see <xref:BIF_WindowsCredentialManagerAuthentication>
-
 If you are using a PI Data Archive version 3.4.380.36 and higher, use Windows Integrated Security for authentication. Ensure that the Windows account that runs the interface has sufficient permissions on the PI Data server to write data to PI points.
 
 **Note:** You must then configure a trust that permits access for the user that runs the interface service.
