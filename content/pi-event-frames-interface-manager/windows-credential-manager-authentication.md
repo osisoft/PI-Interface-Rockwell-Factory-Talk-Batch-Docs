@@ -8,7 +8,6 @@ As a security best practice, [!include[interface](../includes/product-short.md)]
 
 * PI Data server 
 * PI Asset Framework
-* The batch interface data source
 
 Storage of credentials within Windows Credential Manager benefits you by:
 
@@ -16,10 +15,7 @@ Storage of credentials within Windows Credential Manager benefits you by:
 * Removing any reference to passwords within the interface instance .ini file.
 * Encrypting the credentials.
 
-**Tip:** For more information on where to configure credentials that [!include[interface](../includes/product-short.md)] uses for authentication, see:
-
-* <xref:BIF_ServerInformationTab>
-* <xref:BIF_SourceTab>
+**Tip:** For more information on where to configure credentials that [!include[interface](../includes/product-short.md)] uses for authentication, see <xref:BIF_ServerInformationTab>.
 
 ## Credential creation
 
@@ -32,7 +28,7 @@ After you start [!include[interface](../includes/product-short.md)], it makes th
 
 ## Credential storage
 
-After you start [!include[interface](../includes/product-short.md)], the credentials that it uses for authentication with PI components and data sources are listed in Windows Credential Manager. 
+After you start [!include[interface](../includes/product-short.md)], the credentials that it uses for authentication with PI components are listed in Windows Credential Manager. 
 
 The following table lists credentials for [!include[interface](../includes/product-short.md)]:
 
@@ -40,12 +36,8 @@ The following table lists credentials for [!include[interface](../includes/produ
 |--|--|
 | PI Data server | [!include[interface](../includes/dir-short.md)]_X_PI |
 | PI Asset Framework | [!include[interface](../includes/dir-short.md)]_X_AF |
-| Batch interface data source | [!include[interface](../includes/dir-short.md)]_X_Source_Y |
 
-**Notes:** 
-
-* `X` is a placeholder for an interface instance **Service ID**.
-* `Y` is a placeholder for a data source instance number.
+**Note:** `X` is a placeholder for an interface instance **Service ID**.
 
 ## To update credentials
 
