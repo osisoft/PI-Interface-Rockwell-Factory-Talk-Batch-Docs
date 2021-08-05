@@ -28,7 +28,7 @@ After you start [!include[interface](../includes/product-short.md)], it makes th
 
 ## Credential storage
 
-After you start [!include[interface](../includes/product-short.md)], the credentials that it uses for authentication with PI components are listed in Windows Credential Manager. 
+After you start [!include[interface](../includes/product-short.md)], the credentials that it uses for authentication with PI components are listed in [Windows Credential Manager](https://support.microsoft.com/en-us/windows/accessing-credential-manager-1b5c916a-6a16-889f-8581-fc16e8165ac0). 
 
 The following table lists credentials for [!include[interface](../includes/product-short.md)]:
 
@@ -47,8 +47,6 @@ If you need to update the credentials that the interface uses for authentication
 
 1. From **Server Information**, update the credentials used to authenticate with PI Data server or PI Asset Framework.
 
-1. From **Source**, update the credentials used to authenticate with a data source. 
-   
 1. Click **Save Settings**.
 
 **Result:** The credentials are updated within the instance configuration. Restart the interface to update the credentials within Windows Credentials Manager.
