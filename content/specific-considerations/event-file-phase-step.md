@@ -2,7 +2,7 @@
 uid: BIF_EventFilePhaseStep
 ---
 
-# Event file phase step
+# Event file Phase Step
 
 <!-- Customized for FactoryTalk. Removed headings related to SQL. -->
 

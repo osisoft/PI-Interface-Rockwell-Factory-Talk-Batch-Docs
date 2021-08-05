@@ -2,7 +2,7 @@
 uid: BIF_EventFileOperation
 ---
 
-# Event file operation
+# Event file Operation
 
 <!-- Customized for FactoryTalk. Removed references to SQL start/end events -->
 
