@@ -2,19 +2,50 @@
 uid: BIF_InterfaceSelectionTab
 ---
 
-# Interface Selection tab
+# Interface Selection
 
 <!-- Static topic. No modifications usually required -->
 
-The **Interface Selection** tab is where you select or add a new instance of an interface. Click **Interface Selection** in the left panel to display a drop-down menu from which you can choose an interface.
+After opening **PI Event Frames Manager**, use the **Interface Selection** tab to create an instance of the [!include[interface](../includes/product-short.md)] on the host system.
+
+Interfaces are modular. You can install one or more interface on the host system. You can also install more than one instance of the same interface on the host. Use the **Interface Selection** tab to add or remove interface instances.
+
+## To add an interface instance
+
+1. Open **PI Event Frames Manager** and select **Interface Selection**.
+
+1. Click **Add interface**.
+
+    **Step result:** The **Create new interface instance** window opens.
+
+1. From **Select interface to configure**, select **[!include[interface](../includes/product-long.md)]**.
+
+    **Note:** For each interface installed on the node, there is a menu item available within the drop-down.
+
+1. From **Service ID**, enter a unique identifier for the interface. 
+
+    **PI Event Frames Manager** defaults to a value of `1` and increments the value for each instance that you add.
+
+1. From **Interface description (optional)**, enter a friendly description for the interface instance.
+
+1. Click **OK**.
+
+**Result:** A new instance of [!include[interface](../includes/product-long.md)] is created. The interface creates a new .ini file for the instance. For more information on this file, see [Instance .ini file](#instance-ini-file).
     
-**Note:** PI Event Frames Manager defaults to the batch interface package with which it was installed. You will see the name of the default batch interface listed, along with the drop-down menu from which you can choose another installed instance.
+## To remove an interface instance
 
-To configure settings using PI Event Frames Manager, select the interface instance you want to configure, or add a new instance.
+1. Open **PI Event Frames Manager** and select **Interface Selection**.
 
-Once an interface instance is selected, the left panel of the PI Event Frames Manager displays tab options described in the following sections.
+1. From the **Interface** drop-down, select the interface that you want to remove. Click **Remove interface**.
 
-The **Interface Selection** tab also provides options to add or remove interface instances:
+**Result:** The instance (and its .ini file) is deleted.
 
-* Click **Add Interface** to create a new interface instance.
-* Click **Remove Interface** to remove an interface instance.
+## Instance .ini file
+
+When you create an interface instance using **PI Event Frames Manager**, it generates an .ini file for the instance. This file contains the instance's configuration settings.
+
+This file is stored at [!include[interface](../includes/dir-long.md)]. The interface names each instance .ini file by combining "PI", the interface abbreviation, and the instance identifier. For example, the name of the .ini generated for your first instance of [!include[interface](../includes/product-short.md)] is  "PI[!include[interface](../includes/dir-short.md)]1".
+
+This file can be useful during troubleshooting. You can open it and scan it for faulty settings. For more information on each setting in the file, see <xref:BIF_InitializationFileReference>.
+
+**Important!** Do not edit .ini files directly. Editing these files manually is error-prone and may result in invalid configurations. Use the **PI Event Frames Manager** to edit configurations instead.

@@ -32,7 +32,7 @@ After you start [!include[interface](../includes/product-short.md)], it makes th
 
 ## Credential storage
 
-After you start [!include[interface](../includes/product-short.md)], the credentials that it uses for authentication with PI components and data sources are listed in Windows Credential Manager. 
+After you start [!include[interface](../includes/product-short.md)], the credentials that it uses for authentication with PI components and data sources are listed in [Windows Credential Manager](https://support.microsoft.com/en-us/windows/accessing-credential-manager-1b5c916a-6a16-889f-8581-fc16e8165ac0). 
 
 The following table lists credentials for [!include[interface](../includes/product-short.md)]:
 
