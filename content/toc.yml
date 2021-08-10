@@ -7,16 +7,13 @@
 # Installation Prerequisites
 - name: Installation  
   items: 
-  - topicUid: BIF_InstallationPrerequisites # No edits
-  - topicUid: BIF_SecurityOverview # No edits
+  - topicUid: BIF_SystemRequirements # No edits
     items:
-      - topicUid: BIF_AssignPermissions # No edits
-        items:
-        - topicUid: BIF_ConfigureSecurityForPIAF # No edits
-        - topicUid: BIF_ConfigureSecurityForPIDataArchive # No edits
-  - topicUid: BIF_CreateAndConfigureInterfaceInstance # No edits
-  - topicUid: BIF_ConfigureInstancesForFailover # No edits
+    - topicUid: BIF_AssignPermissions # No edits
+    - topicUid: BIF_ConfigureSecurityForPIAF # No edits
+    - topicUid: BIF_ConfigureSecurityForPIDataArchive # No edits
   - topicUid: BIF_InterfaceConfiguration # Customized for FactoryTalk
+  - topicUid: BIF_Installation # No edits
 # How Batch Interfaces Work
 - topicUid: BIF_HowBatchInterfacesWork # No edits
   items:
@@ -43,7 +40,7 @@
     - topicUid: BIF_TranslateForeignLanguageData # No edits
   - topicUid: BIF_InterfaceModes # No edits
 # Specific Considerations
-- topicUid: BIF_Interface # Customized for FactoryTalk
+- topicUid: BIF_Configuration # Customized for FactoryTalk
   items:
   - topicUid: BIF_DataSources # Customized for FactoryTalk
   - topicUid: BIF_StartAndStopEvents # Customized for FactoryTalk
@@ -56,7 +53,7 @@
     - topicUid: BIF_EventFilePhaseStep # No edits
   - topicUid: BIF_TemplatePlaceholders # Customized for FactoryTalk
 # PI Event Frames Interface Manager
-- topicUid: BIF_PIEventFramesInterfaceManager # No edits
+- topicUid: BIF_ConfigurationOverview # No edits
   items:
   - topicUid: BIF_InterfaceSelectionTab # No edits
     items:
