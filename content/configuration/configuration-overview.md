@@ -8,7 +8,9 @@ Following interface installation, you must create an interface instance and conf
 
 You can configure your interface instance using **PI Event Frames Interface Manager**. This tool allows you to configure each interface setting from an individual tab.
 
-You can open **PI Event Frames Interface Manager** from the **Start** menu. Select **Start > All Programs > PI System > PI Event Frames Interface Manager**.
+## To open PI Event Frames Interface Manager
+
+Select **Start > All Programs > PI System > PI Event Frames Interface Manager**.
 
 **PI Event Frames Interface Manager**
 ![PI Event Frames Interface Manager](../images/bifconfig.png)
