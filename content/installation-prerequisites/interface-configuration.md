@@ -2,7 +2,7 @@
 uid: BIF_InterfaceConfiguration
 ---
 
-# Batch interface configuration
+# System Architecture Examples
 
 <!-- Customized for FactoryTalk -->
 
