@@ -12,12 +12,8 @@ After ensuring that the target host and any supporting systems meet the <xref:BI
 
     **Note:** If the installer prevents you from completing installation, verify that you meet the <xref:BIF_SystemRequirements>. Then restart installation.
 
-**Result:** [!include[interface](../includes/product-short.md)] installs to [!include[interface](../includes/product-path.md)] and includes the following files:
+**Result:** [!include[interface](../includes/product-short.md)] installs to [!include[interface](../includes/product-path.md)].
 
-```text
-BatchInterfaceMonitor.PDI   // ??
-License.txt                 // Licensing information for the interface
-FTBInt.bat_new              // Sample startup file
-FTBInt.exe                  // Interface executable
-FTBInt.ini_new              // Sample .ini file
-```
+## What's next?
+
+Configure an instance of the interface. See <xref:BIF_ConfigurationOverview>.

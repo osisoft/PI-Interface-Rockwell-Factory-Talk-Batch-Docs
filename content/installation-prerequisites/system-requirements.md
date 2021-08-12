@@ -46,7 +46,9 @@ Install the following server roles on your PI Server:
 
 If you install the interface on a separate node from your data sources, ensure that the data sources are running and accessible from the target interface node.
 
-<!-- Add subheaders for each supported data source -->
+### Event Journal File Directory
+
+[!include[product-short](../includes/product-short.md)] supports one or directory containing event journal files as a data source. 
 
 ## User permissions 
 

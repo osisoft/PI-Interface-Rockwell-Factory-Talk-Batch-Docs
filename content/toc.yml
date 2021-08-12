@@ -86,6 +86,9 @@
   - topicUid: BIF_InitializationFileExamples # No edits
 # Diagnostic Point Reference
 - topicUid: BIF_DiagnosticPointReference # No edits
+# Failover
+- topicUid: BIF_ConfigureInstancesForFailover
+  name: Failover
 # Glossary
 - topicUid: BIF_Glossary # No edits
 # Technical Support and Feedback
