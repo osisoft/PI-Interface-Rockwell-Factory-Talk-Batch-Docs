@@ -2,7 +2,7 @@
 uid: BIF_InterfaceConfiguration
 ---
 
-# Batch interface configuration
+# System Architecture Examples
 
 <!-- Interface-specific framework topic. Customize this topic for your interface. Remove the diagrams that don't apply -->
 
