@@ -1,1 +1,1 @@
-`%ProgramFiles(x86)%\PIPC\Interfaces\<INTERFACE>`
+`%ProgramFiles(x86)%\PIPC\Interfaces\FTBInt`
