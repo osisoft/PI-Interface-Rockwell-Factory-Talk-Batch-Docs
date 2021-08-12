@@ -31,12 +31,24 @@ This overview provides a high-level outline of each setting that you must config
 
 1. <xref:BIF_TemplatesTab>
 
+    Use the **Templates** tab to define templates. Templates map data from the data source to PI tags, batches and event frames. When defining templates, you specify the data to be written and the events that trigger the update. You can configure templates that map the source data to string, integer or float data types. For each type of template, you specify triggers, which are conditions that active the template.
+
 1. <xref:BIF_FiltersTab>
+
+    Use the **Filters** tab to configure the recipes, units, phases, or phase states to be excluded from processing by the interface.
 
 1. <xref:BIF_TimeSettingsTab>
 
+    Use the **Time Settings** tab to configure how the interface handles loss of connectivity and how it processes data.
+
 1. <xref:BIF_BatchSetupTab>
+
+    Use the **Batch Setup** tab to identify the elements for various batch settings.
 
 1. <xref:BIF_MergeSetupTab>
 
+    Use the **Merge Setup** tab to configure merging of the batch generation.
+
 1. <xref:BIF_OperationalSettingsTab>
+
+    Use the **Operational Settings** tab to configure the interface mode and other related settings.

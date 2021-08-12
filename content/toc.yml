@@ -56,8 +56,6 @@
 - topicUid: BIF_ConfigurationOverview # No edits
   items:
   - topicUid: BIF_InterfaceSelectionTab # No edits
-    items:
-    - topicUid: BIF_CreateANewInstanceOfThePIEFGenInterface # No edits
   - topicUid: BIF_ServerInformationTab # Customized for FactoryTalk
     items:
     - topicUid: BIF_WindowsCredentialManagerAuthentication # Customized for FactoryTalk
@@ -71,17 +69,15 @@
     - topicUid: BIF_LinkTemplatesEFIM # No edits
   - topicUid: BIF_FiltersTab # No edits
   - topicUid: BIF_TimeSettingsTab # No edits
+    items:
+    - topicUid: BIF_PIServerConnectivity # No edits
+    - topicUid: BIF_LoggingAndErrorMessages # No edits
   - topicUid: BIF_BatchSetupTab # No edits
   - topicUid: BIF_MergeSetupTab # No edits
   - topicUid: BIF_OperationalSettingsTab # Minor edits
   - topicUid: BIF_TestConfigurationTab # No edits
   - topicUid: BIF_ServiceConfigurationTab # No edits
   # missing "configure-tab-templates.md"
-# Troubleshooting
-- name: Troubleshooting
-  items:
-  - topicUid: BIF_PIServerConnectivity # No edits
-  - topicUid: BIF_LoggingAndErrorMessages # No edits
 # Command Line Parameters
 - topicUid: BIF_CommandLineParameterReference # Customized for FactoryTalk
 # Initialization File References
