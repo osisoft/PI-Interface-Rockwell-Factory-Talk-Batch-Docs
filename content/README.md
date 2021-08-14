@@ -11,7 +11,7 @@ git subtree add --prefix content https://github.com/osisoft/PI-Batch-Interface-D
 ## To pull latest repo updates into subtree
 
 ```bash
-git subtree pull --prefix content https://github.com/osisoft/PI-Batch-Interface-Doc-Framework main --squash
+git subtree pull --prefix content https://github.com/osisoft/PI-Batch-Interface-Doc-Framework 244711-quality-improvements-to-batch-interface-docs --squash
 ```
 
 ## About Subtrees
