@@ -6,18 +6,26 @@ uid: BIF_ConfigureSecurityForPIAF
 
 <!-- Static topic. No modifications usually required -->
 
-To configure batch interface security settings for the PI Asset Framework, perform the following steps.
+If you intend to generate event frames, use **PI System Explorer** configure batch interface security settings for the PI Asset Framework.
 
-1. Launch PI System Explorer.
+1. Open **PI System Explorer**.
 
-2. Click **Database** on the toolbar. The Select Database window opens, listing existing databases.
+1. From the toolbar, click **Database**. 
 
-3. Right-click the database where you intend to store the batch event frames, and then click **Security**.
+    **Step result:** The **Select Database** window opens.
 
-4. Browse to the category and enter the required settings:
+1. Right-click the database where you intend to store the batch event frames and select **Security**.
 
-    1. Set **Database** to read/write.
-    2. Set **Categories** to read.
-    3. Set **Element** to read/write.
-    4. Set **Element templates** to read.
-    5. Set **Event frames** to read/write.
+1. From the **Permissions** tab, **Allow** the following permissions for each item listed below:
+
+   Item | Permissions
+   -----|------------ 
+   Database (the first item listed) | Read/Write
+   Categories | Read
+   Elements | Read/Write
+   Element Templates | Read
+   Event Frames | Read/Write
+
+   ![Items and permissions](../../../images/pi-system-explorer-security-config.png)
+
+1. Click **OK**.
