@@ -6,25 +6,47 @@ uid: BIF_ConfigureSecurityForPIDataArchive
 
 <!-- Static topic. No modifications usually required -->
 
-If you are running PI Data Archive 3.4.380.36 or later, you can take advantage of its support for Windows Integrated Security by running the interface service using a Windows account that has the required permissions. To use Windows Integrated Security, use PI System Management Tools to define a mapping that assigns the Windows user (or group) a PI identity that has the required permissions.
+If you are installing [!include[interface](../../../includes/product-short.md)] on a node other than the PI Data server, you must create PI trusts so that the following applications can access the server:
 
-For pre-3.4.380.36 versions of the PI Data Archive, you must create a PI trust for the user who runs the interface and configuration tool. For tightest security, limit the trust to the hostname or IP address of the interface node and the application name.
+* PI Event Frames Interface Manager 
+* [!include[interface](../../../includes/product-short.md)]
 
-If you are installing the interface on a node other than the PI Data server, you must create trusts to ensure that the configuration tool and the interface have access to the server.
+## PI Data Archive 3.4.380.36 or later
 
-1. To create a trust, launch PI System Management Tools and connect to the target server.
+If you are using PI Data Archive 3.4.380.36 or later, [!include[interface](../../../includes/product-short.md)] can access PI Server using Windows Integrated Security. To use Windows Integrated Security, use PI System Management Tools to define a mapping that assigns the Windows user (or group) a PI identity that has the required permissions.
 
-2. Click **Security**, and then click **Mappings & Trusts**.
+## PI Data Archive before 3.4.380.36
 
-3. Right-click within the **Trusts** tab, and click **New Trust**.
+If you are using a version of the PI Data Archive before version 3.4.380.36, you must **create a PI trust** for the user who runs the interface. For tightest security, limit the trust to the hostname or IP address of the interface node and the application name.
 
-    The **Add Trust** wizard launches.
+### To create a PI trust
 
-4. Enter a meaningful name and description for the trust.
+1. Open **PI System Management Tools** and connect to the target server.
 
-5. Configure the following settings: 
-  
-    | Program | Type of Trust | Application Name |
-    | ------- | ------------- | ---------------- |
-    | PI Event Frame Interface Manager | PI-API application  | `BIFConfig.exe` |
-    | Interface executable | PI-SDK application | _Executable name_ |
+1. Select **Security > Mappings & Trusts**.
+
+1. Select the **Trusts** tab. 
+
+1. Create a trust for PI Event Frame Interface Manager.
+
+    Click the **Trust** icon and complete the wizard. For each page, enter the parameters detailed in the table below:
+
+    Page | Parameters
+    -----|-------------
+    **Specify Trust Name and Server** | Enter a **Trust Name** (something like "PI Event Frames Interface Manager"). **Trust Description** is optional.
+    **Select Type of Trust to Add** | Select **PI-API application**.
+    **Application Name** | Enter `BIFConfig.exe`.
+    **Specify Client Connection Information** | Enter either the host name or IP address for the interface node.
+    **Select PI User** | Select the PI User that you are configuring the trust for.
+
+1. Create a trust for [!include[interface](../../../includes/product-short.md)].    
+
+    Click the **Trust** icon and complete the wizard. For each page, enter the parameters detailed in the table below:
+
+    Page | Parameters
+    -----|-------------
+    **Specify Trust Name and Server** | Enter a **Trust Name** (something like "[!include[interface](../../../includes/product-short.md)]"). **Trust Description** is optional.
+    **Select Type of Trust to Add** | Select **PI-SDK application**.
+    **Application Name** | In **Application Name**, enter [!include[exe](../../../includes/product-exe.md)]. In **Windows Domain** and **Windows Username**, enter the credentials of the user running the application.
+    **Specify Client Connection Information** | Enter either the host name or IP address for the interface node.
+    **Select PI User** | Select the PI User that you are configuring the trust for.

@@ -1,1 +1,1 @@
-`%ProgramFiles(x86)%\PIPC\Interfaces\<INTERFACE>`
+`Program Files (x86)\PIPC\Interfaces\<INTERFACE>`
