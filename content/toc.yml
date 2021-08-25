@@ -76,6 +76,8 @@
   - topicUid: BIF_TimeSettingsTab # No edits
   - topicUid: BIF_BatchSetupTab # No edits
   - topicUid: BIF_MergeSetupTab # No edits
+    items:
+    - topicUid: BIF_HowToMergeMultipleSourceBatches # Customized for FactoryTalk
   - topicUid: BIF_OperationalSettingsTab # Minor edits
   - topicUid: BIF_TestConfigurationTab # No edits
   - topicUid: BIF_ServiceConfigurationTab # No edits
