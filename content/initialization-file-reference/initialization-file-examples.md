@@ -12,7 +12,7 @@ uid: BIF_InitializationFileExamples
 [SOURCE TEMPLATE] 
 
 Source[1].evtdir=c:\test\evt 
-Source[2].evtdir=\\deltav9\\journals\evt 
+Source[2].evtdir=\\Remote9\\journals\evt 
 
 [GENERAL] 
 

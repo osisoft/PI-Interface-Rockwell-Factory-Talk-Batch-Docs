@@ -95,7 +95,7 @@ Example: For the data source BatchID column that contains the text lot30112 / 90
 
 ## Linking BES to MES Batches Using Event Frames
 
-To consolidate the output of a manufacturing execution system and a > batch execution system, specify the linking element as follows: using PI Event Frames Interface Manager, go to the **Batch Setup** tab. For MES interfaces, enable the **Link to child event frames** option, and specify the path to the AF element. For BES interfaces, enable the **Link from parent event frames** option, and specify the path to the same AF element.
+To consolidate the output of a manufacturing execution system and a batch execution system, specify the linking element as follows: using PI Event Frames Interface Manager, go to the **Batch Setup** tab. For MES interfaces, enable the **Link to child event frames** option, and specify the path to the AF element. For BES interfaces, enable the **Link from parent event frames** option, and specify the path to the same AF element.
 
 This configuration is typical in an environment where a manufacturing execution system supervises multiple batch execution systems to manufacture a single product. For each batch execution system, configure a dedicated interface instance and specify the same PI AF linking element. When an event frame created by the manufacturing execution system interface references the creation of a batch in the batch execution system, a reference is made to the manufacturing execution system event frame in the linking element. Then, when the batch execution system interface creates its event frame, a reference to it is created in the manufacturing execution system event frame, creating a consolidated view of all the related events from different systems.
 

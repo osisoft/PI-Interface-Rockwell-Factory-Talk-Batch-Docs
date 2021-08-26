@@ -73,14 +73,6 @@ Examples:
 excludestates=COMPLETED,AB*ING,IDLING, COMPLE*
 ```
 
-#### `isAE=true`
-
-Indicates that the data source is a DeltaV Alarms and Events server.
-
-#### `opcserver=<server name>`
-
-Optional for OPC alarms and events data source. Specifies the name of the alarms and events server, if you are not using the default server.
-
 #### `skipphases=<list>`
 
 (Optional) Specifies a comma-separated list of phases to ignore. Not case-sensitive. You can use wildcards for matching. The interface checks the list against the [Phase] field (batch recipe) or [PhaseModule] field (equipment). 
