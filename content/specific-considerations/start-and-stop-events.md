@@ -39,13 +39,4 @@ The interface detects start and end events by scanning the [EVENT] field for `St
 | Phase | `State Change` | `RUNNING`, `REMOVED`, `COMPLETE`, or `ABORTED` |
 | Phase state | `State Change` | `<state name>` |
 
-## OPC A&E
-
-To detect start and end events for all recipe levels, the interface uses BATCH-EVENT events with Event Attribute [6] = "State Changed". The interface examines Event Attribute [8] to detect start and end as follows:
-
-* Start: `<batch recipe level> RUNNING`
-* End: `<batch recipe level> COMPLETE/ABORTED/STOPPED`
-
-No phase state data is available from this data source.
-
 
