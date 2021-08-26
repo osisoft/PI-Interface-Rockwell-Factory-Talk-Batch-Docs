@@ -43,7 +43,7 @@ uid: BIF_SupportedFeatures
 
 ## Equipment arbitration events
 
-This PI Batch Interface runs against a BES or MES that supports equipment arbitration events. These events provide precise time stamps for the start and end times of unit batches. Individual installations of BES or MES that support equipment arbitration events may not be configured to provide such events. If the BES or MES supports equipment arbitration events but is configured not to provide them, use the following command line parameter: [/noarbitration](xref:BIF_CommandLineParameterReference#noarbitration). 
+Rockwell FactoryTalk Batch supports equipment arbitration events. These events provide precise time stamps for the start and end times of unit batches. Individual installations of Rockwell FactoryTalk Batch that support equipment arbitration events may not be configured to provide such events. If your current instance of Rockwell FactoryTalk Batch supports equipment arbitration events but is configured not to provide them, use the following command line parameter: [/noarbitration](xref:BIF_CommandLineParameterReference#noarbitration). 
 
 Using `/noarbitration` ensures that the interface:
 
@@ -55,7 +55,7 @@ Using `/noarbitration` ensures that the interface:
 
 ## History recovery
 
-You can stop the interface without losing any data, because the data is persistent in the data source. Data recovery is limited by the history available from the BES, the number of licensed PI tags, and the size and time frame of the PI archives into which data is recovered.
+You can stop the interface without losing any data because the data is persistent in the data source. Data recovery is limited by the history available from the BES, the number of licensed PI tags, and the size and time frame of the PI archives into which data is recovered.
 
 ## Device status tag
 
