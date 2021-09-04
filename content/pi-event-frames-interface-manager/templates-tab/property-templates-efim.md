@@ -52,6 +52,14 @@ Populates the tag's Descriptor field.
     
 Unit of measurement. 
 
-### Category
+### Select category
     
-Specifies the PI AF category to be associated with the value. 
+Specifies the PI AF category to be associated with the value.
+
+### AllowEmptyValue
+
+<!-- Help wanted -->
+
+### Tag Path
+
+<!-- Help wanted -->
