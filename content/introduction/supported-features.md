@@ -4,6 +4,7 @@ uid: BIF_SupportedFeatures
 
 # Supported features
 
+<!-- TU: This is missing an introductory paragraph. It should describe what the table is doing -->
 <!-- Default Framework topic -->
 
 
