@@ -6,11 +6,11 @@ uid: BIF_CommandLineParameterReference
 
 <!-- Customized for FactoryTalk. Commented out content does not apply to FactoryTalk. -->
 
-To configure an interface, you use the PI Event Frames Interface Manager, which maintains the files that contain batch interface settings. This appendix describes the command line settings and is provided for troubleshooting purposes.
+To configure an interface, you use PI Event Frames Interface Manager, which maintains the files that contain batch interface settings. This appendix describes the command line settings, which are provided for troubleshooting purposes.
     
 To ensure that settings files are formatted correctly, always use PI Event Frames Interface Manager to configure settings. Do not edit settings files manually.
 
-The following table is a compilation of the command line settings for all the OSIsoft batch framework interfaces. Some settings are specific to an interface. To list the settings supported by your interface, invoke its executable at the command line, specifying the -? flag.
+The following table <!-- Which table? --> is a compilation of the command line settings for all the OSIsoft batch framework interfaces. Some settings are specific to an interface. To list the settings supported by your interface, invoke its executable at the command line, specifying the -? flag.
 
 ## Available command line parameters
 
@@ -44,7 +44,7 @@ Valid wildcards are as follows:
 
 #### Wildcard use example
 
-If the incoming Batch ID is: `lot30112 / 90dev123 / 12345stp / ld567`
+If the incoming Batch ID is `lot30112 / 90dev123 / 12345stp / ld567`
 
 The following list shows example masks and resulting data.
 
@@ -130,7 +130,7 @@ Examples:
 
 ### `/includeincompletedata`
 
-(Optional) Enables the collection of all unit procedures without and associated UNIT. Without this option unit procedures that do not have phase state that associated with a particular UNIT will not be shown as events in PI AF.
+(Optional) Enables the collection of all unit procedures without and associated UNIT. Without this option, unit procedures that do not have phase state that associated with a particular UNIT will not be shown as events in PI AF.
 
 ### `/inifile =<path>`
 
@@ -178,7 +178,7 @@ With merging enabled, only the CleaningTest batches are merged. To merge the oth
 
 * **Delete:** Delete batch data from PI archives for specified period, leaving data from all other sources intact. Use only if the interface is unable to synchronize source batch data with the PI System. Must be used in conjunction with the recovery mode switches (`/rst` and `/ret`).
 
-* **NoData:** Newly-added tags, units and modules are indexed (referenced) in the primary PI archive, but older archives do not have entries for these modules, units and tags. In NoData mode, the interface creates modules, units, tags and tag aliases without processing batch data and writing events to the tags. To recover batch data for a period prior to the one in the primary archive, you must reprocess older archives with the offline archive utility. Manual archive reprocessing creates indexes for newly-added units, modules, tags. Always run the interface in this mode before writing new batch data to older PI archives (that is, archives other than the primary archive).
+* **NoData:** Newly-added tags, units and modules are indexed (referenced) in the primary PI archive, but older archives do not have entries for these modules, units and tags. In NoData mode, the interface creates modules, units, tags and tag aliases without processing batch data and writing events to the tags. To recover batch data for a period prior to the one in the primary archive, you must reprocess older archives with the offline archive utility. Manual archive reprocessing creates indexes for newly added units, modules, tags. Always run the interface in this mode before writing new batch data to older PI archives (that is, archives other than the primary archive).
   
 ### `/mop`
 
@@ -246,11 +246,11 @@ Language types and abbreviations:
 (Optional) Override the default SDK setting for PI data access timeout.
 ### `/pipswd =<password>`
 
-(Optional) Specify the user password to be used to connect to the PI Data Archive. By default, the interface uses PI trusts for authentication.
+(Optional) Specify the user password to be used to connect to PI Data Archive. By default, the interface uses PI trusts for authentication.
 
 ### `/piuser =<name>`
 
-(Optional) Specify the user name to be used to connect to the PI Data Archive. By default, the interface uses PI trusts for authentication.
+(Optional) Specify the user name to be used to connect to PI Data Archive. By default, the interface uses PI trusts for authentication.
 
 ### `/print =<filename>` 
 

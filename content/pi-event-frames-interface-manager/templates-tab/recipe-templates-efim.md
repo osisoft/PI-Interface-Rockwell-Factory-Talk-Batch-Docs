@@ -10,6 +10,8 @@ Recipe templates enable you to configure the names that are assigned and the dat
 
 ## Configuration
 
+<!-- TU: Never leave a heading without text :) -->
+
 ### Index
 
 Specifies the level in recipe hierarchy as follows:
@@ -27,7 +29,7 @@ Specifies the level in recipe hierarchy as follows:
 
 Defines the naming convention used by the interface to assign names to batch events. For event frames, this template modifies the Recipe AF attribute. For the Batch database, this template modifies the PIBatch name.
 
-For example: abc_[Procedure] If the incoming event's [Procedure] field contains "Test", the resulting procedure **Recipe** field is "abc_Test".
+Example: abc_[Procedure] If the incoming event's [Procedure] field contains "Test", the resulting procedure **Recipe** field is "abc_Test".
 
 ### Value
 
@@ -57,6 +59,8 @@ Specifies the value to be recorded. Use placeholders to include values from the 
 
 ## Advanced features
 
+<!-- TU: Never leave a heading without text :) -->
+
 ### Batch ID
 
 Configures the batch ID of the particular recipe object, overriding the incoming (default) batch ID. If you override the batch ID for the procedure, the batch ID is propagated to the child unit batches Batch ID field. For event frames, this template modifies the event frame name.
@@ -75,7 +79,7 @@ Specifies the product of the particular recipe object. Supports the procedure an
 
 Populates the [Product] field of the particular recipe object after the object is created, which is useful if the product is defined in a separate event.
 
-For example: `[Parameter, Value="Recipe Header"] [Descript, value="Product Name"]`.
+Example: `[Parameter, Value="Recipe Header"] [Descript, value="Product Name"]`.
 
 ### Event Frame Template
 

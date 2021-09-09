@@ -6,16 +6,16 @@ uid: BIF_AssignPermissions
 
 <!-- Static topic. No modifications usually required -->
 
-The user that runs the interface requires read/write access to the PI Data Archive. To create event frames and write data to elements and attributes, the user must have permission to connect to the PI Asset Framework. To configure the interface, the user must be in the local
+The user that runs the interface requires read/write access to PI Data Archive. To create event frames and write data to elements and attributes, the user must have permission to connect to PI Asset Framework. To configure the interface, the user must be in the local
 Administrators group. Assign the required permissions to the user that runs the interface and all users who need to run the PI Event Frames Interface Manager configuration tool.
 
 1. Launch PI System Management Tools, and click **Security > Database Security**.
 
 2. For the user account under which the batch interfaces run, set the PIPOINT table to read and write permission.
 
-3. For the user account under which the batch interfaces run,set the PIBACKUP table to read permission.
+3. For the user account under which the batch interfaces run, set the PIBACKUP table to read permission.
    
-4. For PI points maintained by batch interfaces, set security as follows:
+4. For PI points maintained by batch interfaces, set security as follows: <!-- TU: Can the following list be unnumbered? -->
 
     1. Set the PtSecurity to read and write permission for any point that the interface creates.
     2. Set the DataSecurity to read and write permission for any point to which the interface writes data.

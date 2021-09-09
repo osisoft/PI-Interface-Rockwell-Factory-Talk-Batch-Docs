@@ -6,7 +6,7 @@ uid: BIF_FiltersTab
 
 <!-- Topic requires customization for specific interface -->
 
-You use the **Filters** tab to configure the recipes, units, phases, or phase states to be excluded from processing by the interface.
+You use the **Filters** tab to configure the recipes, units, phases, or phase states to be excluded from processing by the interface. <!-- TU: Maybe add something like "The following filters are available" -->
 
 * **Skip Phases (/SKIPPHASES)**
 
@@ -18,7 +18,7 @@ You use the **Filters** tab to configure the recipes, units, phases, or phase st
 
 * **Skip Recipes (/SKIPRECIPES)**
 
-    The interface ignores any event containing the specified recipe in the appropriate column ([Procedure] for a procedure recipe, [UnitProcedure] for a unitprocedure recipe, and so on.) 
+    The interface ignores any event containing the specified recipe in the appropriate column ([Procedure] for a procedure recipe, [UnitProcedure] for a unit procedure recipe, and so on.) 
 
 * **Exclude Phase States (/EXCLUDESTATES**
 

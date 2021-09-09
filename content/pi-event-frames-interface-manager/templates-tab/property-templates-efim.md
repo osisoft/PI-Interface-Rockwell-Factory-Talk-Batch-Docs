@@ -4,9 +4,11 @@ uid: BIF_PropertyTemplatesEFIM
 
 # Property templates
 
-Property templates enable you to configure how data from the data source is written to event frame attributes or batch database properties. Each interface provides a set of default properties, which contain commonly-desired data. To add these properties, right-click the **Property Templates** node and choose **Add Default Templates**.
+Property templates enable you to configure how data from the data source is written to event frame attributes or batch database properties. Each interface provides a set of default properties, which contain commonly desired data. To add these properties, right-click the **Property Templates** node and choose **Add Default Templates**.
 
 ## Configuration
+
+<!-- TU: Never leave a heading without text :) -->
 
 ### Index
 
@@ -43,6 +45,8 @@ Maps text from the data source to the text that you want to record in the PI Sys
 Unit of measure to be used to store value, if different from unit provided by data source. 
 
 ## Advanced features
+
+<!-- TU: Never leave a heading without text :) -->
 
 ### Descriptor
     

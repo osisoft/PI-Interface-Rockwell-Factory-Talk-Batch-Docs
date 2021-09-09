@@ -12,7 +12,7 @@ The **Interface Selection** tab is where you select or add a new instance of an 
 
 To configure settings using PI Event Frames Manager, select the interface instance you want to configure, or add a new instance.
 
-Once an interface instance is selected, the left panel of the PI Event Frames Manager displays tab options described in the following sections.
+Once an interface instance is selected, the left panel of PI Event Frames Manager displays tab options described in the following sections.
 
 The **Interface Selection** tab also provides options to add or remove interface instances:
 
