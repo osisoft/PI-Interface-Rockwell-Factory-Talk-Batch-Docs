@@ -19,7 +19,7 @@ The Asset Attribute associates data from the data source with a desired element.
 | UOM | Unit of measure. To map the units of measure in the data source to the correct PI AF engineering units, check the UOM check box and configure the mapping between the source units of measure and the units available in PI AF. |
 | Descriptor | Descriptor |
 | ALLOWEMPTYVALUE | True = T will allow an attribute to be created with an empty value. |
-| TAGPATH | A full path to a PI Tag: `\\MyServer\Sinusoid`. This will cause the attribute to be a data reference to the PI tag indicated. An attribute can have a Value or a TagPath. If it has both, then the Value will be used. |
+| TAGPATH | A full path to a PI Tag: `\\MyServer\Sinusoid`. This will cause the attribute to be a data reference to the PI tag indicated. An attribute can have a Value or a TagPath. If it has both and then the Value will be used. |
 | ASSETPATH | There can be multiple paths an asset can be configured to follow. |
 
 ## Template example one 

@@ -5,7 +5,7 @@ framework: customized for FactoryTalk
 
 # Tag templates
 
-This section details the procedure for configuring tag templates. The tables in steps 6 and 7 define specific tag template settings and configurations to ensure that tag templates capture updates to PI Batch Database.
+This section details the procedure for configuring tag templates. The tables in steps 6 and 7 define specific tag template settings and configurations to ensure that tag templates capture updates to PI Batch Database. <!-- TU: Some of the steps have way too much information that should be broken out somehow -->
 
 1. To create or update PI tags when specified events are read, configure tag templates.
 
@@ -27,7 +27,7 @@ This section details the procedure for configuring tag templates. The tables in 
 
 1. To specify the data to be written to the tag, configure the **Value** field. To include data read from the data source in the tag value, use placeholders.
 
-    For example, to simply record the incoming value without transforming it, specify the [PVAL] placeholder. A more complex example: to configure a value that concatenates phase module, event, description, incoming value and engineering units, specify the following:
+    For example, to record the incoming value without transforming it, specify the [PVAL] placeholder. A more complex example: to configure a value that concatenates phase module, event, description, incoming value and engineering units, specify the following:
     
     `[PHASEMODULE].[EVENT].[DESCRIPT]: [PVAL] [EU]`
     
@@ -49,7 +49,7 @@ This section details the procedure for configuring tag templates. The tables in 
     
     `[EVENT, value="System Message"] [DESCRIPT, value="Phase Logic Failure"]`
 
-    To ignore specified incoming values, use "!=" (not equal) . For example, to ignore undefined values, specify the following expression:
+    To ignore specified incoming values, use "!=" (not equal). For example, to ignore undefined values, specify the following expression:
     
     `[PVAL, VALUE!="UNDEFINED"]`
     
@@ -62,8 +62,8 @@ This section details the procedure for configuring tag templates. The tables in 
     | **NAME** | (Required) Name of PI tag to be created or updated. |
     | **VALUE** | (Required) Value to be assigned to PI tag (text) |
     | **TRIGGER** | Event text from data source (can be specified using wildcards) |
-    | **TYPE** | String/integer/float/auto. "Auto" directs the interface to automatically detect the data type. |
-    | **UNITALIAS** | Configure how unit alias (AF: PI point reference) is created. By default, the alias is created in the unit. To override the default, specify the path where you want the alias created. For example:<br><br>`UNITALIAS = \Building1\Unit2|[PHASE]`<br><br>The alias is created under the Unit2 module, named using the value of the [PHASE] column.<br><br>**Note:** All batch interfaces support unit- and phase-level equipment aliases. Some interface support creation of equipment aliases at all levels of the batch hierarchy. For details, refer to the interface-specific section of this guide. |
+    | **TYPE** | String/integer/float/auto. "Auto" directs the interface detect the data type automatically. |
+    | **UNITALIAS** | Configure how unit alias (AF: PI point reference) is created. By default, the alias is created in the unit. To override the default, specify the path where you want the alias created, for example:<br><br>`UNITALIAS = \Building1\Unit2|[PHASE]`<br><br>The alias is created under the Unit2 module, named using the value of the [PHASE] column.<br><br>**Note:** All batch interfaces support unit- and phase-level equipment aliases. Some interface support creation of equipment aliases at all levels of the batch hierarchy. For details, refer to the interface-specific section of this guide. |
     | **PHASEALIAS** | Configure how the phase alias is created. By default, the alias is created in the phase module. To override the default, specify the path where you want the alias created. |
     | **DESCRIPTOR** | Value for PI point descriptor attribute. |
     | **ENGUNITS** | Engineering units |
@@ -76,7 +76,7 @@ This section details the procedure for configuring tag templates. The tables in 
     | Placeholder | Values | Description |
     |--|--|--|
     | **EVENT** | **PIEVENT** | Specify [EVENT, value="PIEVENT"] |
-    | **DESCRIPT** | **BATCH**<br>**UNITBATCH**<br>**OPERATION**<br>**PHASE**<br>**PHASESTATE**<br>**PHASESTEP** | Specify the batch level you want to trigger on. For example:<br><br>[DESCRIPT, value="UNITBATCH"]<br>[DESCRIPT, value="PHASE"] |
+    | **DESCRIPT** | **BATCH**<br>**UNITBATCH**<br>**OPERATION**<br>**PHASE**<br>**PHASESTATE**<br>**PHASESTEP** | Specify the batch level you want to trigger on, for example:<br><br>[DESCRIPT, value="UNITBATCH"]<br>[DESCRIPT, value="PHASE"] |
     | **PVAL** | **START**<br>**END** | Specifies whether to catch the start or ending event of the specified level:<br><br>[PVAL, value="START"]<br>[PVAL, value="END"] |
     
     For example, to detect the start of a batch, specify the following expression:

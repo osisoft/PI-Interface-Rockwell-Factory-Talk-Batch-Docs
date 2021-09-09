@@ -6,9 +6,11 @@ uid: BIF_TestConfigurationTab
 
 <!-- No edits -->
 
+<!-- This sounds like it should be a procedure (heading would need to reflect this as well) -->
+
 You test the configuration settings in the Test Configuration tab.
 
-Specify test settings as follows, then click **Run Test**, and check the output file for results.
+Specify test settings as follows and then click **Run Test**, and check the output file for results.
 
 | Field | Description |
 | ----- | ----------- |

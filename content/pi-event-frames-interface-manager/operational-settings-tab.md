@@ -10,6 +10,8 @@ Modify the settings on the Operational Settings tab to configure the interface m
 
 ## Operational Settings
 
+<!-- TU: Never leave a heading without text :) -->
+
 ### Realtime mode (/MODE=<mode>)
     
 Interface modes are selected from the drop-down menu. Options are described in the table below. 
@@ -19,14 +21,14 @@ For the Recovery, Statistics, Preprocess, and Delete options, you can identify a
 | Mode | Description |
 | ---- | ----------- |
 | Realtime (default) | Scan data source to collect data in realtime. |
-| Recovery | Scan data source and generate or correct events accordingly. Always starts in recovery mode, then switches to realtime mode. |
+| Recovery | Scan data source and generate or correct events accordingly. Always starts in recovery mode and then switches to realtime mode. |
 | Statistics | Compare data source history against events and report results without updating any data. |
 | Preprocess | Source data is written to the PI Data archives with timestamps earlier than those written to the primary PI archive.<br><br>**Note:** This mode requires that you use the offline archive utility to reprocess older archives. This is done after completion when the interface stops. |
 | Delete | Delete events for a specified period.<br><br>**Note:** Selecting "Delete mode" limits you to specifying a Start Time only. In the GUI, the End Time is always specified with "*" asterisk symbol, a dereference operator pointed to by the variable's value.<br><br>The interface allows for "spot deletion", meaning the deletion of event frames from within a specific time window. For example, you may have a scenario where you have received "junk data" from previous days. Spot deletion allows you to delete event frames back to the date when you began receiving unusable data. The GUI does not provide the means to specify both ends of the time window that you wish to delete. That can be done through edits to the configuration file.<br><br>An RST for Delete mode can still be specified in the initialization file, but the GUI will always disable spot deletion.   |
 
 ### Perform one scan then stop (/SINGLERUN)
     
-The interface performs one scan of active points, then exits. 
+The interface performs one scan of active points and then exits. 
 
 ### Print result of first scan to file (/PRINT=<file name>)
     
@@ -43,7 +45,7 @@ Specifies level of detail for logging as follows:
 
 ### Numeric settings (/NS=<lang>)
 
-Configures how numeric values are formatted by the interface, to enable the interface to properly interpret numeric values based on the machine's regional setting or a user-specified language. Default is "English (United States)". 
+Configures how numeric values are formatted by the interface, to enable the interface to interpret numeric values based on the machine's regional setting or a user-specified language properly. Default is "English (United States)". 
 
 ### Interface ID (/ID=x)
     
@@ -59,6 +61,8 @@ Disable propagation of reference elements to children. By Default, the interface
 
 ## Failover settings
 
+<!-- TU: Never leave a heading without text :) -->
+
 ### Failover tag (/FAILOVERTAG=x)
 
 The PI tag to be used to coordinate failover. Click the icon to open the Tag search window, where you provide the name of the tag in the **Tag Mask** field. The tag that you select displays in the **Failover tag** field of PI Event Frames Interface Manager. 
@@ -72,6 +76,8 @@ A unique identifier for this interface instance, used to coordinate which instan
 Select to specify how long an interface can be inactive before failover to another instance occurs. The default is 300 seconds. 
 
 ## Security settings
+
+<!-- TU: Never leave a heading without text :) -->
 
 ### Specify point security (/PTSEC=x)
 

@@ -60,7 +60,7 @@ You can stop the interface without losing any data because the data is persisten
 
 ## Device status tag
 
-This string tag contains information about communication between the interface and the data source. This tag is evaluated only while the heartbeat tag is updating and is updated on startup, change, and shutdown.
+This string tag contains information about communication between the interface and the data source. This tag is evaluated only while the heartbeat tag is updating. The tag is updated on startup, change, and shutdown.
 
 During normal operation, the tag contains the digital state set value "Good", indicating that the interface is communicating properly with the data source. Otherwise, the tag contains a string indicating status.
 
@@ -69,7 +69,7 @@ The following table lists standard status strings.
 | Message | Description |
 |--|--|
 | `1 Starting` | The interface is starting. |
-| `2 Connected / No Data` | The interface is connected to the data source but is not capable or reading or writing data to the foreign device. |
+| `2 Connected / No Data` | The interface is connected to the data source but is not capable of reading or writing data to the foreign device. |
 | `3 n device(s) in error` | The interface is not able to communicate with the specified number of devices. Usually includes additional interface-specific details. |
 | `4 Intf Shutdown` | The interface is shutting down. |
 | `5 interface_specific_message` | Message specific to the interface. |

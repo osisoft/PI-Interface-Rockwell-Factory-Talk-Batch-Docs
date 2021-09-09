@@ -6,11 +6,11 @@ uid: BIF_PropertyTemplates
 
 <!-- No edits -->
 
-Properties associate data from the data source with a desired level of the batch or event frame hierarchy. To create properties, you define property templates on the **Templates** page of the PI Event Frame Interface Manager. The property templates specify the data to be extracted and the level of the hierarchy at which they are created. Placeholders, wildcards and advanced parsing features enable you to extract precisely the desired data from the events that the interface reads from the data source.
+Properties associate data from the data source with a desired level of the batch or event frame hierarchy. To create properties, you define property templates on the **Templates** page of PI Event Frame Interface Manager. The property templates specify the data to be extracted and the level of the hierarchy at which they are created. Placeholders, wildcards and advanced parsing features enable you to extract precisely the desired data from the events that the interface reads from the data source.
 
 With event frames, properties (AF attributes) can be created at any level of the batch hierarchy. However, in the batch database, properties are stored only at the top (procedure or batch) level of the batch hierarchy. This top-level collection of properties includes the properties for the lower levels of the batch hierarchy, arranged according to level.
 
-To define a property template on the **Templates** page of the PI Event Frame Interface Manager, configure the following settings:
+To define a property template on the **Templates** page of PI Event Frame Interface Manager, configure the following settings:
 
 | Setting | Description |
 |--|--|
@@ -26,7 +26,7 @@ To define a property template on the **Templates** page of the PI Event Frame In
 | Category (AF only) | Asset category |
 | UOM (AF only) | Unit of measure. To map the units of measure in the data source to the correct PI AF engineering units, check the UOM check box and configure the mapping between the source units of measure and the units available in PI AF. |
 | Descriptor (AF only) | Description. |
-| Tagpath | The path to a PI Server tag. For example: `\\MyPIServer\sinusoid`. This will create an attribute that has a data reference to a PI point. |
+| Tagpath | The path to a PI Server tag, for example: `\\MyPIServer\sinusoid`. This will create an attribute that has a data reference to a PI point. |
 | Allowemptyvalue | If true, the attribute will be created with an empty value. If false, and the value is empty, the attribute will not be created. |
 
 ## Examples

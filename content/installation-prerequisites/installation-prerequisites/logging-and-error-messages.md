@@ -6,6 +6,8 @@ uid: BIF_LoggingAndErrorMessages
 
 <!-- Static topic. No modifications usually required -->
 
+<!-- TU: This sounds like it should be a procedure. -->
+
 The interface logs operational messages during interface startup, data collection and recovery. Additional messages are logged if you enable debugging. To view messages, open PI System Management Tools, go to **Operation > Message Logs** and click the **PI Message Log** tab. 
 
 **Note:** From the command line, use the pigetmsg utility.
@@ -14,4 +16,4 @@ For detailed information about interface logging, refer to [OSIsoft Knowledge Ba
 
 For details about managing the error logging process, see the PI API Installation Instructions manual. 
 
-To enable debug output for troubleshooting, launch PI Event Frames Interface Manager, select your interface instance, and go to the **Operational Settings** tab.
+To enable debug output for troubleshooting, start PI Event Frames Interface Manager, select your interface instance, and go to the **Operational Settings** tab.

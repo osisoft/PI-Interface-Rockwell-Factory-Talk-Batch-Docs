@@ -10,6 +10,8 @@ You use the **Time Settings** tab to configure the settings that control how the
 
 ## Query time settings
 
+<!-- TU: Never leave a heading without text :) -->
+
 ### Scan (/SCAN=<seconds>)
 
 Specifies how frequently the interface scans the data source. 
@@ -46,6 +48,8 @@ Specifies the maximum time allowed for the interface to properly shutdown. If th
 Specifies whether timestamps from an SQL data source are interpreted as local time or GMT. By default, timestamps are interpreted as GMT. 
 
 ## PI Data Archive connection settings
+
+<!-- TU: Never leave a heading without text :) -->
 
 ### PI connection timeout (/PICONNTO=<seconds>)
 

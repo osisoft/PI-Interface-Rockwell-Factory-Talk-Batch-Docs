@@ -4,7 +4,7 @@ uid: BIF_DefineAttributeTemplates
 
 # Define attribute templates
 
-To define attribute templates using the PI Event Frames Interface Manager:
+To define attribute templates using PI Event Frames Interface Manager, complete the following steps:
 
 1. On the **Templates** tab, right-click **Attribute Templates** and choose **Add**. The Configuration pane displays.
 

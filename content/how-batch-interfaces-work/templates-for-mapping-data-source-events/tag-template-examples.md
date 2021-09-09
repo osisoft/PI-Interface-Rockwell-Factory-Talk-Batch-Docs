@@ -5,6 +5,8 @@ uid: BIF_TagTemplateExamples
 
 ## Capture report events for phase modules
 
+<!-- We want some introductory text here -->
+
 ### Tag template
 
 ```text
@@ -40,6 +42,8 @@ Resulting event added to PI point:
 The MDB module or PI AF asset for this phase module will have an alias that refers to this point.
 
 ## Multiple triggers for same tag
+
+<!-- We want some introductory text here -->
 
 ### Tag template
 
@@ -81,7 +85,7 @@ Resulting PI point: `U101 Tester`
 
 Resulting event added to PI point
 
-| TimeStamp | Value (string) |
+| Timestamp | Value (string) |
 | --------- | -------------- |
 | 08/12/2008 13:00:05.123 | 123.456-Report |
 | 08/12/2008 15:20:01.998 | HOLDING-State Change |

@@ -19,7 +19,7 @@ Storage of credentials within Windows Credential Manager benefits you by:
 
 ## Credential creation
 
-When you configure an interface using the PI Event Frames Interface Manager (see link in tip above), [!include[interface](../includes/product-short.md)] temporarily writes the credentials that you enter to the applicable .ini file. These settings remain in the .ini file until you start the interface. 
+When you configure an interface using PI Event Frames Interface Manager (see link in tip above), [!include[interface](../includes/product-short.md)] temporarily writes the credentials that you enter to the applicable .ini file. These settings remain in the .ini file until you start the interface. 
 
 After you start [!include[interface](../includes/product-short.md)], it makes the following updates:
 
@@ -28,7 +28,7 @@ After you start [!include[interface](../includes/product-short.md)], it makes th
 
 ## Credential storage
 
-After you start [!include[interface](../includes/product-short.md)], the credentials that it uses for authentication with PI components and data sources are listed in [Windows Credential Manager](https://support.microsoft.com/en-us/windows/accessing-credential-manager-1b5c916a-6a16-889f-8581-fc16e8165ac0). 
+After you start [!include[interface](../includes/product-short.md)], the credentials that it uses for authentication with PI components and data sources are listed in [Windows Credential Manager](https://support.microsoft.com/en-us/windows/accessing-credential-manager-1b5c916a-6a16-889f-8581-fc16e8165ac0).<!-- TU: The title of this link is slightly misleading -->
 
 
 The following table lists credentials for [!include[interface](../includes/product-short.md)]:
@@ -40,7 +40,7 @@ The following table lists credentials for [!include[interface](../includes/produ
 
 **Note:** `X` is a placeholder for an interface instance **Service ID**.
 
-## To update credentials
+## Update credentials
 
 If you need to update the credentials that the interface uses for authentication, edit the configuration settings for the instance using PI Event Frames Interface Manager.
 
