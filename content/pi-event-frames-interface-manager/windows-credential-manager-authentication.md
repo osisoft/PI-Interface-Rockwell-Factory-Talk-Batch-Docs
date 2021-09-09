@@ -4,12 +4,12 @@ uid: BIF_WindowsCredentialManagerAuthentication
 
 # Windows Credential Manager for authentication
 
-As a security best practice, [!include[interface](../includes/product-short.md)] stores any credentials that you enter during interface configuration to Windows Credential Manager. [!include[interface](../includes/product-short.md)] uses these credentials to authenticate with: 
+As a security best practice, [!include[interface](../includes/product-short.md)] stores any credentials that you enter during interface configuration to Windows Credential Manager. [!include[interface](../includes/product-short.md)] uses these credentials to authenticate with: <!-- TU: Those are not the credentials though, are they? Sounds like credentials used in those two maybe? -->
 
 * PI Data server 
 * PI Asset Framework
 
-Storage of credentials within Windows Credential Manager benefits you by:
+Credentials stored within Windows Credential Manager have the following benefits:
 
 * Caching credentials for future authentication, so that you do not have to re-enter them.
 * Removing any reference to passwords within the interface instance .ini file.
@@ -30,7 +30,6 @@ After you start [!include[interface](../includes/product-short.md)], it makes th
 
 After you start [!include[interface](../includes/product-short.md)], the credentials that it uses for authentication with PI components and data sources are listed in [Windows Credential Manager](https://support.microsoft.com/en-us/windows/accessing-credential-manager-1b5c916a-6a16-889f-8581-fc16e8165ac0).<!-- TU: The title of this link is slightly misleading -->
 
-
 The following table lists credentials for [!include[interface](../includes/product-short.md)]:
 
 | Credentials | Name |
@@ -44,9 +43,9 @@ The following table lists credentials for [!include[interface](../includes/produ
 
 If you need to update the credentials that the interface uses for authentication, edit the configuration settings for the instance using PI Event Frames Interface Manager.
 
-1. From **Interface Selection**, select the applicable [!include[interface](../includes/product-short.md)] instance.
+1. From **Interface Selection**, <!-- TU: What exactly is this? A tab? --> select the applicable [!include[interface](../includes/product-short.md)] instance.
 
-1. From **Server Information**, update the credentials used to authenticate with PI Data server or PI Asset Framework.
+1. From **Server Information**, <!-- TU: What exactly is this? A tab? --> update the credentials used to authenticate with PI Data server or PI Asset Framework.
 
 1. Click **Save Settings**.
 

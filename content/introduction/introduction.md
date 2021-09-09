@@ -20,7 +20,9 @@ PI Interface for Rockwell FactoryTalk Batch processes data using the following r
 * The interface can read data from multiple batch data sources simultaneously. 
 * The interface does not edit or delete source data.
 
-**Note:** PI Interface for Rockwell FactoryTalk Batch does not use the PI API Buffering Service <!-- Is this a product name? -->, because batch and tag data is already buffered by the source historian databases. To maximize performance, the interface writes events to PI tags in bulk; it writes all events per interface scan.
+**Note:** PI Interface for Rockwell FactoryTalk Batch does not use the PI API Buffering Service <!-- Is this a product name? --> because batch and tag data is already buffered by the source historian databases. To maximize performance, the interface writes events to PI tags in bulk; it writes all events per interface scan.
+
+<!-- TU: I would probaly move this section to the top of the page (without the heading) -->
 
 ## What is Rockwell FactoryTalk Batch?
 
