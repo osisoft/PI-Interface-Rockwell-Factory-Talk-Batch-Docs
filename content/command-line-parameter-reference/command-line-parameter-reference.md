@@ -116,7 +116,7 @@ Example:
 
 ```text
 /EquipmentXML="C:\DeltaV\Equip.xml"
-``` -->
+```
 
 ### `/failoverID =<string>`
 
