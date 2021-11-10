@@ -79,6 +79,7 @@
     items:
     - topicUid: BIF_HowToMergeMultipleSourceBatches # Customized for FactoryTalk
   - topicUid: BIF_OperationalSettingsTab # Minor edits
+  - topicUid: BIF_MonitorTagSetupTab # No modifications required
   - topicUid: BIF_TestConfigurationTab # No edits
   - topicUid: BIF_MonitorTagSetupTab # No modifications required 
   - topicUid: BIF_ServiceConfigurationTab # No edits
