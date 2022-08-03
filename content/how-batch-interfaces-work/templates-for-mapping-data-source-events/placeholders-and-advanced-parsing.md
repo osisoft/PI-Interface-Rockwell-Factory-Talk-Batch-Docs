@@ -6,7 +6,7 @@ uid: BIF_PlaceholdersAndAdvancedParsing
 
 Placeholders enable you to incorporate data from incoming events into tag names and data. Placeholders can be used in all types of templates. The precise set of placeholders supported by an interface depends on the data source. The following example illustrates how placeholders correspond to columns in a data source.
 
-![Placeholders and advanced parsing](../../images/placeholders-and-advanced-parsing.png)
+![Placeholders and advanced parsing](../../images/placeholders-and-advanced-parsing-updated.png)
 
 When you define templates using the PI Event Frame Interface Manager, you can choose from a list of supported placeholders. To use a placeholder in a field when editing a template, click the **Add Placeholder** button and choose the desired placeholder.
 
