@@ -61,7 +61,11 @@ Disable propagation of reference elements to children. By Default, the interface
 
 ### Failover tag (/FAILOVERTAG=x)
 
-The PI tag to be used to coordinate failover. Click the icon to open the Tag search window, where you provide the name of the tag in the **Tag Mask** field. The tag that you select displays in the **Failover tag** field of PI Event Frames Interface Manager. 
+The failover tag coordinates failover by using a PI tag. You must create the PI tag on the PI Server before creating a failover tag. To create a PI tag, refer to the System Management Tools Point Builder. When creating a PI tag, you should use *string* for the point type.
+
+To create a failover tag, select ![tag search icon](../images/tag-search-icon.png) to open the Tag search window. In the Tag Mask field, enter the name of the tag.
+      
+The created tag displays in the Failover tag field of the PI Event Frames Interface Manager.  
 
 ### Failover identifier (/FAILOVERID=x)
     
