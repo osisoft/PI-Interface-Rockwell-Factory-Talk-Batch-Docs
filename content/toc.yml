@@ -70,6 +70,8 @@
     - topicUid: BIF_DefineAttributeTemplates # No edits
     - topicUid: BIF_PropertyTemplatesEFIM # No edits
     - topicUid: BIF_RecipeTemplatesEFIM # No edits
+    items:
+      - topicUid: BIF_RecipeDefaultProperties
     - topicUid: BIF_TagTemplatesEFIM # No edits
     - topicUid: BIF_LinkTemplatesEFIM # No edits
   - topicUid: BIF_FiltersTab # No edits
@@ -79,7 +81,9 @@
     items:
     - topicUid: BIF_HowToMergeMultipleSourceBatches # Customized for FactoryTalk
   - topicUid: BIF_OperationalSettingsTab # Minor edits
+  - topicUid: BIF_MonitorTagSetupTab # No modifications required
   - topicUid: BIF_TestConfigurationTab # No edits
+  - topicUid: BIF_MonitorTagSetupTab # No modifications required 
   - topicUid: BIF_ServiceConfigurationTab # No edits
   # missing "configure-tab-templates.md"
 # Troubleshooting
