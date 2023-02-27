@@ -2,11 +2,11 @@
 uid: BIF_ConfigureSecurityForPIAF
 ---
 
-# Configure security for the PI Asset Framework
+# Configure security for PI Asset Framework
 
 <!-- Static topic. No modifications usually required -->
 
-To configure batch interface security settings for the PI Asset Framework, perform the following steps.
+To configure batch interface security settings for PI Asset Framework, perform the following steps.
 
 1. Launch PI System Explorer.
 

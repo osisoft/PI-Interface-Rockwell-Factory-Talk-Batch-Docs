@@ -6,11 +6,11 @@ uid: BIF_CommandLineParameterReference
 
 <!-- Customized for FactoryTalk. Commented out content does not apply to FactoryTalk. -->
 
-To configure an interface, you use the PI Event Frames Interface Manager, which maintains the files that contain batch interface settings. This appendix describes the command line settings and is provided for troubleshooting purposes.
+To configure an interface, you use PI Event Frames Interface Manager, which maintains the files that contain batch interface settings. This appendix describes the command line settings, which are provided for troubleshooting purposes.
     
 To ensure that settings files are formatted correctly, always use PI Event Frames Interface Manager to configure settings. Do not edit settings files manually.
 
-The following table is a compilation of the command line settings for all the OSIsoft batch framework interfaces. Some settings are specific to an interface. To list the settings supported by your interface, invoke its executable at the command line, specifying the -? flag.
+The following table <!-- Which table? --> is a compilation of the command line settings for all the OSIsoft batch framework interfaces. Some settings are specific to an interface. To list the settings supported by your interface, invoke its executable at the command line, specifying the -? flag.
 
 ## Available command line parameters
 
@@ -44,7 +44,7 @@ Valid wildcards are as follows:
 
 #### Wildcard use example
 
-If the incoming Batch ID is: `lot30112 / 90dev123 / 12345stp / ld567`
+If the incoming Batch ID is `lot30112 / 90dev123 / 12345stp / ld567`
 
 The following list shows example masks and resulting data.
 
@@ -147,7 +147,7 @@ Examples:
 
 ### `/includeincompletedata`
 
-(Optional) Enables the collection of all unit procedures without and associated UNIT. Without this option unit procedures that do not have phase state that associated with a particular UNIT will not be shown as events in PI AF.
+(Optional) Enables the collection of all unit procedures without and associated UNIT. Without this option, unit procedures that do not have phase state that associated with a particular UNIT will not be shown as events in PI AF.
 
 ### `/inifile =<path>`
 
@@ -267,11 +267,11 @@ Language types and abbreviations:
 (Optional) Override the default SDK setting for PI data access timeout.
 ### `/pipswd =<password>`
 
-(Optional) Specify the user password to be used to connect to the PI Data Archive. By default, the interface uses PI trusts for authentication.
+(Optional) Specify the user password to be used to connect to PI Data Archive. By default, the interface uses PI trusts for authentication.
 
 ### `/piuser =<name>`
 
-(Optional) Specify the user name to be used to connect to the PI Data Archive. By default, the interface uses PI trusts for authentication.
+(Optional) Specify the user name to be used to connect to PI Data Archive. By default, the interface uses PI trusts for authentication.
 
 ### `/print =<filename>` 
 

@@ -6,7 +6,11 @@ uid: BIF_EventFileOperation
 
 <!-- Customized for FactoryTalk. Removed references to SQL start/end events -->
 
+<!-- Needs introductory sentence -->
+
 ## Event journal start/end events
+
+<!-- Needs introductory sentence, but the real question is if this heading is needed because there is no second heading 2 -->
 
 ### Start
 

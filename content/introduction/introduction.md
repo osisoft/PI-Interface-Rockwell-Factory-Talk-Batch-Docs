@@ -12,15 +12,17 @@ PI Interface for Rockwell FactoryTalk Batch [!include[version](../includes/produ
 
 * **Stores** the collected data as event frames and elements within a supported database: PI Batch Database or PI Asset Framework (PI AF) Database.
 
-    You can use tag templates to control PI point creation and event population. All modules, tags, tag aliases, and health tags are automatically created on the PI server. 
+    You can use tag templates to control PI point creation and event population. All modules, tags, tag aliases, and health tags are automatically created on the PI Server. 
 
 PI Interface for Rockwell FactoryTalk Batch processes data using the following rules:
 
-* The flow of data in the interface is unidirectional. The interface reads data from a source you define and then writes it the PI Server. 
+* The flow of data in the interface is unidirectional. The interface reads data from a source you define and then writes it to the PI Server. 
 * The interface can read data from multiple batch data sources simultaneously. 
 * The interface does not edit or delete source data.
 
-**Note:** PI Interface for Rockwell FactoryTalk Batch does not use the PI API Buffering Service, because batch and tag data is already buffered by the source historian databases. To maximize performance, the interface writes events to PI tags in bulk; it writes all events per interface scan.
+**Note:** PI Interface for Rockwell FactoryTalk Batch does not use the PI API Buffering Service <!-- Is this a product name? --> because batch and tag data is already buffered by the source historian databases. To maximize performance, the interface writes events to PI tags in bulk; it writes all events per interface scan.
+
+<!-- TU: I would probaly move this section to the top of the page (without the heading) -->
 
 ## What is Rockwell FactoryTalk Batch?
 

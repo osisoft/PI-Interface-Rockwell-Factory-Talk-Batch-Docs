@@ -30,7 +30,7 @@ uid: BIF_ConfigureTagTemplates
 
 5. To specify the data to be written to the tag, configure the Value field. To include data read from the data source in the tag value, use placeholders.
 
-    For example, to simply record the incoming value without transforming it, specify the [PVAL] placeholder. A more complex example: to configure a value that concatenates phase module, event, description, incoming value and engineering units, specify the following:
+    For example, to record the incoming value without transforming it, specify the [PVAL] placeholder. A more complex example: to configure a value that concatenates phase module, event, description, incoming value and engineering units, specify the following:
 
     ```text
     [PHASEMODULE].[EVENT].[DESCRIPT]: [PVAL] [EU]
@@ -75,8 +75,8 @@ uid: BIF_ConfigureTagTemplates
     | NAME | (Required) Name of PI tag to be created or updated. |
     | VALUE | (Required) Value to be assigned to PI tag (text). |
     | TRIGGER | Event text from data source (can be specified using wildcards). |
-    | TYPE | String/integer/float/auto. "Auto" directs the interface to automatically detect the data type. |
-    | UNITALIAS | Configure how unit alias (AF: PI point reference) is created. By default, the alias is created in the unit. To override the default, specify the path where you want the alias created. For example:
+    | TYPE | String/integer/float/auto. "Auto" directs the interface to detect the data type automatically. |
+    | UNITALIAS | Configure how unit alias (AF: PI point reference) is created. By default, the alias is created in the unit. To override the default, specify the path where you want the alias created, for example:
     |  | UNITALIAS = \Building1\Unit2| |
     | [PHASE] | The alias is created under the Unit2 module, named using the value of the [PHASE] column. |
     |  |  All batch interfaces support unit and phase level equipment aliases. Some interface support creation of equipment aliases at all levels of the batch hierarchy. For details, refer to the interface-specific section of this guide. |
@@ -91,7 +91,7 @@ uid: BIF_ConfigureTagTemplates
     | Placeholder | Values | Description |
     | ----------- | ------ | ----------- |
     | EVENT | PIEVENT | Specify [EVENT, value="PIEVENT"] |
-    | DESCRIPT | BATCH | Specify the batch level you want to trigger on. For example: |
+    | DESCRIPT | BATCH | Specify the batch level you want to trigger on, for example: |
     |   |   |  [DESCRIPT, value="UNITBATCH"] |
     |   |   |  [DESCRIPT, value="PHASE"] |
     |   | UNITBATCH |     |

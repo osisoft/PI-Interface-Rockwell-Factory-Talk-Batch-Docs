@@ -6,7 +6,7 @@ uid: BIF_TagTemplatesEFIM
 
 Tag templates create and update PI tags when the interface reads from the data source. If you define one or more triggers, the interface updates target PI tag only when the specified events occur. If you do not define any triggers, every event from the data source triggers an update of the target PI tag.
 
-Tag aliases enable you to associate PI tags with equipment assets (PI units or AF elements). All batch interfaces support the creation of aliases at the unit batch and phase level. In addition, some batch interfaces permit you to define aliases at any level of the batch hierarchy by providing level-specific placeholders. For details, refer to the interface-specific section in this guide.
+Tag aliases enable you to associate PI tags with equipment assets (PI units or AF elements). All batch interfaces support the creation of aliases at the unit batch and phase level. In addition, some batch interfaces permit you to define aliases at any level of the batch hierarchy by providing level specific placeholders. For details, refer to the interface-specific section in this guide.
 
 ## Tag configuration
 
