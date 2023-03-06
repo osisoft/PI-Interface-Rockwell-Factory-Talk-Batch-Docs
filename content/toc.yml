@@ -28,6 +28,7 @@
       - topicUid: BIF_EventFrames # Customized for FactoryTalk
       - topicUid: BIF_EquipmentHierarchy # No edits
     - topicUid: BIF_EquipmentArbitrationEventsUnavailable # No edits
+  - topicUid: BIF_batchlistmanagement
   - topicUid: BIF_TemplatesForMappingDataSourceEvents # No edits
     items:
     - topicUid: BIF_PlaceholdersAndAdvancedParsing # No edits
