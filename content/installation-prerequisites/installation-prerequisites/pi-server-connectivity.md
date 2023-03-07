@@ -10,6 +10,6 @@ If a connection is lost during processing, the interface suspends all actions un
 
 You can configure both the retry interval and the timeout period on the **Time Settings** tab of PI Event Frames Interface Manager. The interface logs any connection errors that occur.
 
-**Note:** Sending tag values to multiple servers requires configuring PI Buffering on the interface node. To configure the buffering services, refer to the [Buffering section](https://docs.aveva.com/bundle/pi-server-buf-ha/page/1032385.html) of the AVEVA PI Server - Buffering and High Availability guide. 
+**Note:** Sending tag values to multiple servers requires configuring PI Buffering on the interface node. To configure the buffering services, refer to the [Buffering section](https://docs.aveva.com/bundle/pi-server-buf-ha/page/1032385.html) in the AVEVA PI Server - Buffering and High Availability guide. 
 
-Additionaly, creating tags and other configuration updates to multiple servers requires all servers to be part of a PI Server Collective. For additional information on how to configure collectives, refer to [PI Data Archive collective management](https://docs.osisoft.com/bundle/pi-server/page/pi-data-archive-collective-management.html) in the AVEVA PI Server guide.
+Additionaly, creating tags and other configuration updates to multiple servers requires all servers to be part of a PI Server Collective. For additional information on how to create collectives, refer to [Create a collective](https://docs.aveva.com/bundle/pi-server-buf-ha/page/1022889.html) in the AVEVA PI Server - Buffering and High Availability guide.
