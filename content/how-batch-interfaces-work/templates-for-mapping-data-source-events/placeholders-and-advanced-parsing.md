@@ -8,7 +8,7 @@ Placeholders enable you to incorporate data from incoming events into tag names 
 
 ![Placeholders and advanced parsing](../../images/placeholders-and-advanced-parsing.png)
 
-When you define templates using PI Event Frame Interface Manager, you can choose from a list of supported placeholders. To use a placeholder in a field when editing a template, click the **Add Placeholder** button and choose the desired placeholder.
+When you define templates using the PI Event Frame Interface Manager, you can choose from a list of supported placeholders. To use a placeholder in a field when editing a template, click the **Add Placeholder** button and choose the desired placeholder.
 
 You can define placeholders that read data from PI tags when triggered by batch events. To specify a tag-based placeholder, use the following syntax:
 
@@ -16,7 +16,7 @@ You can define placeholders that read data from PI tags when triggered by batch 
 [Tag, Name="PI Tag Name", <comma-delimited list of parameters>]
 ```
 
-Example:
+For example:
 
 ```text
 total:[Tag, name="sinusoid", range="10d", func="TOTAL"]
@@ -28,7 +28,7 @@ The following table describes the components of a tag-based placeholder.
 
 | Parameter | Description |
 | --------- | ----------- |
-| Name="tagname" | (Required) Defines the exact name of the PI tag, which should be used for data retrieval. |
+| Name="tagname" | (Required) Defines the exact name of the PI tag which should be used for data retrieval. |
 | Range="data_range" | (Optional) Defines the time frame for which the data is queried. It can be number of events, time frame or "PIOBJECT". "PIOBJECT" instructs the interface to use the time frame of the related PI batch/unitbatch/subbatch object. Examples: Range="10": Retrieve the ten events that precede the triggered batch event timestamp. Range="10d": Retrieve the events for ten days from the triggered batch event timestamp. Range="PIOBJECT": Retrieve the events between the start and end times of the related batch object.
 | Func="option" | (Optional) Used with Range to aggregate retrieved data. Options:<br><br>&bull; "MIN": Minimum value in the time frame.<br>&bull; "MAX": Maximum value in the time frame.<br>&bull; "TOTAL": Sum of values in the time frame.<br>&bull; "MID": Average of values in the time frame. |
 

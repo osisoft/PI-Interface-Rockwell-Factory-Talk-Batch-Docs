@@ -38,7 +38,7 @@ UBR works with following batch interfaces:
 * Honeywell TotalPlant Batch
 * Rockwell FactoryTalk Batch and Rockwell FactoryTalk OEM Batch 
 
-`/UBR` C can be set in the INI file, on the command line or by using PI Event Frames Interface Manager / batch Setup tab.
+`/UBR` C can be set in the INI file, on the command line or by using the PI Event Frames Interface Manager / batch Setup tab.
 
 If `/UBR = true` the interface will use SYSTEM MESSAGE to control the start and end of event frames. Example System Messages are BEGIN OF BATCH, END OF BATCH, UNIT PROCEDURE STARTED, and UNIT PROCEDURE ENDED.
 
@@ -68,11 +68,11 @@ Remove trailing index from Recipe fields. Applicable to Procedure, Unit Procedur
 
 ### Merge operation (/MOP)
 
-Merge identically named operations under the same parent unit procedure.
+Merge identically-named operations under the same parent unit procedure.
 
 ### Merge unit procedures (/MUP)
 
-Merge identically named sequential unit procedures running on the same unit into a single unit procedure.
+Merge identically-named sequential unit procedures running on the same unit into a single unit procedure.
 
 ### Merge multiple source batches with same batch ID into one batch (/MERGE)
 

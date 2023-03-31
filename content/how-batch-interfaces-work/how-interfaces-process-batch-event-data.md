@@ -10,11 +10,11 @@ The interface processes start and end events for each level. The level at which 
 
 The interface automatically creates PIBatches (or level 1 events) and PIUnitBatches (or level 2 events) for operation- and lower-level recipes, even though the events in the data source do not include these levels. The BES events that trigger the start and end of each level are vendor-specific. For details, refer to the vendor-specific information in this document.
 
-When you configure the interface to generate event frames in PI AF, the interface creates a set of event frame templates in the target database, one template for each level in the standard S88 batch hierarchy. You can modify the templates to customize the data that is stored in the generated event frames. The interface creates equipment assets in the Module Database or PI AF (depending on where you are storing batch data) based on allocation events from the BES, and populates the attributes of those assets with relevant data.
+When you configure the interface to generate event frames in PI AF, the interface creates a set of event frame templates in the target database, one template for each level in the standard S88 batch hierarchy. You can modify the templates to customize the data that is stored in the generated event frames. The interface creates equipment assets in the Module Database or PI AF (depending on where you're storing batch data) based on allocation events from the BES, and populates the attributes of those assets with relevant data.
 
 <!-- Custom content below this comment -->
 
-To compose the history that it stores in the PI System, the interface uses the timestamps from the data source, not the system time on the interface node. When updating health tags, the interface uses the system time on the interface node.
+To compose the history that it stores in the PI System. the interface uses the timestamps from the data source, not the system time on the interface node. When updating health tags, the interface uses the system time on the interface node.
 
 **Note:** By default, when processing the incoming Batch ID, Name, Product, Recipe and Procedure fields, the interface replaces the following reserved characters with an underscore: \* \' ? \` \". To override these replacement characters, use PI System Management Tools **Operation > AF Link** option to configure the desired replacement characters.
 
@@ -22,7 +22,7 @@ To compose the history that it stores in the PI System, the interface uses the t
 
 The PIBatch is the highest level recorded in the PI Batch Database (or as an event frame). Its properties record general data such as the batch ID, recipe name and type, and so on. If a recipe is composed solely of levels below the unit batch (for example, an operation- or phase-level recipe), the interface generates parent batches and unit > batches. 
 
-The best way for the interface to determine the precise start and end time for a unit batch is to use equipment arbitration events, which record the time a unit was acquired or released. If the BES does not support arbitration events, the interface uses unit batch start and end events, which can be affected by the start and end of lower levels and are inherently less precise than equipment acquisition events.
+he best way for the interface to determine the precise start and end time for a unit batch is to use equipment arbitration events, which record the time a unit was acquired or released. If the BES does not support arbitration events, the interface uses unit batch start and end events, which can be affected by the start and end of lower levels and are inherently less precise than equipment acquisition events.
 
 ## PIUnitBatch/Unit Procedure
 
@@ -57,7 +57,7 @@ If the phase step is not closed by an appropriate closing event, it is closed by
 
 ## Merging Multiple Source Batches
 
-To merge multiple source batches that have identical batch IDs, enable the **Merge multiple source batches with same batch ID into one PI > batch** option on the **Batch Setup** tab of PI Event Frame Interface Manager. To ensure that related batch IDs match, you can configure a batch ID mask that extracts a common substring from the > incoming ID.
+To merge multiple source batches that have identical batch IDs, enable > the **Merge multiple source batches with same batch ID into one PI > batch** option on the **Batch Setup** tab of the PI Event Frame Interface Manager. To ensure that related batch IDs match, you can configure a batch ID mask that extracts a common substring from the > incoming ID.
 
 The interface caches batches and, when it reads a new batch from the source, it checks its cache for a batch with a matching ID. If a match is found, the interface merges the batches. If no match is found in the cache, the interface creates a new batch.
 

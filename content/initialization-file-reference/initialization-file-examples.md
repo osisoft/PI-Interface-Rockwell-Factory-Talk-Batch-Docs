@@ -6,8 +6,6 @@ uid: BIF_InitializationFileExamples
 
 <!-- Topic requires customization for specific interface -->
 
-<!-- TU: Never leave a heading without text :) -->
-
 ## Multiple EVT Sources
 
 ```text

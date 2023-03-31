@@ -14,6 +14,6 @@ Parallel data processing also solves the problem of shared unit control, where o
 
 You can configure data sources for the [!include[interface](../includes/product-short.md)] by updating its .ini file. To configure a data source, enter the full path to the directory containing .evt files.
 
-Example: MyFactoryTalkHost.int.
+For example: MyFactoryTalkHost.int.
     
 **Note:** You only need to specify the hostname. You can omit the protocol.

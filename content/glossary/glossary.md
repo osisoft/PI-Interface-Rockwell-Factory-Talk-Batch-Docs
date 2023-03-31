@@ -31,7 +31,7 @@ The following are high-context terminologies used in this document.
     
 Buffering refers to an interface node's ability to store temporarily the data that interfaces collect and to forward these data to the appropriate PI Data Archives. 
 
-### N-Way buffering
+### N-Way Buffering
     
 If you have PI Data Archives that are part of a collective, PIBufss supports n-way buffering. N‑way buffering refers to the ability of a buffering application to send the same data to each of the PI Data Archives in a collective. (Bufserv also supports n-way buffering to multiple PI Data Archives in a collective; however, it does not guarantee identical archive records since point compression attributes could be different between PI Data Archives. With this in mind, OSIsoft recommends that you run PIBufss instead.) 
 
@@ -47,12 +47,12 @@ An ICU control is a plug-in to the ICU. Whereas the ICU handles functionality co
 
 An interface node is a computer on which
 
-* PI API and/or PI SDK are installed, and
+* the PI API and/or PI SDK are installed, and
 * PI Data Archive programs are not installed.
 
 ### PI API
 
-PI API is a library of functions that allow applications to communicate and exchange data with PI Data Archive. All PI interfaces use PI API. 
+The PI API is a library of functions that allow applications to communicate and exchange data with the PI Data Archive. All PI interfaces use the PI API. 
 
 ### PI Data Archive Collective
 
@@ -65,12 +65,12 @@ A PI Data Archive node is a computer on which PI Data Archive programs are insta
 
 ### PIHOME
 
-PIHOME refers to the directory that is the common location for PI 32-bit client applications. A typical PIHOME on a 32-bit operating system is `C:\Program Files\PIPC`. A typical PIHOME on a 64-bit operating system is 
-`C:\Program Files (x86)\PIPC`. PI 32-bit interfaces reside in a subdirectory of the Interfaces directory under PIHOME. For example, files for the 32-bit Modbus Ethernet Interface are in `[PIHOME ]\PIPC\Interfaces\ModbusE`. This document uses [PIHOME ] as an abbreviation for the complete PIHOME or PIHOME64 directory path. For example, ICU files in: `[PIHOME ]\ICU`. 
+PIHOME refers to the directory that is the common location for PI 32-bit client applications. A typical PIHOME on a 32-bit operating system is: C:\Program Files\PIPC. A typical PIHOME on a 64-bit operating system is: 
+C:\Program Files (x86)\PIPC. PI 32-bit interfaces reside in a subdirectory of the Interfaces directory under PIHOME. For example, files for the 32-bit Modbus Ethernet Interface are in: [PIHOME ]\PIPC\Interfaces\ModbusE. This document uses [PIHOME ] as an abbreviation for the complete PIHOME or PIHOME64 directory path. For example, ICU files in: [PIHOME ]\ICU. 
 
 ### PIHOME64
 
-PIHOME64 is found only on a 64-bit operating system and refers to the directory that is the common location for PI 64-bit client applications. A typical PIHOME64 is C:\Program Files\PIPC. PI 64-bit interfaces reside in a 
+PIHOME64 is found only on a 64-bit operating system and refers to the directory that is the common location for PI 64-bit client applications. A typical PIHOME64 is: C:\Program Files\PIPC. PI 64-bit interfaces reside in a 
 subdirectory of the Interfaces directory under PIHOME64. For example, files for a 64-bit Modbus Ethernet Interface would be found in: C:\Program Files\PIPC\Interfaces\ModbusE. This document uses [ PIHOME ] as an abbreviation for the complete PIHOME or PIHOME64 directory path. For example, ICU files in: [ PIHOME ]\ICU. 
 
 ### PI Message Log
@@ -80,11 +80,12 @@ can only be viewed using the PIGetMsg utility. See the Message Logs section of t
 
 ### PI SDK
 
-The PI SDK is a library of functions that allow applications to communicate and exchange data with PI Data Archive. Some PI interfaces, in addition to using PI API, require the use of PI SDK. 
+The PI SDK is a library of functions that allow applications to communicate and exchange data with the PI Data Archive. Some PI interfaces, in addition to using the PI API, require the use of the PI SDK. 
 
 ### PI Server Node
 
-In earlier documentation, the term "PI Server" was used as a nickname for PI Data Archive and a PI Server node was a computer on which PI Data Archive programs were installed. While PI Data Archive remains a core server of the PI Server product, the product name "PI Server" now refers to much more than PI Data Archive. OSIsoft documentation, including this user manual, is changing to use "PI Server" in this broader sense and "PI Data Archive" to refer to the historian core. 
+In earlier documentation, the term "PI Server" was used as a nickname for the PI Data Archive and a PI Server node was a computer on which PI Data Archive programs were installed. While the PI Data Archive remains a core 
+server of the PI Server product, the product name "PI Server" now refers to much more than the PI Data Archive. OSIsoft documentation, including this user manual, is changing to use "PI Server" in this broader sense and "PI Data Archive" to refer to the historian core. 
 
 ### PI SMT
 
@@ -98,7 +99,7 @@ access to the pipc.log.
 
 ### Point
 
-The PI point is the basic building block for controlling data flow to and from PI Data Archive. For a given timestamp, a PI point holds a single value. A PI point does not necessarily correspond to a "point" on the 
+The PI point is the basic building block for controlling data flow to and from the PI Data Archive. For a given timestamp, a PI point holds a single value. A PI point does not necessarily correspond to a "point" on the 
 data source device. For example, a single "point" on the data source device can consist of a set point, a process value, an alarm limit, and a discrete value. These four pieces of information require four separate PI points. 
 
 ### Service

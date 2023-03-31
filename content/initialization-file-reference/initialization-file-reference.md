@@ -139,7 +139,7 @@ The following headings describe the settings required to define property templat
 
 By default, properties are created at the level of the batch hierarchy that triggers their creation. To create a property at the top of the hierarchy, regardless of where it was triggered, specify "$" at the beginning of the expression that defines the name. 
 
-Example: 
+For example: 
 
 ```text
 Property[1].Name = $\[Event]

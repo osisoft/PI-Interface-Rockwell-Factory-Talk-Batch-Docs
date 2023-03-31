@@ -10,8 +10,6 @@ By default, phase steps are not detected. You must enable phase steps and config
 
 ## Event journal start/end events
 
-<!-- Needs introductory sentence, but the real question is if this heading is needed because there is no second heading 2 -->
-
 ### Start
 
 The event containing [EVENT] = "Report" and [DESCRIPT] or [PVALUE] field = <Start Substring> starts a phase step. The name of the phase step is parsed from the text in the [DESCRIPT] or [PVALUE] field.

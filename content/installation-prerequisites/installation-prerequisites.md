@@ -6,13 +6,13 @@ uid: BIF_InstallationPrerequisites
 
 <!-- Static topic. No modifications usually required -->
 
-The installation of this interface requires at least the following versions of PI Server software: PI Server 3.3 and PI AF 2010 R3 (2.4)
+Minimum required versions of PI Server software: PI Server 2015 and PI AF 2016 (2.8.2).
 
 Before installing and configuring, ensure that the following prerequisites are met:
 
-* Verify that PI Data Archive is running and is accessible from the computer where you intend to run the interface (the interface node).
+* Verify that the PI Data Archive is running and is accessible from the computer where you intend to run the interface (the interface node).
 
-* If you intended to generate event frames, make sure that PI AF Server is running and is accessible from the interface node.
+* If you intended to generate event frames, make sure that the PI AF Server is running and is accessible from the interface node.
 
 * Ensure that the system time on all these computers is correct.
 
@@ -22,9 +22,9 @@ To install the interface, download and run its setup kit. By default, the interf
 
 `%PIHOME%\Interfaces\`
 
-The interface installation directory contains all the files and folders required to configure and run the interface. The installation directory also includes example configurations.
+The interface installation directory contains all the files and folders required to configure and run the interface, and includes example configurations.
 
-The interface can run on the same computer as the BES or on a dedicated node. To avoid affecting the performance of PI Data Archive, do not install the interface on the same computer as PI Data Archive. When installing the interface, reserve the C: drive for the operating system, and install the interface on another drive.
+The interface can run on the same computer as the BES or on a dedicated node. To avoid affecting the performance of the PI Data Archive, do not install the interface on the same computer as the PI Data Archive. When installing the interface, reserve the C: drive for the operating system, and install the interface on another drive.
 
 To configure the interface, use the PI Event Frame Manager configuration tool.
     

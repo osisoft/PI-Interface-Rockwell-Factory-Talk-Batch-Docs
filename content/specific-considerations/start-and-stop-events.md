@@ -4,8 +4,6 @@ uid: BIF_StartAndStopEvents
 
 # Start and stop events
 
-<!-- TU: Can we add a sentence to what start and stop events are rather than diving into what start and end times depend on?>
-
 <!-- Customized for FactoryTalk. Removed heading related to Microsoft SQL Server, as FactoryTalk does not support SQL as a data source -->
 
 The start and end times set by the interface depend on:
@@ -13,7 +11,7 @@ The start and end times set by the interface depend on:
 * The type of data source
 * Whether you enable the **Use Batch Recipe** (UBR) option. 
 
-    Enable the UBR option to provide backward compatibility with PI EVT File Interface. The sections below provide details about how the interface determines start and end times.
+    Enable the UBR option to provide backward compatibility with the PI EVT File interface. The sections below provide details about how the interface determines start and end times.
 
 ## Event Files Data Source
 
@@ -25,7 +23,7 @@ The interface detects start and end events by scanning the [EVENT] field for `St
 |--|--|--|--|
 |  | Start | End |  |
 | Batch | "CREATED" | "REMOVED" |  |
-| Unit batch | "RUNNING" | "COMPLETE", "STOPPED", or "ABORTED" | Requires equipment acquisition or release event: [EVENT] = "Recipe Arbitration" and [DESCRIPT] = "Resource Acquired by recipe" or "Resource Release by recipe". For unit batch start time, the interface uses the timestamp of the start event or equipment acquisition event, whichever is latest. For end time, it uses the timestamp of the end event or the equipment release event, whichever is earliest. The interface reads the unit name from the [PVALUE] field. |
+| Unit batch | "RUNNING" | "COMPLETE", "STOPPED", or "ABORTED" | Requires equipment acquisition or release event: [EVENT] = "Recipe Arbitration" and [DESCRIPT] = "Resource Acquired by recipe" or "Resource Release by recipe" . For unit batch start time, the interface uses the timestamp of the start event or equipment acquisition event, whichever is latest. For end time, it uses the timestamp of the end event or the equipment release event, whichever is earliest. The interface reads the unit name from the [PVALUE] field. |
 | Operation | "RUNNING" | "COMPLETE", "STOPPED", or "ABORTED" |  |
 | Phase | "RUNNING" | "COMPLETE", "STOPPED", or "ABORTED" |  |
 | Phase state | "RUNNING" | n/a | The start of a phase state ends any preceding phase state. If the interface detects multiple start or end events for the same phase state, it uses the first event. |
