@@ -72,7 +72,6 @@
     - topicUid: BIF_RecipeTemplatesEFIM # No edits
     items:
       - topicUid: BIF_RecipeDefaultProperties
-    items:
     - topicUid: BIF_TagTemplatesEFIM # No edits
     - topicUid: BIF_LinkTemplatesEFIM # No edits
   - topicUid: BIF_FiltersTab # No edits
