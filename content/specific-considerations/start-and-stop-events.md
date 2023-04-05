@@ -4,14 +4,13 @@ uid: BIF_StartAndStopEvents
 
 # Start and stop events
 
-<!-- Customized for FactoryTalk. Removed heading related to Microsoft SQL Server, as FactoryTalk does not support SQL as a data source -->
+<!-- Customized for FactoryTalk. Removed heading related to Microsoft SQL Server, as FactoryTalk does not support SQL as a data source. Additionally, Use Batch Recipe is enabled only in RFT (by default). Unlike other interfaces, there is no option in the batch settings tab to disable. Confirmed by Gotham team (03/2023) that this is by design Opening paragraph is different than other interfaces. -->
 
-The start and end times set by the interface depend on:
+Since the Rockwell Factory Talk interface enables the Use Batch Recipe option by default, the start and end times set by the interface depend upon the type of data source.
 
-* The type of data source
-* Whether you enable the **Use Batch Recipe** (UBR) option. 
+**Note**: You cannot disable the Use Batch Recipe option through the Batch Setup Tab in the Rockwell Factory Talk interface. We do not recommend disabling it through the .ini file. 
 
-    Enable the UBR option to provide backward compatibility with the PI EVT File interface. The sections below provide details about how the interface determines start and end times.
+The sections below provide details about how the interface determines start and end times.
 
 ## Event Files Data Source
 
