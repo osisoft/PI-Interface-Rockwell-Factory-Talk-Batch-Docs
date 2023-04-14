@@ -1,6 +1,5 @@
-
 ---
-uid: BIF_RecipeDefaultProperties
+uid: RFT_RecipeDefaultProperties
 ---
 
 # Recipe templates default properties
@@ -112,4 +111,3 @@ The following are the recipe template default values for the PHASE STEP level:
 | SearchDirection | Reverse |
 | Category | OSIBatch |
 | Template | PhaseStep |
-

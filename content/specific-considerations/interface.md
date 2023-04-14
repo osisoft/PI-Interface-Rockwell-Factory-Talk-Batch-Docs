@@ -2,7 +2,7 @@
 uid: BIF_Interface
 ---
 
-# [!include[interface](../includes/product-long.md)]
+# Specific considerations for [!include[interface](../includes/product-short.md)]
 
 <!-- Requires customization for interface -->
 

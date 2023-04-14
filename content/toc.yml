@@ -15,7 +15,9 @@
         - topicUid: BIF_ConfigureSecurityForPIAF # No edits
         - topicUid: BIF_ConfigureSecurityForPIDataArchive # No edits
   - topicUid: BIF_CreateAndConfigureInterfaceInstance # No edits
-  - topicUid: BIF_ConfigureInstancesForFailover # No edits
+  - topicUid: BIF_InterfaceFailover
+    items:
+       - topicUid: BIF_ConfigureInstancesForFailover # No edits
   - topicUid: BIF_InterfaceConfiguration # Customized for FactoryTalk
 # How Batch Interfaces Work
 - topicUid: BIF_HowBatchInterfacesWork # No edits
@@ -28,6 +30,7 @@
       - topicUid: BIF_EventFrames # Customized for FactoryTalk
       - topicUid: BIF_EquipmentHierarchy # No edits
     - topicUid: BIF_EquipmentArbitrationEventsUnavailable # No edits
+  - topicUid: BIF_batchlistmanagement
   - topicUid: BIF_TemplatesForMappingDataSourceEvents # No edits
     items:
     - topicUid: BIF_PlaceholdersAndAdvancedParsing # No edits
@@ -71,7 +74,7 @@
     - topicUid: BIF_PropertyTemplatesEFIM # No edits
     - topicUid: BIF_RecipeTemplatesEFIM # No edits
     items:
-      - topicUid: BIF_RecipeDefaultProperties
+      - topicUid: RFT_RecipeDefaultProperties
     - topicUid: BIF_TagTemplatesEFIM # No edits
     - topicUid: BIF_LinkTemplatesEFIM # No edits
   - topicUid: BIF_FiltersTab # No edits
@@ -81,9 +84,7 @@
     items:
     - topicUid: BIF_HowToMergeMultipleSourceBatches # Customized for FactoryTalk
   - topicUid: BIF_OperationalSettingsTab # Minor edits
-  - topicUid: BIF_MonitorTagSetupTab # No modifications required
   - topicUid: BIF_TestConfigurationTab # No edits
-  - topicUid: BIF_MonitorTagSetupTab # No modifications required 
   - topicUid: BIF_ServiceConfigurationTab # No edits
   # missing "configure-tab-templates.md"
 # Troubleshooting
