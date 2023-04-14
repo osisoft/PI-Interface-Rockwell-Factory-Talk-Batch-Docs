@@ -38,7 +38,9 @@ UBR works with following batch interfaces:
 * Honeywell TotalPlant Batch
 * Rockwell FactoryTalk Batch and Rockwell FactoryTalk OEM Batch 
 
-`/UBR` C can be set in the INI file, on the command line or by using the PI Event Frames Interface Manager / batch Setup tab.
+`/UBR` can be set in the INI file, on the command line or by using the PI Event Frames Interface Manager / batch Setup tab.
+
+**Note**: You cannot disable the Use Batch Recipe option through the Batch Setup Tab in the Rockwell Factory Talk interface. We do not recommend disabling it through the .ini file. 
 
 If `/UBR = true` the interface will use SYSTEM MESSAGE to control the start and end of event frames. Example System Messages are BEGIN OF BATCH, END OF BATCH, UNIT PROCEDURE STARTED, and UNIT PROCEDURE ENDED.
 

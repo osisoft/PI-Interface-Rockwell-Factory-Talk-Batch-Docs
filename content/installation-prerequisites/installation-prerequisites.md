@@ -24,7 +24,11 @@ To install the interface, download and run its setup kit. By default, the interf
 
 The interface installation directory contains all the files and folders required to configure and run the interface, and includes example configurations.
 
-The interface can run on the same computer as the BES or on a dedicated node. To avoid affecting the performance of the PI Data Archive, do not install the interface on the same computer as the PI Data Archive. When installing the interface, reserve the C: drive for the operating system, and install the interface on another drive.
+The interface can run on the same computer as the BES or on a dedicated node. To avoid affecting the performance of the PI Data Archive, do not install the interface on the same computer as the PI Data Archive. 
+
+**Note:** On machines with multiple batch instances, you must uninstall existing interface versions of Rockwell Factory Talk before installing the latest version. 
+
+When installing the interface, reserve the C: drive for the operating system, and install the interface on another drive.
 
 To configure the interface, use the PI Event Frame Manager configuration tool.
     

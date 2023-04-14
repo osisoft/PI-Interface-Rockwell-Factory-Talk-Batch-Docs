@@ -26,7 +26,6 @@ uid: BIF_SupportedFeatures
 | Supports questionable bit | No |
 | Supports multi-character pointsource | Yes |
 | Maximum point count | No maximum |
-| Uses PI SDK | Yes: version 1.3.4.333 or higher required|
 | Uses AF SDK | Yes: version 2.5.x or higher required |
 | PINet string support | N/A |
 | Source of timestamps | BES (not system time on interface node) |
