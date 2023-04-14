@@ -15,7 +15,9 @@
         - topicUid: BIF_ConfigureSecurityForPIAF # No edits
         - topicUid: BIF_ConfigureSecurityForPIDataArchive # No edits
   - topicUid: BIF_CreateAndConfigureInterfaceInstance # No edits
-  - topicUid: BIF_ConfigureInstancesForFailover # No edits
+  - topicUid: BIF_InterfaceFailover
+    items:
+       - topicUid: BIF_ConfigureInstancesForFailover # No edits
   - topicUid: BIF_InterfaceConfiguration # Customized for FactoryTalk
 # How Batch Interfaces Work
 - topicUid: BIF_HowBatchInterfacesWork # No edits
