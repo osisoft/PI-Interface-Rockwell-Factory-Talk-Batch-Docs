@@ -71,6 +71,8 @@
     - topicUid: BIF_DefineAttributeTemplates # No edits
     - topicUid: BIF_PropertyTemplatesEFIM # No edits
     - topicUid: BIF_RecipeTemplatesEFIM # No edits
+    items:
+      - topicUid: RFT_RecipeDefaultProperties
     - topicUid: BIF_TagTemplatesEFIM # No edits
     - topicUid: BIF_LinkTemplatesEFIM # No edits
   - topicUid: BIF_FiltersTab # No edits
