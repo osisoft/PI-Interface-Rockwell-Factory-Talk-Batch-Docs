@@ -19,7 +19,8 @@ There are two tags designed to monitor the health of the interface: the HeartBea
 * `Good`: The interface is properly communicating and reading data from the data sources.
 * `1 | Starting`: The interface is executing its initialization routines.
 * `2 | <details>`: Indicates successful connection to the data source.
-* `3 | <details>`: Indicates failure to access the event journal file directory or failure to read data from the event journal file. <!-- TU: I feel like 2 and 3 are not displayed properly. -->
+* `3 | <details>`: Indicates failure to access the event journal file directory or failure to read data from the event journal file. 
+* `4 | Shutdown`: The interface is shutting down.  
 
 The properties of health monitoring tags are provided in the table below, where the _Prefix_ represents _`<Interface>_<ID>`_. 
 

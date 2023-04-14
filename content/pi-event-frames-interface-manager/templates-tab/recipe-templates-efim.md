@@ -10,8 +10,6 @@ Recipe templates enable you to configure the names that are assigned and the dat
 
 ## Configuration
 
-<!-- TU: Never leave a heading without text :) -->
-
 ### Index
 
 Specifies the level in recipe hierarchy as follows:
@@ -29,7 +27,7 @@ Specifies the level in recipe hierarchy as follows:
 
 Defines the naming convention used by the interface to assign names to batch events. For event frames, this template modifies the Recipe AF attribute. For the Batch database, this template modifies the PIBatch name.
 
-Example: abc_[Procedure] If the incoming event's [Procedure] field contains "Test", the resulting procedure **Recipe** field is "abc_Test".
+For example: abc_[Procedure] If the incoming event's [Procedure] field contains "Test", the resulting procedure **Recipe** field is "abc_Test".
 
 ### Value
 
@@ -59,11 +57,15 @@ Specifies the value to be recorded. Use placeholders to include values from the 
 
 ## Advanced features
 
-<!-- TU: Never leave a heading without text :) -->
-
 ### Batch ID
 
 Configures the batch ID of the particular recipe object, overriding the incoming (default) batch ID. If you override the batch ID for the procedure, the batch ID is propagated to the child unit batches Batch ID field. For event frames, this template modifies the event frame name.
+
+In the Procedure level recipe template, the interface uses the Batch ID field for the name of the Event Frame if it is the top level of the batch hierarchy. If the Batch ID field is empty, an error is returned during recipe template processing. If you are using a truncated Batch ID and the Batch ID field is not empty, the interface uses the Batch ID that matches the mask provided by the BIDM for the Batch ID. BIDM only shows noticeable difference in Event Frames that use the Batch ID field for their names.
+
+In the Unit Procedure level recipe template, the interface uses the Name field for the name of the Event Frame based on the Batch Recipe (for example, level is s88_UnitBatch). The Batch ID field is an attribute/property in the Event Frame.
+
+In the Operation level recipe template and all other sub batches, the interface uses the Name field for the name of the Event Frame. The Event Frame does not store the Batch ID field.
         
 **Note:** If you use a recipe template to set the batch ID, the recipe template overrides any batch ID mask you might have configured to enable merging of batches.
 
@@ -79,7 +81,7 @@ Specifies the product of the particular recipe object. Supports the procedure an
 
 Populates the [Product] field of the particular recipe object after the object is created, which is useful if the product is defined in a separate event.
 
-Example: `[Parameter, Value="Recipe Header"] [Descript, value="Product Name"]`.
+For example: `[Parameter, Value="Recipe Header"] [Descript, value="Product Name"]`.
 
 ### Event Frame Template
 

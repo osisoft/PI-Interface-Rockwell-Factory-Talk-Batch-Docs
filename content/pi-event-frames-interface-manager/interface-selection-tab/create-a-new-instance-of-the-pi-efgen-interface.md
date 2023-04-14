@@ -2,9 +2,7 @@
 uid: BIF_CreateANewInstanceOfThePIEFGenInterface
 ---
 
-# Create a new instance of the [!include[interface](../../includes/product-short.md)]\
-
-<!-- TU: This needs some introductory text -->
+# Create a new instance of the [!include[interface](../../includes/product-short.md)]
 
 1. Click **Add Interface**. 
 

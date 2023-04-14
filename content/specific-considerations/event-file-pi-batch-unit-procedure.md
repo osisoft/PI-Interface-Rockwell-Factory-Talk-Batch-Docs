@@ -6,11 +6,7 @@ uid: BIF_EventFilePIBatchUnitProcedure
 
 <!-- Customized for FactoryTalk. SQL start/end events removed -->
 
-<!-- Needs introductory sentence -->
-
 ## Event journal start/end events
-
-<!-- Needs introductory sentence, but the real question is if this heading is needed because there is no second heading 2 -->
 
 ### Start
 
