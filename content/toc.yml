@@ -101,5 +101,5 @@
 - topicUid: BIF_DiagnosticPointReference # No edits
 # Glossary
 - topicUid: BIF_Glossary # No edits
-# Technical Support and Feedback
-- topicUid: BIF_TechnicalSupportAndFeedback # No edits
+# Release Notes
+- topicUid: RFTReleaseNotes
