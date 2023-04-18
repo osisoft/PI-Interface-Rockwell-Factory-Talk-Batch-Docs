@@ -130,7 +130,7 @@ This interface is a 64-bit application.
 | :-------- | :------------------ |
 | Microsoft Visual C++ 2015-2019 Redistributable (x86) | 14.21.27702 |
 | Microsoft Visual C++ 2015-2019 Redistributable (x64) | 14.21.27702 |
-| PI AF Client 2018 SP3 Patch 3 | 2.10.9.593 |
+| PI AF Client 2018 SP3 Patch 4 | 2.10.10.2539 |
 | PI Interface for Rockwell Factory Talk Batch (FTBInt) | 5.1.4.8 |
 | PI Network Subsystem Support (PINS)* | 3.4.435.538 |
   
