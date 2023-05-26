@@ -24,7 +24,9 @@
   items:
   - topicUid: BIF_HowInterfacesProcessBatchEventData # Customized for FactoryTalk
     items: 
-    - topicUid: BIF_HowBatchDataIsStored # No edits
+    - topicUid: BIF_InterfaceModes # No modifications required
+    - topicUid: BIF_HowBatchDataIsStored # Modify for interface
+    - topicUid: BIF_batchlistmanagement
       items:
       - topicUid: BIF_ThePIBatchDatabase # No edits
       - topicUid: BIF_EventFrames # Customized for FactoryTalk
@@ -93,11 +95,16 @@
   - topicUid: BIF_PIServerConnectivity # No edits
   - topicUid: BIF_LoggingAndErrorMessages # No edits
 # Command Line Parameters
-- topicUid: BIF_CommandLineParameterReference # Customized for FactoryTalk
-# Initialization File References
-- topicUid: BIF_InitializationFileReference # No edits
-  items:
-  - topicUid: BIF_InitializationFileExamples # No edits
+- topicUid: BIF_CommandLineParameterReference # Modify for interface
+# Initialization File
+- topicUid: BIF_InitializationFileReference # Modify for interface
+  items: 
+  - topicUid: BIF_sourcetemplatesettings
+  - topicUid: BIF_Recipetemplates
+  - topicUid: BIF_Tagtemplates
+  - topicUid: BIF_Propertytemplates
+  - topicUid: BIF_Translationtemplates
+  - topicUid: BIF_InitializationFileExamples # Modify for interface
 # Diagnostic Point Reference
 - topicUid: BIF_DiagnosticPointReference # No edits
 # Glossary
