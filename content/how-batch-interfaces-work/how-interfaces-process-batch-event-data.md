@@ -18,36 +18,33 @@ To compose the history that it stores in the PI System. the interface uses the t
 
 **Note:** By default, when processing the incoming Batch ID, Name, Product, Recipe and Procedure fields, the interface replaces the following reserved characters with an underscore: \* \' ? \` \". To override these replacement characters, use PI System Management Tools **Operation > AF Link** option to configure the desired replacement characters.
 
-## PIBatch/Procedure
+## Procedure
 
-The PIBatch is the highest level recorded in the PI Batch Database (or as an event frame). Its properties record general data such as the batch ID, recipe name and type, and so on. If a recipe is composed solely of levels below the unit batch (for example, an operation- or phase-level recipe), the interface generates parent batches and unit > batches. 
+Procedure is the highest level recorded as an event frame. Its properties record general data such as the batch ID, recipe name and type, and so on. If a recipe is composed solely of levels below the unit batch (for example, an operation- or phase-level recipe), the interface generates parent batches and unit batches. 
 
-he best way for the interface to determine the precise start and end time for a unit batch is to use equipment arbitration events, which record the time a unit was acquired or released. If the BES does not support arbitration events, the interface uses unit batch start and end events, which can be affected by the start and end of lower levels and are inherently less precise than equipment acquisition events.
+The best way for the interface to determine the precise start and end time for a unit batch is to use equipment arbitration events, which record the time a unit was acquired or released. If the BES does not support arbitration events, the interface uses unit batch start and end events, which can be affected by the start and end of lower levels and are inherently less precise than equipment acquisition events.
 
-## PIUnitBatch/Unit Procedure
+## Unit Procedure
 
-For each unit procedure that it reads from the data source, the interface creates a PIUnitBatch or an equivalent event frame. The start and end times record the duration of physical processing within a unit. The PIUnitBatch or event frame properties contain the batch ID and procedure name as recorded by the data source unless you override it by configuring a batch ID mask using PI Event Frames Interface  Manager (on the **Batch Setup** tab). When operation- or phase-level recipes are run, the interface creates a parent unit batch, using the operation or phase name as the procedure name.
+For each unit procedure that it reads from the data source, the interface creates an equivalent event frame. The start and end times record the duration of physical processing within a unit. The event frame properties contain the batch ID and procedure name as recorded by the data source unless you override it by configuring a batch ID mask using PI Event Frames Interface Manager (on the **Batch Setup** tab). When operation- or phase-level recipes are run, the interface creates a parent unit batch, using the operation or phase name as the procedure name.
 
-**Note:** When configured to write to the PI Batch database, the interface cannot correctly generate PIUnitBatches when multiple unit procedures are active on the same unit at the same time.
+## Operation
 
-## Operation/PISubBatch
+For each operation that it reads from the data source, the interface creates an equivalent event frame as a child of the parent object. For recipes that occur below the unit batch level, the interface generates parent data (unit batches and batches).
 
-For each operation that it reads from the data source, the interface creates a PISubBatch or an equivalent event frame as a child of the parent PIUnitBatch object. For recipes that occur below the unit batch level, the interface generates parent data (unit batches and batches).
+## Phase
 
-## Phase/PISubBatch
+For each phase that it reads from the data source, the interface creates an equivalent event frame as a child of the parent operation-level object. For recipes that occur below the unit batch level, the interface generates parent events.
 
-For each phase that it reads from the data source, the interface creates a PISubBatch or an equivalent event frame as a child of the parent operation-level object. For recipes that occur below the unit batch level, the interface generates parent events.
+## Phase State
 
-## Phase State/PISubBatch
+For each phase state that it reads from the data source, the interface creates an equivalent event frame as a child of the parent phase-level object. The start of a new phase state ends the previous phase state, except for the terminating COMPLETE, ABORTED and STOPPED phase states.
 
-For each phase state that it reads from the data source, the interface creates a PISubBatch or an equivalent event frame as a child of the parent phase-level object. The start of a new phase state ends the previous phase state, except for the terminating COMPLETE, ABORTED and STOPPED phase states.
+## Phase Step
 
+Phase steps are not S88-compliant and are implemented differently by BES vendors (some vendors do not support them). By default, phase steps are not enabled. To enable phase steps using PI Event Frames Interface Manager, go to the **Batch Setup** tab, select the **Report as step** check box, and specify the strings recorded by the BES to indicate the start and end of a phase step.
 
-## Phase Step/PISubBatch
-
-Phase steps are not S88-compliant and are implemented differently by BES vendors (some vendors do not support them). By default, phase steps are not enabled. To enable phase steps using PI Event Frames Interface Manager, go to the **Batch Setup** tab, select the **Report as step** check box, and specify the strings recorded by the BES to  indicate the start and end of a phase step.
-
-For each phase step that it reads from the data source, the interface creates a PISubBatch or corresponding event frame as a child of the parent phase-state-level object. Phase steps are always created beneath the first RUNNING phase state, regardless of whether the parent phase state has ended. The first start event starts a phase step, and subsequent start events for the same phase step are ignored.
+For each phase step that it reads from the data source, the interface creates a corresponding event frame as a child of the parent phase-state-level object. Phase steps are always created beneath the first RUNNING phase state, regardless of whether the parent phase state has ended. The first start event starts a phase step, and subsequent start events for the same phase step are ignored.
 
 Likewise, the first end event ends a phase step, and subsequent end events for the same phase step are ignored.
 

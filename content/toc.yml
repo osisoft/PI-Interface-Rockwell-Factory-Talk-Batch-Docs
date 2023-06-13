@@ -28,16 +28,13 @@
     - topicUid: BIF_HowBatchDataIsStored # Modify for interface
     - topicUid: BIF_batchlistmanagement
       items:
-      - topicUid: BIF_ThePIBatchDatabase # No edits
       - topicUid: BIF_EventFrames # Customized for FactoryTalk
       - topicUid: BIF_EquipmentHierarchy # No edits
     - topicUid: BIF_EquipmentArbitrationEventsUnavailable # No edits
-  - topicUid: BIF_batchlistmanagement
-  - topicUid: BIF_TemplatesForMappingDataSourceEvents # No edits
+ - topicUid: BIF_TemplatesForMappingDataSourceEvents # No edits
     items:
     - topicUid: BIF_PlaceholdersAndAdvancedParsing # No edits
     - topicUid: BIF_PropertyTemplates # No edits
-    - topicUid: BIF_RecipeTemplates # No edits
     - topicUid: BIF_TagTemplates # No edits
       items:
       - topicUid: BIF_TagTemplateExamples # No edits
@@ -46,7 +43,6 @@
       - topicUid: BIF_RecipeTemplateExamples # No edits
     - topicUid: BIF_FilterIncomingEvents # No edits
     - topicUid: BIF_TranslateForeignLanguageData # No edits
-  - topicUid: BIF_InterfaceModes # No edits
 # Specific Considerations
 - topicUid: BIF_Interface # Customized for FactoryTalk
   items:

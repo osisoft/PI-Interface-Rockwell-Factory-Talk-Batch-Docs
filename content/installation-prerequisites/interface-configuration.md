@@ -6,11 +6,7 @@ uid: BIF_InterfaceConfiguration
 
 <!-- Customized for FactoryTalk -->
 
-The following diagrams illustrate various options for configuring batch interfaces, depending on the data source and the desired PI System output.
-
-![Interfacemodes](../images/EventfilestargetPIBatchDB.png)
-
-Data source: event files. Target: PI batch database
+The following diagram illustrates various options for configuring batch interfaces, depending on the desired PI System output.
 
 ![Interfacemodes](../images/EventfilestargetPIAF.png)
 

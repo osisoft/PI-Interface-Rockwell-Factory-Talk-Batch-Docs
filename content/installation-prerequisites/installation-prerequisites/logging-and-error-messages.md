@@ -46,7 +46,7 @@ Specifies level of detail for logging as follows:
 
 **Log properties**
 
-You can create the Source in the Windows Event Viewer by using the batch interface's source/log name (**PIEMDVB**) before initially starting the interface. After starting the interface, the Windows Event Viewer creates the Source automatically.
+You can create the Source in the Windows Event Viewer by using the batch interface's source/log name (**PIFTBInt**) before initially starting the interface. After starting the interface, the Windows Event Viewer creates the Source automatically.
 
 **Note**: If you do not have appropriate permissions to create an event log, it is recommended that you run the interface interactively with an account that has permissions to create an event log. 
 
