@@ -18,7 +18,7 @@ The interface includes a set of built-in default recipe templates that control t
     --|--
     **NAME** | (Required) Defines the convention used by the interface to assign names to procedures, unit procedures, etc. You can use the advanced parsing parameters to define this field. <br><br>Example: `abc_[PROCEDURE]` <br><br>If the procedure field of the incoming event contains `Test`, the resulting name is `abc_Test`.
     **BATCHID** | (Optional) Specifies the batch ID for the procedure or unit procedure.
-    **MODULEPATH** | (Optional) For unit procedures (level 2) or phase (level 4), specifies where the recipe resides in the PI AF element hierarchy. In the Module Database, the path specifies the location of the PIUnit for the unit batch.
+    **MODULEPATH** | (Optional) For unit procedures (level 2) or phase (level 4), specifies where the recipe resides in the PI AF element hierarchy.
     **PRODUCT** | (Optional) Set the product for the recipe. Sets the Product field for procedures and unit procedures. To set the product field to the value read from the data source, specify the following placeholder: `[PRODUCT]`
     **PRODUCTTRIGGER** | (Optional) Sets the product for the recipe after the recipe object is created. Intended for use when the product is defined in a separate event. If a product trigger is defined, the product is defined by the event that satisfies the trigger. If no product trigger is defined, the product gets its value from the event that created the recipe, and the template is populated by the event's placeholder data. <br><br>Example: `[Parameter, Value="Recipe Header"] [Descript, value="Product Name"]`
     **TRANSLATE** | (Optional) To enable translation, set to `TRUE`. Default: `FALSE`
