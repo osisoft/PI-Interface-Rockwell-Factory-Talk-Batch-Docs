@@ -10,7 +10,7 @@ PI Interface for Rockwell FactoryTalk Batch [!include[version](../includes/produ
   
 * **Converts** the data to PI tags and PI batch properties.
 
-* **Stores** the collected data as event frames and elements within a supported database (PI Asset Framework (PI AF) Database).
+* **Stores** the collected data as event frames and elements within a PI Asset Framework (PI AF) database.
 
     You can use tag templates to control PI point creation and event population. All modules, tags, tag aliases, and health tags are automatically created on the PI server. 
 
