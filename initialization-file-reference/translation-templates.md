@@ -2,7 +2,7 @@
 uid: BIF_Translationtemplates
 ---
 
-# Translation Templates
+# Translation templates
 
 Following is a simple template that translates German source data to English for storage in the PI System.
 

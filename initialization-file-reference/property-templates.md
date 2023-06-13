@@ -6,6 +6,7 @@ uid: BIF_Propertytemplates
 
 To define properties (batch database) or attributes (PI AF) to be stored at a particular level of the batch hierarchy, you create property templates. The syntax for property templates is as follows:
 
+
 ```text
 PROPERTY[<index>].<setting> = <value>
 ```
@@ -79,8 +80,8 @@ In this example, the property on the first UNITPROCEDURE placeholder triggers wi
 * [UNIT]
 * [UNITPROCEDURE]
 * [USERID] 
-* [@,value="Exact Field"]
-* [#,value="Field Mask"]
+* [@.value="Exact Field"]
+* [#.value="Field Mask"]
 * [!.value="Example"]
 * [?.value="Tag"]
 * [*.value="Unit"]
@@ -135,8 +136,8 @@ Property[1].Name = $\[Operation, value!=""]
 * [UNIT]
 * [UNITPROCEDURE]
 * [USERID] 
-* [@,value="Exact Field"]
-* [#,value="Field Mask"]
+* [@.value="Exact Field"]
+* [#.value="Field Mask"]
 * [!.value="Example"]
 * [?.value="Tag"]
 * [*.value="Unit"]
@@ -213,8 +214,8 @@ Conversely, the following is an example of a **logical OR** trigger. At least on
 * [UNIT]
 * [UNITPROCEDURE]
 * [USERID] 
-* [@,value="Exact Field"]
-* [#,value="Field Mask"]
+* [@.value="Exact Field"]
+* [#.value="Field Mask"]
 * [!.value="Example"]
 * [?.value="Tag"]
 * [*.value="Unit"]
@@ -265,8 +266,8 @@ Specifies the data type for the value. To configure the interface to evaluate th
 * [UNIT]
 * [UNITPROCEDURE]
 * [USERID] 
-* [@,value="Exact Field"]
-* [#,value="Field Mask"]
+* [@.value="Exact Field"]
+* [#.value="Field Mask"]
 * [!.value="Example"]
 * [?.value="Tag"]
 * [*.value="Unit"]
@@ -297,8 +298,8 @@ Specifies the units of measure for the attribute. (See /UOBEV note for VALUE set
 * [UNIT]
 * [UNITPROCEDURE]
 * [USERID] 
-* [@,value="Exact Field"]
-* [#,value="Field Mask"]
+* [@.value="Exact Field"]
+* [#.value="Field Mask"]
 * [!.value="Example"]
 * [?.value="Tag"]
 * [*.value="Unit"]

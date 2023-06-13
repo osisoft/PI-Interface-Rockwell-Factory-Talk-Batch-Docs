@@ -4,7 +4,7 @@ uid: BIF_InterfaceFailover
 
 # Batch interface failover
 
-With interface failover, you can configure multiple interface instances for PI Interface for Emerson DeltaV batch to help minimize data loss in case of an unexpected interface machine shutdown. If the primary interface instance fails, then the secondary instance takes over and continues the data collection process. 
+With interface failover, you can configure multiple interface instances for [!includeinterface] to help minimize data loss in case of an unexpected interface machine shutdown. If the primary interface instance fails, then the secondary instance takes over and continues the data collection process. 
 
 For details on configuring failover for the interface, see [Configuring interface instances for failover](/installation-prerequisites/installation-prerequisites/configure-interface-instances-for-failover.md)
 

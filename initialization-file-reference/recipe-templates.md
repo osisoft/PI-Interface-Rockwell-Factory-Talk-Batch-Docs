@@ -2,7 +2,7 @@
 uid: BIF_Recipetemplates
 ---
 
-# Recipe Templates
+# Recipe templates
 
 To define the data generated for each level of the batch hierarchy, you define recipe templates.
 
