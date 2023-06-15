@@ -15,6 +15,7 @@ uid: BIF_SupportedFeatures
 | Stores batch data in PI Batch Database and PI Module Database | No |
 | Stores batch data in PI AF | Yes |
 | Supports equipment arbitration events | No |
+| Supports n-way buffering | Yes |
 | ICU control | No (use PI Event Frame Interface Manager configuration tool) |
 | PI point data types | Int32/ Float32/ String |
 | Sub-second timestamps | Yes |
