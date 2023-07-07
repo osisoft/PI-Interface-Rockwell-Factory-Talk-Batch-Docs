@@ -48,14 +48,6 @@ Specifies the amount of time (in minutes) subtracted from the current time when 
 The default value is two minutes, but you can configure the amount of time to a maximum of 10 minutes. To disable the configuration, set the /DELAYBUFFER to zero (0) in the INI file. 
 
 This configuration is used in both real-time and history recovery mode but only applies to interface configurations where the end time for data recovery (/ret) is not defined.
-
-### Query Buffer Delay (/DELAYBUFFER=)
-
-Specifies the amount of time (in minutes) subtracted from the current time when calculating the Next Query End Time. This configuration allows the system to catch recently closed batches that were missing from the latest database call. 
-
-The default value is two minutes, but you can configure the amount of time to a maximum of 10 minutes. To disable the configuration, set the /DELAYBUFFER to zero (0) in the INI file. 
-
-This configuration is used in both real-time and history recovery mode but only applies to interface configurations where the end time for data recovery (/ret) is not defined. 
   
 ### Use local time stamps to process incoming events (/TS)
 
