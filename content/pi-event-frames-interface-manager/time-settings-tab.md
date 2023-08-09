@@ -51,7 +51,7 @@ This configuration is used in both real-time and history recovery mode but only 
   
 ### Use local time stamps to process incoming events (/TS)
 
-Specifies whether timestamps from an SQL data source are interpreted as local time or GMT. By default, timestamps are interpreted as GMT. 
+Specifies whether timestamps from an SQL data source are interpreted as local time or GMT. By default, timestamps are interpreted as **local time**.
 
 ## PI Data Archive connection settings
 
